@@ -5,7 +5,6 @@ import ShlokasByCategory from './components/ShlokasByCategory';
 import ShlokaSearch from './components/ShlokaSearch';
 import AllShlokas from './components/AllShlokas';
 import VideoPage from './components/VideoPage';
-import DailyChallenge from './components/DailyChallenge';
 import FeaturesShowcase from './components/FeaturesShowcase';
 import KrishnaMode from './components/KrishnaMode';
 
@@ -31,7 +30,7 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-orange-50 to-amber-50">
+    <div className="min-h-screen bg-orange-50">
       {/* Modern Navigation Header */}
       <header className="bg-gradient-to-r from-orange-700 via-orange-600 to-orange-500 text-white shadow-2xl sticky top-0 z-50 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 py-3">
@@ -149,20 +148,14 @@ function App() {
             {/* Main Container */}
             <div className="max-w-6xl mx-auto px-4 md:px-8">
               {/* Daily Shloka Section */}
-              <section className="py-8">
-                <h2 className="text-4xl font-black text-orange-900 mb-8 text-center">📅 Today's Wisdom</h2>
+              <section className="mt-6 mb-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl pt-16 pb-12 px-12 text-center">
+                <h2 className="text-4xl font-black mb-8">📅 Today's Wisdom</h2>
                 <DailyShloka />
               </section>
 
-              {/* Daily Challenge Section */}
-              <section className="py-8">
-                <h2 className="text-4xl font-black text-orange-900 mb-8 text-center">🎯 Daily Challenge</h2>
-                <DailyChallenge />
-              </section>
-
               {/* How It Works Section */}
-              <section className="py-16 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl px-8 mb-16">
-                <h2 className="text-4xl font-black text-center text-gray-900 mb-12">🎯 How It Works</h2>
+              <section className="mb-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl p-12 text-center">
+                <h2 className="text-4xl font-black mb-12">🎯 How It Works</h2>
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                   {[
                     { step: '1', title: 'Share Your Feeling', icon: '💭', desc: 'Tell us what\'s troubling you' },
@@ -170,100 +163,110 @@ function App() {
                     { step: '3', title: 'Get Gita Wisdom', icon: '📖', desc: 'Receive relevant shloka & principle' },
                     { step: '4', title: 'Take Action', icon: '🚀', desc: 'Get practical steps for today' }
                   ].map((item, i) => (
-                    <div key={i} className="text-center">
-                      <div className="text-5xl mb-4">{item.icon}</div>
-                      <div className="text-3xl font-bold text-blue-600 mb-2">{item.step}</div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
-                      <p className="text-gray-700">{item.desc}</p>
+                    <div
+                      key={i}
+                      className="text-center bg-white/10 rounded-xl border border-white/20 p-8 hover:bg-white/15 transition shadow-sm h-full flex flex-col justify-between"
+                    >
+                      <div>
+                        <div className="text-5xl mb-4">{item.icon}</div>
+                        <div className="text-3xl font-bold mb-2">{item.step}</div>
+                        <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                      </div>
+                      <p className="text-white/90">{item.desc}</p>
                     </div>
                   ))}
                 </div>
               </section>
 
               {/* Main Features Grid */}
-              <section className="mb-16">
-                <h2 className="text-4xl font-black text-orange-900 mb-8 text-center">✨ Explore Features</h2>
+              <section className="mb-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl p-12 text-center">
+                <h2 className="text-4xl font-black mb-8">✨ Explore Features</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   <div
                     onClick={() => setCurrentView('krishna')}
-                    className="bg-gradient-to-br from-orange-600 to-orange-700 text-white p-8 rounded-2xl hover:shadow-2xl transition transform hover:scale-105 cursor-pointer border-4 border-orange-300 shadow-lg"
+                    className="bg-white/10 p-8 rounded-xl border border-white/20 hover:bg-white/15 transition transform hover:scale-[1.02] cursor-pointer shadow-sm h-full flex flex-col justify-between"
                   >
                     <div className="text-6xl mb-4">🧠</div>
                     <h3 className="text-2xl font-bold mb-2">🪔 Krishna Mode</h3>
-                    <p className="text-orange-100 font-semibold mb-4">AI-powered wisdom guidance with emotion detection</p>
-                    <span className="text-sm bg-orange-500 px-3 py-1 rounded-full">Featured</span>
+                    <p className="font-semibold text-white/90 mb-4">AI-powered wisdom guidance with emotion detection</p>
+                    <span className="text-sm bg-white/15 px-3 py-1 rounded-full text-white/90">Featured</span>
                   </div>
 
                   <div
                     onClick={() => setCurrentView('mood')}
-                    className="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-8 rounded-2xl hover:shadow-2xl transition transform hover:scale-105 cursor-pointer"
+                    className="bg-white/10 p-8 rounded-xl border border-white/20 hover:bg-white/15 transition transform hover:scale-[1.02] cursor-pointer shadow-sm h-full flex flex-col justify-between"
                   >
                     <div className="text-6xl mb-4">😊</div>
                     <h3 className="text-2xl font-bold mb-2">Mood-Based Guidance</h3>
-                    <p className="text-blue-100">Select your emotion and get personalized wisdom instantly</p>
+                    <p className="text-white/90">Select your emotion and get personalized wisdom instantly</p>
                   </div>
 
                   <div
                     onClick={() => setCurrentView('search')}
-                    className="bg-gradient-to-br from-green-500 to-green-600 text-white p-8 rounded-2xl hover:shadow-2xl transition transform hover:scale-105 cursor-pointer"
+                    className="bg-white/10 p-8 rounded-xl border border-white/20 hover:bg-white/15 transition transform hover:scale-[1.02] cursor-pointer shadow-sm h-full flex flex-col justify-between"
                   >
                     <div className="text-6xl mb-4">🔍</div>
                     <h3 className="text-2xl font-bold mb-2">Search Shlokas</h3>
-                    <p className="text-green-100">Find wisdom by keyword across all 700 teachings</p>
+                    <p className="text-white/90">Find wisdom by keyword across all 700 teachings</p>
                   </div>
 
                   <div
                     onClick={() => setCurrentView('category')}
-                    className="bg-gradient-to-br from-purple-500 to-purple-600 text-white p-8 rounded-2xl hover:shadow-2xl transition transform hover:scale-105 cursor-pointer"
+                    className="bg-white/10 p-8 rounded-xl border border-white/20 hover:bg-white/15 transition transform hover:scale-[1.02] cursor-pointer shadow-sm h-full flex flex-col justify-between"
                   >
                     <div className="text-6xl mb-4">📚</div>
                     <h3 className="text-2xl font-bold mb-2">Browse Categories</h3>
-                    <p className="text-purple-100">Explore 13 life topics and find relevant teachings</p>
+                    <p className="text-white/90">Explore 13 life topics and find relevant teachings</p>
                   </div>
 
                   <div
                     onClick={() => setCurrentView('allshlokas')}
-                    className="bg-gradient-to-br from-pink-500 to-pink-600 text-white p-8 rounded-2xl hover:shadow-2xl transition transform hover:scale-105 cursor-pointer"
+                    className="bg-white/10 p-8 rounded-xl border border-white/20 hover:bg-white/15 transition transform hover:scale-[1.02] cursor-pointer shadow-sm h-full flex flex-col justify-between"
                   >
                     <div className="text-6xl mb-4">📖</div>
                     <h3 className="text-2xl font-bold mb-2">Complete Gita (700)</h3>
-                    <p className="text-pink-100">Access all shlokas organized by chapter</p>
+                    <p className="text-white/90">Access all shlokas organized by chapter</p>
                   </div>
 
                   <div
                     onClick={() => setCurrentView('video')}
-                    className="bg-gradient-to-br from-red-500 to-red-600 text-white p-8 rounded-2xl hover:shadow-2xl transition transform hover:scale-105 cursor-pointer"
+                    className="bg-white/10 p-8 rounded-xl border border-white/20 hover:bg-white/15 transition transform hover:scale-[1.02] cursor-pointer shadow-sm h-full flex flex-col justify-between"
                   >
                     <div className="text-6xl mb-4">🎥</div>
                     <h3 className="text-2xl font-bold mb-2">Video Teachings</h3>
-                    <p className="text-red-100">Learn through visual and multimedia content</p>
+                    <p className="text-white/90">Learn through visual and multimedia content</p>
                   </div>
                 </div>
               </section>
 
               {/* Stats Section */}
-              <section className="mb-16">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl shadow-xl p-8 border-2 border-orange-200">
+              <section className="mb-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl p-12 text-center">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {[
                     { icon: '📖', count: '700', label: 'Complete Shlokas', desc: 'All chapters 1-18' },
                     { icon: '🌍', count: '4', label: 'Languages', desc: 'Sanskrit, English, Hindi, Kannada' },
                     { icon: '🎯', count: '13', label: 'Life Categories', desc: 'From stress to purpose' },
                     { icon: '⚡', count: '∞', label: 'Wisdom', desc: 'Timeless teachings' }
                   ].map((stat, i) => (
-                    <div key={i} className="text-center">
-                      <div className="text-5xl mb-2">{stat.icon}</div>
-                      <div className="text-4xl font-black text-orange-700 mb-1">{stat.count}</div>
-                      <div className="text-lg font-bold text-orange-900">{stat.label}</div>
-                      <p className="text-sm text-orange-700 mt-1">{stat.desc}</p>
+                    <div
+                      key={i}
+                      className="text-center bg-white/10 rounded-xl border border-white/20 p-6 shadow-sm h-full flex flex-col justify-between"
+                    >
+                      <div>
+                        <div className="text-5xl mb-2">{stat.icon}</div>
+                        <div className="text-4xl font-black mb-1">{stat.count}</div>
+                        <div className="text-lg font-bold">{stat.label}</div>
+                      </div>
+                      <p className="text-sm text-white/90 mt-1">{stat.desc}</p>
                     </div>
                   ))}
                 </div>
               </section>
 
               {/* Why Choose Us Section */}
-              <section className="mb-16 py-12">
-                <h2 className="text-4xl font-black text-orange-900 mb-12 text-center">💡 Why Choose Spiritual Gita?</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <section className="mb-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl p-12 text-center">
+                <h2 className="text-4xl font-black mb-12">💡 Why Choose Spiritual Gita?</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
                   {[
                     { icon: '🤝', title: 'AI-Powered Guidance', desc: 'Krishna Mode detects your emotions and provides structured wisdom specific to YOUR problem' },
                     { icon: '📚', title: '700+ Authentic Shlokas', desc: 'Complete Bhagavad Gita with accurate translations in 4 languages' },
@@ -272,11 +275,16 @@ function App() {
                     { icon: '🌍', title: 'Multilingual', desc: 'Access wisdom in Sanskrit, English, Hindi, and Kannada' },
                     { icon: '⭐', title: '13 Life Categories', desc: 'From stress and failure to motivation and self-doubt' }
                   ].map((feature, i) => (
-                    <div key={i} className="flex gap-6 p-6 bg-white rounded-xl border-2 border-orange-100 hover:border-orange-400 transition hover:shadow-lg">
-                      <div className="text-5xl flex-shrink-0">{feature.icon}</div>
-                      <div>
-                        <h3 className="text-xl font-bold text-orange-900 mb-2">{feature.title}</h3>
-                        <p className="text-gray-700">{feature.desc}</p>
+                    <div
+                      key={i}
+                      className="flex flex-col h-full bg-white/10 rounded-xl border border-white/20 p-6 hover:bg-white/15 transition"
+                    >
+                      <div className="flex items-start gap-6">
+                        <div className="text-5xl flex-shrink-0">{feature.icon}</div>
+                        <div className="text-left">
+                          <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
+                          <p className="text-white/90">{feature.desc}</p>
+                        </div>
                       </div>
                     </div>
                   ))}
@@ -284,7 +292,7 @@ function App() {
               </section>
 
               {/* Call-to-Action Section */}
-              <section className="mb-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl p-12 text-center">
+              <section className="mb-12 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl p-12 text-center">
                 <h2 className="text-4xl font-black mb-4">Ready to Find Your Clarity?</h2>
                 <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
                   Start with Krishna Mode for AI-powered guidance, or explore shlokas by your current mood. Thousands of seekers have found peace through these timeless teachings.
@@ -302,24 +310,6 @@ function App() {
                   >
                     😊 Choose by Mood
                   </button>
-                </div>
-              </section>
-
-              {/* Trust Section */}
-              <section className="mb-16 py-12">
-                <h2 className="text-3xl font-black text-orange-900 mb-8 text-center">🙏 Trusted By Seekers Worldwide</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  {[
-                    { quote: 'Krishna Mode helped me find peace when I failed my exam. Life-changing!', author: 'Arjun, Student', emoji: '😊' },
-                    { quote: 'The structured guidance format makes Gita teachings so practical and actionable.', author: 'Priya, Professional', emoji: '💼' },
-                    { quote: 'Having 700 shlokas at my fingertips with AI guidance is like having a personal mentor.', author: 'Raj, Entrepreneur', emoji: '🚀' }
-                  ].map((testimonial, i) => (
-                    <div key={i} className="bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-xl border-2 border-orange-200">
-                      <div className="text-4xl mb-4">{testimonial.emoji}</div>
-                      <p className="text-gray-700 italic mb-4">"{testimonial.quote}"</p>
-                      <p className="font-bold text-orange-900">— {testimonial.author}</p>
-                    </div>
-                  ))}
                 </div>
               </section>
             </div>

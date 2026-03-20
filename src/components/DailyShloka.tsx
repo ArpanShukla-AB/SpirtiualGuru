@@ -19,17 +19,17 @@ export const DailyShloka: React.FC<DailyShlokaProps> = ({ category }) => {
   }, [category]);
 
   if (!shloka) {
-    return <div className="text-center text-gray-500">Loading shloka...</div>;
+    return <div className="text-center text-white/70">Loading shloka...</div>;
   }
 
   return (
-    <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-l-4 border-orange-500 p-6 rounded-lg shadow-md">
+    <div className="bg-white/10 border border-white/20 p-6 rounded-xl shadow-sm text-left">
       {/* Header */}
       <div className="flex justify-between items-center mb-4">
-        <h3 className="text-lg font-bold text-orange-900">Today's Reflection 🪔</h3>
+        <h3 className="text-lg font-bold">Today's Reflection 🪔</h3>
         <button
           onClick={() => setShloka(getRandomShloka(category))}
-          className="text-sm px-3 py-1 bg-orange-200 hover:bg-orange-300 rounded-full text-orange-900"
+          className="text-sm px-3 py-1 bg-white/15 hover:bg-white/25 rounded-full text-white"
         >
           Next Shloka
         </button>
@@ -43,8 +43,8 @@ export const DailyShloka: React.FC<DailyShlokaProps> = ({ category }) => {
             onClick={() => setLanguage(lang)}
             className={`px-3 py-1 text-sm rounded-full transition ${
               language === lang
-                ? 'bg-orange-600 text-white'
-                : 'bg-orange-100 text-orange-900 hover:bg-orange-200'
+                ? 'bg-white/20 text-white border border-white/20'
+                : 'bg-white/10 text-white/90 hover:bg-white/15'
             }`}
           >
             {lang.charAt(0).toUpperCase() + lang.slice(1)}
@@ -53,25 +53,25 @@ export const DailyShloka: React.FC<DailyShlokaProps> = ({ category }) => {
       </div>
 
       {/* Verse Number */}
-      <p className="text-sm text-orange-700 font-semibold mb-2">Bhagavad Gita {shloka.verse_number}</p>
+      <p className="text-sm text-white/80 font-semibold mb-2">Bhagavad Gita {shloka.verse_number}</p>
 
       {/* Shloka Text */}
-      <p className="text-lg md:text-xl font-serif text-orange-950 mb-4 leading-relaxed italic">
+      <p className="text-lg md:text-xl font-serif text-white/95 mb-4 leading-relaxed italic">
         "{getShlokaInLanguage(shloka, language)}"
       </p>
 
       {/* Categories */}
       <div className="flex flex-wrap gap-2 mb-4">
         {shloka.categories.map((cat) => (
-          <span key={cat} className="px-2 py-1 bg-orange-200 text-orange-900 text-xs rounded-full">
+          <span key={cat} className="px-2 py-1 bg-white/15 text-white/90 text-xs rounded-full">
             {cat}
           </span>
         ))}
       </div>
 
       {/* Explanation */}
-      <div className="bg-white bg-opacity-70 p-3 rounded-md">
-        <p className="text-sm text-orange-900 leading-relaxed">
+      <div className="bg-white/10 p-3 rounded-md border border-white/10">
+        <p className="text-sm text-white/90 leading-relaxed">
           <strong>Meaning: </strong>
           {shloka.explanation}
         </p>

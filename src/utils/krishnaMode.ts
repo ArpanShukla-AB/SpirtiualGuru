@@ -1,5 +1,5 @@
 import gitaData from '../../data/bhagavad_gita_shlokas.json';
-import { Shloka } from './shlokasHelper';
+import { Shloka, searchShlokas } from './shlokasHelper';
 
 /**
  * Emotion Detection System
@@ -72,7 +72,115 @@ export const getShlokaForEmotion = (emotion: Emotion): Shloka | null => {
   }).filter(Boolean);
 
   if (verses.length === 0) return null;
-  return verses[Math.floor(Math.random() * verses.length)] as Shloka;
+
+  // Keep deterministic selection by default (better UX consistency).
+  return verses[0] as Shloka;
+};
+
+/**
+ * Tokenize and remove common stopwords to score relevance.
+ */
+const tokenizeQuery = (input: string): string[] => {
+  const stopwords = new Set([
+    'the',
+    'and',
+    'or',
+    'to',
+    'of',
+    'a',
+    'an',
+    'in',
+    'on',
+    'for',
+    'with',
+    'is',
+    'are',
+    'am',
+    'be',
+    'i',
+    'you',
+    'my',
+    'me',
+    'we',
+    'they',
+    'it',
+    'this',
+    'that',
+    'at',
+    'as',
+    'but',
+    'so',
+    'from',
+    'into',
+    'without',
+    'about',
+    'why',
+    'how',
+    'when',
+    'what',
+    'where',
+    'who',
+  ]);
+
+  return input
+    .toLowerCase()
+    .replace(/[^a-z0-9\s.]/g, ' ')
+    .split(/\s+/)
+    .map((t) => t.trim())
+    .filter((t) => t.length > 2 && !stopwords.has(t));
+};
+
+const scoreShloka = (shloka: Shloka, tokens: string[]): number => {
+  const haystack = `${shloka.english} ${shloka.hindi} ${shloka.explanation} ${shloka.sanskrit}`.toLowerCase();
+  let score = 0;
+  for (const token of tokens) {
+    const occurrences = haystack.split(token).length - 1;
+    score += occurrences;
+  }
+  return score;
+};
+
+/**
+ * Get top shlokas grounded in the user's text + detected emotion.
+ */
+export const getShlokasForKrishnaGuidance = (
+  userInput: string,
+  emotion: Emotion,
+  limit: number = 2
+): Shloka[] => {
+  const tokens = tokenizeQuery(userInput);
+
+  // 1) Keyword / query grounded search
+  const keywordResults = searchShlokas(userInput);
+  const rankedByQuery = keywordResults
+    .map((s) => ({ s, score: scoreShloka(s, tokens) }))
+    .sort((a, b) => b.score - a.score)
+    .map((x) => x.s);
+
+  // 2) Emotion grounded fallback (deterministic)
+  const emotionShloka = getShlokaForEmotion(emotion);
+
+  // 3) Merge + dedupe by verse number
+  const merged: Shloka[] = [];
+  const seen = new Set<string>();
+
+  const pushUnique = (s?: Shloka | null) => {
+    if (!s) return;
+    if (seen.has(s.verse_number)) return;
+    seen.add(s.verse_number);
+    merged.push(s);
+  };
+
+  // Prefer query-ranked shlokas first
+  for (const s of rankedByQuery) {
+    pushUnique(s);
+    if (merged.length >= limit) break;
+  }
+
+  // Ensure emotion shloka is included for better emotional resonance
+  pushUnique(emotionShloka);
+
+  return merged.slice(0, limit);
 };
 
 /**
@@ -162,5 +270,6 @@ export default {
   getEmotionalIntensity,
   getEmotionEmoji,
   getEmotionColor,
-  generateAdvisoryPrompt
+  generateAdvisoryPrompt,
+  getShlokasForKrishnaGuidance
 };

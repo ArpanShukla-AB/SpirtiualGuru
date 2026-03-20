@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="krishnaGrad" x1="180" y1="60" x2="330" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E40AF"/>
+      <stop offset="0.45" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="radhaGrad" x1="150" y1="90" x2="290" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BE123C"/>
+      <stop offset="0.45" stop-color="#F43F5E"/>
+      <stop offset="1" stop-color="#FDA4AF"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="250" y1="120" x2="330" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="0.5" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#0B1220" flood-opacity="0.25"/>
+    </filter>
+    <filter id="innerGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.6 0" result="glow"/>
+      <feBlend in="SourceGraphic" in2="glow" mode="screen"/>
+    </filter>
+  </defs>
+
+  <!-- Transparent background; this asset can sit on any panel -->
+  <g filter="url(#softShadow)">
+    <!-- Ground shadow -->
+    <ellipse cx="255" cy="424" rx="120" ry="32" fill="#111827" fill-opacity="0.18"/>
+
+    <!-- Radha (front) -->
+    <g transform="translate(120,60)">
+      <!-- Halo -->
+      <ellipse cx="145" cy="58" rx="62" ry="24" fill="url(#gold)" fill-opacity="0.65"/>
+      <ellipse cx="145" cy="58" rx="48" ry="18" fill="#FBBF24" fill-opacity="0.55"/>
+
+      <!-- Hair/Head -->
+      <path d="M120 90c18-20 46-20 65 0 18 20 18 52 0 72-19 20-47 20-65 0-18-20-18-52 0-72Z"
+            fill="#FCA5A5" fill-opacity="0.95" filter="url(#innerGlow)"/>
+
+      <!-- Face highlight -->
+      <path d="M133 105c10-10 28-10 38 0 10 10 10 28 0 38-10 10-28 10-38 0-10-10-10-28 0-38Z"
+            fill="#FFD1DC" fill-opacity="0.65"/>
+
+      <!-- Neck -->
+      <rect x="140" y="162" width="22" height="22" rx="11" fill="#FCA5A5"/>
+
+      <!-- Saree body -->
+      <path d="M88 192c20-18 38-22 57-22h0c19 0 37 4 57 22 32 28 52 70 52 124 0 62-24 92-109 92S36 378 36 316c0-54 20-96 52-124Z"
+            fill="url(#radhaGrad)"/>
+
+      <!-- Saree 3D folds -->
+      <path d="M110 216c26 10 44 38 44 72 0 28-10 52-28 66 22 6 40 22 50 44 16 34 4 58-18 74 44-10 72-36 72-86 0-50-20-90-50-114-18-16-38-22-70-26Z"
+            fill="#E11D48" fill-opacity="0.25"/>
+
+      <!-- Chest shadow -->
+      <path d="M118 230c14 22 24 48 24 78 0 22-6 44-16 62 25-2 44-20 52-46 10-32 0-74-30-94-10-6-20-8-30 0Z"
+            fill="#BE123C" fill-opacity="0.25"/>
+    </g>
+
+    <!-- Krishna (back) -->
+    <g transform="translate(170,60)">
+      <!-- Halo -->
+      <ellipse cx="110" cy="58" rx="64" ry="26" fill="url(#gold)" fill-opacity="0.55"/>
+
+      <!-- Crown -->
+      <path d="M70 70c20-24 60-24 80 0-10 14-25 20-40 20S80 84 70 70Z" fill="url(#gold)" fill-opacity="0.9"/>
+      <rect x="92" y="78" width="36" height="14" rx="7" fill="#FDE68A" fill-opacity="0.95"/>
+
+      <!-- Head -->
+      <path d="M85 92c14-18 44-18 58 0 14 18 14 46 0 64-14 18-44 18-58 0-14-18-14-46 0-64Z"
+            fill="url(#krishnaGrad)"/>
+
+      <!-- Ear glow -->
+      <path d="M92 115c8-8 20-8 28 0 8 8 8 20 0 28-8 8-20 8-28 0-8-8-8-20 0-28Z"
+            fill="#93C5FD" fill-opacity="0.35"/>
+
+      <!-- Neck -->
+      <rect x="96" y="156" width="28" height="24" rx="12" fill="#93C5FD" fill-opacity="0.95"/>
+
+      <!-- Flute -->
+      <rect x="55" y="180" width="40" height="8" rx="4" fill="#F59E0B" fill-opacity="0.9"/>
+      <rect x="86" y="172" width="12" height="24" rx="6" fill="#60A5FA" fill-opacity="0.65"/>
+
+      <!-- Robe -->
+      <path d="M30 192c18-16 34-20 50-20h0c16 0 32 4 50 20 34 30 54 68 54 120 0 72-34 104-104 104s-104-32-104-104c0-52 20-90 54-120Z"
+            fill="url(#krishnaGrad)" fill-opacity="0.95"/>
+
+      <!-- Robe 3D folds -->
+      <path d="M42 220c22 10 40 36 40 72 0 26-10 48-30 62 26 8 44 22 56 42 20 36 6 58-18 72 48-8 78-36 78-88 0-48-18-90-48-114-16-14-32-20-78-18Z"
+            fill="#1D4ED8" fill-opacity="0.25"/>
+
+      <!-- Shadow behind Radha -->
+      <path d="M18 254c18-30 50-52 82-58-20 22-26 58-16 88 10 30 36 52 66 56-44 22-84 10-104-22-14-24-16-46-28-64Z"
+            fill="#0F172A" fill-opacity="0.18"/>
+    </g>
+
+    <!-- Soft sparkles -->
+    <g opacity="0.75">
+      <path d="M70 150l8 16 16 8-16 8-8 16-8-16-16-8 16-8 8-16Z" fill="url(#gold)" fill-opacity="0.65"/>
+      <path d="M410 196l6 12 12 6-12 6-6 12-6-12-12-6 12-6 6-12Z" fill="url(#gold)" fill-opacity="0.55"/>
+      <path d="M370 110l5 10 10 5-10 5-5 10-5-10-10-5 10-5 5-10Z" fill="url(#gold)" fill-opacity="0.45"/>
+    </g>
+  </g>
+</svg>
+
