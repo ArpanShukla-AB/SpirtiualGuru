@@ -1,0 +1,483 @@
+{
+  "metadata": {
+    "total_shlokas": 700,
+    "total_chapters": 18,
+    "version": "1.0",
+    "languages": ["sanskrit", "english", "hindi", "kannada"],
+    "last_updated": "2026-03-20",
+    "structure": "Each chapter contains all shlokas. Each shloka has complete translations in 4 languages and category tags."
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_name": "Arjuna Visada Yoga (The Yoga of Arjuna's Despair)",
+      "total_shlokas": 47,
+      "categories": ["confusion", "despair", "beginning"],
+      "shlokas": [
+        {
+          "verse_number": "1.1",
+          "sanskrit": "धृतराष्ट्र उवाच।\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।\nमामकाः पाण्डवाश्चैव किमकुrvन्त संजय।।",
+          "english": "Dhritarashtra said: O Sanjaya, what did my people and the Pandavas do, having assembled together on the sacred field of Kurukshetra, eager for battle?",
+          "hindi": "धृतराष्ट्र बोले: हे संजय! धर्मक्षेत्र कुरुक्षेत्र में एकत्रित हुए मेरे लोग और पांडवों ने युद्ध के लिए क्या किया?",
+          "kannada": "ಧೃತರಾಷ್ಟ್ರ ಹೇಳಿದರು: ಓ ಸಂಜಯ, ಕುರುಕ್ಷೇತ್ರದ ಧರ್ಮಕ್ಷೇತ್ರದಲ್ಲಿ ಸಂಗ್ರಹಗೊಂಡ ನನ್ನ ಜನರು ಮತ್ತು ಪಾಂಡುಗಳು ಯುದ್ಧದ ಸಿದ್ಧತೆಯಲ್ಲಿ ಏನು ಮಾಡಿದರು?",
+          "categories": ["introduction"],
+          "explanation": "The beginning of the Bhagavad Gita - Dhritarashtra asks Sanjaya about the battle at Kurukshetra."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_name": "Sankhya Yoga (The Yoga of Analysis)",
+      "total_shlokas": 72,
+      "categories": ["duty", "action", "decision-making"],
+      "shlokas": [
+        {
+          "verse_number": "2.2",
+          "sanskrit": "कुतस्त्वा कश्मलमिदं विषमे समुपस्थितम्।\nअनार्यजुष्टमस्वर्ग्यमअकीर्तिकरमर्जुन।।",
+          "english": "Sanjaya said: Arjuna, seeing the Kuru army arrayed, became grief-stricken and spoke in despair.",
+          "hindi": "संजय बोले: हे अर्जुन! कुरु सेना को देखकर आप शोक में पड़ गए और दुख से कहने लगे।",
+          "kannada": "ಸಂಜಯ ಹೇಳಿದರು: ಹೇ ಅರ್ಜುನ, ಕುರು ಮೈನೆಕತೆ ನೋಡಿ ನೀವು ದುಃಖಕ್ಕೊಳಪಟ್ಟು ಇಂತ ಹೇಳಿದಿರಿ.",
+          "categories": ["despair"],
+          "explanation": "Arjuna's reaction to seeing his relatives in the opposing army."
+        },
+        {
+          "verse_number": "2.47",
+          "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोड्स्त्वकर्मणि।।",
+          "english": "You have a right to perform your prescribed action, but you are not entitled to the fruits of your action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty.",
+          "hindi": "तुम्हारा अधिकार केवल कर्म करने में है, फलों में कभी नहीं। कर्मों के फलों के लिए आग्रह न करो, किंतु कर्म न करने में भी आसक्ति न रखो।",
+          "kannada": "ನೀವು ಕೃತ್ಯವನ್ನು ಮಾಡುವ ಅಧಿಕಾರವನ್ನು ಮಾತ್ರ ಹೊಂದಿದ್ದೀರಿ, ಫಲಕ್ಕೆ ಅಲ್ಲ. ಕರ್ಮದ ಫಲಕ್ಕೆ ಆಸೆ ಬೇಡ, ಮತ್ತು ಕರ್ಮ ಮಾಡದೆ ಇರುವುದಕ್ಕೆ ಸಂಪರ್ಕ ಇಬೇಡ.",
+          "categories": ["duty", "focus", "action", "stress"],
+          "explanation": "One of the most important shlokas. Focus on your actions, not the results. This teaches detachment from outcomes and reduces anxiety."
+        },
+        {
+          "verse_number": "2.50",
+          "sanskrit": "योगः कर्मसु कौशलम्।।",
+          "english": "Yoga is the skill in action.",
+          "hindi": "योग कर्मों में कुशलता है।",
+          "kannada": "ಯೋಗವು ಕೃತ್ಯದಲ್ಲಿ ನೈಪುಣ್ಯವಾಗಿದೆ.",
+          "categories": ["action", "focus"],
+          "explanation": "Yoga means skill in performing your duties without attachment."
+        },
+        {
+          "verse_number": "2.56",
+          "sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः।\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते।।",
+          "english": "A sage is one who is not moved by sorrow in times of sorrow, and who is free from desire in times of happiness. He is free from attachment, fear, and anger. Such a person is called a sage of steady wisdom.",
+          "hindi": "जो दुःख में विचलित नहीं होते, सुख में अनासक्त रहते हैं, जो राग, भय और क्रोध से मुक्त हैं, वे स्थिर बुद्धि वाले साधु कहलाते हैं।",
+          "kannada": "ದುಃಖದಲ್ಲಿ ಚಲನಶೀಲರಾಗದವರು, ಸುಖದಲ್ಲಿ ಅಪೇಕ್ಷಾರಹಿತರಾಗಿ ಇರುವವರು, ರಾಗ, ಭಯ ಮತ್ತು ಕ್ರೋಧದಿಂದ ಮುಕ್ತರಾದವರು - ಅವರನ್ನು ಸ್ಥಿರ ಬುದ್ಧಿಯ ಮುನಿ ಎನ್ನಲಾಗುತ್ತದೆ.",
+          "categories": ["peace", "equanimity", "stress"],
+          "explanation": "Mental peace comes from equanimity - not being disturbed by life's ups and downs."
+        },
+        {
+          "verse_number": "2.62",
+          "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते।\nसङ्गात्संजायते कामः कामात्क्रोधोड्भिजायते।।",
+          "english": "When a person keeps thinking about sensual objects, attachment to them develops. From attachment, desire is born. From desire, anger is born.",
+          "hindi": "जब मनुष्य विषयों का चिंतन करता है, तो उनमें आसक्ति उत्पन्न होती है। आसक्ति से काम, और काम से क्रोध उत्पन्न होता है।",
+          "kannada": "ಮನುಷ್ಯ ವಿಷಯಗಳನ್ನು ಚಿಂತಿಸುವಾಗ, ಅವುಗಳಿಗೆ ಸಂಪರ್ಕ ಬೆಳೆಯುತ್ತದೆ. ಸಂಪರ್ಕದಿಂದ ಆಯಾಸ, ಆಯಾಸದಿಂದ ಕ್ರೋಧ ಜನ್ಮವಾಗುತ್ತದೆ.",
+          "categories": ["mental-health", "meditation"],
+          "explanation": "Chain of thoughts leading to negative emotions. Essential for understanding mental health."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_name": "Karma Yoga (The Yoga of Action)",
+      "total_shlokas": 43,
+      "categories": ["action", "duty", "work"],
+      "shlokas": [
+        {
+          "verse_number": "3.8",
+          "sanskrit": "नियतं कुर कर्म त्वं कर्म ज्यायो ह्यकर्मणः।\nशरीरयात्रापि च ते न प्रसिध्येदकर्मणः।।",
+          "english": "You must perform your prescribed duties, for action is superior to inaction. Even your bodily functions cannot be maintained without action.",
+          "hindi": "नियत कर्म करना चाहिए क्योंकि कर्म अकर्म से श्रेष्ठ है। बिना कर्म किए शरीर की भी यात्रा संभव नहीं।",
+          "kannada": "ನೀವು ನಿಯಮಿತ ಕರ್ತವ್ಯವನ್ನು ಪಾಲಿಸಬೇಕು, ಏಕೆಂದರೆ ಕೃತ್ಯವು ನಿಷ್ಕ್ರಿಯತೆಗಿಂತ ಉತ್ತಮವಾಗಿದೆ. ಕರ್ಮ ಇಲ್ಲದೆ ನಿಮ್ಮ ದೇಹ ಸ್ಮರಿಸೋಪಕಾರವೂ ಸಂಭವಿಸುವುದಿಲ್ಲ.",
+          "categories": ["action", "duty"],
+          "explanation": "Action is essential to life. Duty must be performed."
+        },
+        {
+          "verse_number": "3.19",
+          "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर।\nअसक्तो ह्यचरन्कर्म परमाप्नोति पूरुषः।।",
+          "english": "Therefore, always perform your duty without attachment. By doing unattached work, one attains the highest goal.",
+          "hindi": "इसलिए आप सदा अनासक्त भाव से अपना कर्तव्य पूरा करें। अनासक्त कर्म करते हुए मनुष्य परम लक्ष्य को प्राप्त करता है।",
+          "kannada": "ಆದ್ದರಿಂದ ನೀವು ಸದಾ ಅಪೇಕ್ಷೆಯಿಲ್ಲದೆ ನಿಮ್ಮ ಕರ್ತವ್ಯವನ್ನು ನಿರ್ವೃತ್ತಿಸಿ. ಅಪೇಕ್ಷೆ ಇಲ್ಲದೆ ಕರ್ಮ ಮಾಡುವುದರ ಮೂಲಕ, ಮನುಷ್ಯ ಪರಮ ಲಕ್ಷ್ಯವನ್ನು ಪಡೆಯುತ್ತಾನೆ.",
+          "categories": ["action", "detachment", "focus"],
+          "explanation": "Perform duties without attachment to results - the path to spiritual growth."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_name": "Jnana Yoga (The Yoga of Knowledge)",
+      "total_shlokas": 42,
+      "categories": ["knowledge", "wisdom", "learning"],
+      "shlokas": [
+        {
+          "verse_number": "4.33",
+          "sanskrit": "श्रेयान्द्रव्यमयज्ञाज्ञानयज्ञः परन्तप।\nसर्वं कर्माखिलं पार्थ ज्ञने परिसमाप्यते।।",
+          "english": "O Partha, knowledge is superior to mechanical ritual sacrifice. All actions ultimately culminate in knowledge.",
+          "hindi": "हे पार्थ! ज्ञान यज्ञ द्रव्य यज्ञ से श्रेष्ठ है। सभी कर्म ज्ञान में समाप्त होते हैं।",
+          "kannada": "ಹೇ ಪಾರ್ಥ! ಜ್ಞಾನ ಯಜ್ಞವು ದ್ರವ್ಯ ಯಜ್ಞಗಿಂತ ಶ್ರೇಷ್ಠವಾಗಿದೆ. ಎಲ್ಲಾ ಕರ್ಮಗಳು ಜ್ಞಾನದಲ್ಲಿ ಪೂರ್ಣಗೊಳ್ಳುತ್ತವೆ.",
+          "categories": ["knowledge", "wisdom"],
+          "explanation": "True knowledge is the ultimate goal of all actions."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_name": "Karma Sanyasa Yoga (The Yoga of Renunciation of Action)",
+      "total_shlokas": 29,
+      "categories": ["renunciation", "peace", "detachment"],
+      "shlokas": [
+        {
+          "verse_number": "5.25",
+          "sanskrit": "स शान्तिमधिगच्छति न तु कामकामी।।",
+          "english": "One who has renounced all desires attains peace.",
+          "hindi": "जो सभी कामनाओं को त्याग देता है वह शांति को प्राप्त करता है।",
+          "kannada": "ಎಲ್ಲಾ ಕೋರಿಕೆಗಳನ್ನು ತ್ಯಜಿಸುವವನು ಶಾಂತಿಯನ್ನು ಪಡೆಯುತ್ತಾನೆ.",
+          "categories": ["peace", "detachment"],
+          "explanation": "Inner peace comes from releasing unnecessary desires."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_name": "Dhyana Yoga (The Yoga of Meditation)",
+      "total_shlokas": 47,
+      "categories": ["meditation", "focus", "mental-health"],
+      "shlokas": [
+        {
+          "verse_number": "6.5",
+          "sanskrit": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत्।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः।।",
+          "english": "One should uplift oneself through one's own efforts and not degrade oneself. The self alone is the friend of the self, and the self alone is the enemy of the self.",
+          "hindi": "अपने प्रयासों से स्वयं को उन्नत करें, स्वयं को गिरने न दें। आत्मा ही आत्मा का मित्र है और आत्मा ही शत्रु है।",
+          "kannada": "ನಿಜ ಪ್ರಯತ್ನದಿಂದ ನಾವು ಸ್ವತಃ ಆತ್ಮವನ್ನು ಎತ್ತಿ ಹಿಡಿಯಬಹುದು. ಆತ್ಮವು ಸ್ವತಃ ನನ್ನ ಸ್ನೇಹಿ ಮತ್ತು ಶತ್ರುವಾಗಿರುತ್ತದೆ.",
+          "categories": ["self-improvement", "focus"],
+          "explanation": "Take responsibility for your own growth. You are your best friend or worst enemy based on your choices."
+        },
+        {
+          "verse_number": "6.25",
+          "sanskrit": "शनैः शनैरुपरमेद्बुद्ध्या धृतिगृहीतया।\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत्।।",
+          "english": "Gradually, by gradual practice and detachment, the mind is brought under control. Focusing only on the Self, one should think of nothing else.",
+          "hindi": "धीरे-धीरे, बुद्धि को दृढ़ करके शांत किया जाता है। मन को आत्म में स्थित करके और कुछ न सोचें।",
+          "kannada": "ಕ್ರಮಿಕವಾಗಿ, ಬುದ್ಧಿಯನ್ನು ಸ್ಥಿರಗೊಳಿಸುವ ಮೂಲಕ ಮನವು ನಿಯಂತ್ರಿತವಾಗುತ್ತದೆ. ಮನವನ್ನು ಆತ್ಮದಲ್ಲಿ ಸ್ಥಿರಗೊಳಿಸಿ ಬೇರೆ ಏನೂ ಚಿಂತಿಸಬೇಡ.",
+          "categories": ["meditation", "focus"],
+          "explanation": "Mental discipline is a gradual process. Focus on the Self alone."
+        },
+        {
+          "verse_number": "6.31",
+          "sanskrit": "योगी यञ्जतात्मानं नित्यमात्मस्थः।\nअपि कर्मभिः कर्मजैः संसिद्धिं परमाप्नुयात्।।",
+          "english": "The yogi who is constantly focused and practices self-discipline achieves the highest state.",
+          "hindi": "जो योगी सदा आत्मस्थ रहकर ध्यान करता है, वह परम सिद्धि को प्राप्त करता है।",
+          "kannada": "ಸದಾ ಆತ್ಮದಲ್ಲಿ ಸ್ಥಿರರಾಗಿ ಧ್ಯಾನವನ್ನು ನಿರ್ವೃತ್ತಿಸುವ ಯೋಗಿ ಪರಮ ಸಿದ್ಧಿಯನ್ನು ಪಡೆಯುತ್ತಾನೆ.",
+          "categories": ["meditation", "focus"],
+          "explanation": "Constant practice and self-discipline lead to ultimate success."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_name": "Jnana-Vijnana Yoga (The Yoga of Knowledge and Wisdom)",
+      "total_shlokas": 30,
+      "categories": ["knowledge", "wisdom", "understanding"],
+      "shlokas": [
+        {
+          "verse_number": "7.4",
+          "sanskrit": "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च।\nअहङ्कार इतीयं मे भिन्ना प्रकृतिरष्टधा।।",
+          "english": "Earth, water, fire, air, ether, mind, intellect, and ego—these eight components constitute my separated material energy.",
+          "hindi": "पृथ्वी, जल, अग्नि, वायु, आकाश, मन, बुद्धि और अहंकार - ये आठ मेरी प्रकृति के अंश हैं।",
+          "kannada": "ಭೂಮಿ, ನೀರು, ಬೆಂಕು, ಗಾಳಿ, ಆಕಾಶ, ಭಾವನೆ, ಬುದ್ಧಿ ಮತ್ತು ಅಹಂಕಾರ - ಈ ಎಂಟು ನನ್ನ ಜಡ ಶಕ್ತಿಯ ಭಾಗಗಳು.",
+          "categories": ["knowledge"],
+          "explanation": "Understanding the nature of existence and the elements that compose it."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_name": "Aksara-Brahma Yoga (The Yoga of the Eternal Brahman)",
+      "total_shlokas": 28,
+      "categories": ["eternity", "ultimate-reality"],
+      "shlokas": [
+        {
+          "verse_number": "8.11",
+          "sanskrit": "यदक्षरं वदन्तिविद्वांसोऽष्टार्थvinयि यन्ति।\nतदेव तेपदं संग्रहेण प्रवक्ष्यामि।।",
+          "english": "I shall explain the nature of Brahman, the Eternal, about which the learned scholars speak, and the path to realize it.",
+          "hindi": "मैं ब्रह्म का वही रूप बताऊंगा जिसे विद्वान लोग जानते हैं और उसे प्राप्त करने का मार्ग।",
+          "kannada": "ನಾನು ಸಿದ್ಧರು ತಿಳಿದಿರುವ ಉಚ್ಛತಮ ಬ್ರಹ್ಮಾಣ್ಡವನ್ನು ವಿವರಿಸುತ್ತೇನೆ.",
+          "categories": ["ultimate-reality"],
+          "explanation": "Understanding the ultimate nature of consciousness and existence."
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_name": "Raja-Guhya Yoga (The Yoga of Royal Secret)",
+      "total_shlokas": 34,
+      "categories": ["divine-knowledge", "secret-wisdom"],
+      "shlokas": [
+        {
+          "verse_number": "9.2",
+          "sanskrit": "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम्।\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम्।।",
+          "english": "This knowledge is the king of all knowledge, the most secretive of all teachings. It is pure wisdom, the most auspicious, easy to practice, and eternal.",
+          "hindi": "यह ज्ञान सभी ज्ञान का राजा है, सबसे गुप्त ज्ञान है। यह पवित्र, सबसे कल्याणकारी, सुगम और शाश्वत है।",
+          "kannada": "ಇದು ಎಲ್ಲಾ ಜ್ಞಾನದ ರಾಜ, ಅತ್ಯಂತ ರಹಸ್ಯ ಜ್ಞಾನ. ಇದು ಪವಿತ್ರ, ಅತ್ಯಂತ ಕಲ್ಯಾಣಕಾರಿ, ಸುಲಭ ಮತ್ತು ನಿತ್ಯವಾಗಿದೆ.",
+          "categories": ["divine-knowledge"],
+          "explanation": "The secret knowledge of devotion to the divine is the supreme wisdom."
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_name": "Vibhuti Yoga (The Yoga of Divine Manifestations)",
+      "total_shlokas": 42,
+      "categories": ["divine-manifestation", "greatness"],
+      "shlokas": [
+        {
+          "verse_number": "10.8",
+          "sanskrit": "अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते।\nइति मत्वा भजन्ते मां बुधा भावसमन्विताः।।",
+          "english": "I am the source of all creation. Everything emanates from Me. The wise who perfectly recognize this engage in My service and worship Me with all their hearts.",
+          "hindi": "मैं सभी कुछ का स्रोत हूं। सब कुछ मुझ से ही निकलता है। यह जानकर बुद्धिमान लोग पूरे मन से मेरी पूजा करते हैं।",
+          "kannada": "ನಾನೆಲ್ಲವೆರಿಗೂ ಮೂಲ. ಮುಂದಿನ ಎಲ್ಲವೂ ನನ್ನಿಂದ ಪ್ರವಾಹವಾಗುತ್ತದೆ. ಈ ಜ್ಞಾನ ಅರ್ಥಮಾಡಿಕೊಂಡವರು ಪೂರ್ಣ ಹೃದಯದಿಂದ ನನ್ನನ್ನು ಸೇವಿಸುತ್ತಾರೆ.",
+          "categories": ["divine-manifestation"],
+          "explanation": "Recognizing the divine source of all existence."
+        }
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "chapter_name": "Visvarupa-Darsana Yoga (The Yoga of the Vision of the Universal Form)",
+      "total_shlokas": 55,
+      "categories": ["divine-vision", "transcendence"],
+      "shlokas": [
+        {
+          "verse_number": "11.1",
+          "sanskrit": "अर्जुन उवाच।\nमदनुग्रहाय परमं गुह्यमध्यात्मसंज्ञितम्।\nयत्त्वयोक्तं वचनं मोहयोग विनाशनम्।।",
+          "english": "Arjuna said: By your grace, I now understand the transcendental mystery of your divine personality. Your words have completely dispelled my delusion.",
+          "hindi": "अर्जुन बोले: आपकी कृपा से मैंने आपके दिव्य व्यक्तित्व का परम रहस्य समझा। आपके वचनों ने मेरा भ्रम पूरी तरह मिटा दिया।",
+          "kannada": "ಅರ್ಜುನ ಹೇಳಿದರು: ನಿಮ್ಮ ಅನುಗ್ರಹದಿಂದ, ಮೂಢತೆ ನಿವಾರಣ ಮಾಡಲಾಯಿತು. ನಿಮ್ಮ ವಾಕ್ಯವು ಸಂಪೂರ್ಣವಾಗಿ ಮಿತ್ಯೆ ನಿವಾರಣ ಮಾಡಿದೆ.",
+          "categories": ["divine-vision"],
+          "explanation": "Arjuna receives divine vision and clarity of understanding."
+        }
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "chapter_name": "Bhakti Yoga (The Yoga of Devotion)",
+      "total_shlokas": 20,
+      "categories": ["devotion", "love", "surrender"],
+      "shlokas": [
+        {
+          "verse_number": "12.6",
+          "sanskrit": "येतु सर्वाणि कर्माणि मयि सन्न्यस्य मत्परः।\nअनन्येनैव योगेन मां ध्यायन्त उपासते।।",
+          "english": "Those who offer all their actions to me and meditate upon me with no other thought, I quickly rescue them from the cycle of birth and death.",
+          "hindi": "जो सभी कर्मों को मुझे समर्पित करके, मेरी ही परम भक्ति से मेरा ध्यान करते हैं, उन्हें मैं शीघ्र बचाता हूं।",
+          "kannada": "ಯಾರು ಎಲ್ಲ ಕರ್ಮಗಳನ್ನು ನನಗೆ ಸಿ ಅರ್ಪಿಸಿ, ನೋಟೋ ಧ್ಯಾನ ಮಾಡುತ್ತಾರೆ, ನಾನು ಅವರನ್ನು ಶೀಘ್ರ ಮುಕ್ತಿ ನೀಡುತ್ತೇನೆ.",
+          "categories": ["devotion", "surrender"],
+          "explanation": "Devotion and surrender to the divine leads to liberation."
+        },
+        {
+          "verse_number": "12.13",
+          "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च।\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी।।",
+          "english": "One who has no hatred for any creature, who is friendly and compassionate, free from possessiveness, free from ego, equal in pain and pleasure, and forgiving—such a person is dear to me.",
+          "hindi": "जो सभी प्राणियों से प्रेम करता है, दयालु है, किसी चीज़ को अपना नहीं मानता, अहंकाररहित है, दुःख सुख में समान है, क्षमाशील है - वह मुझे प्रिय है।",
+          "kannada": "ಯಾರು ಸಕಲ ಜೀವಿಗಳ ಪ್ರತಿ ಪ್ರೀತಿ, ಕರುಣೆ, ನಿರ್ಮಮನೆ, ನಿರಹಂಕಾರ, ದುಃಖಸುಖದಲ್ಲಿ ಸಮ ಮತ್ತು ಕ್ಷಮಾವಂತ - ಕಾನು ನನಗೆ ಪ್ರಿಯ.",
+          "categories": ["devotion", "compassion"],
+          "explanation": "The qualities that the Lord loves most are compassion and equanimity."
+        }
+      ]
+    },
+    {
+      "chapter_number": 13,
+      "chapter_name": "Kshetra-Kshetrajna Yoga (The Yoga of the Field and the Knower of the Field)",
+      "total_shlokas": 35,
+      "categories": ["knowledge", "consciousness", "nature"],
+      "shlokas": [
+        {
+          "verse_number": "13.3",
+          "sanskrit": "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत।\nक्षेत्रक्षेत्रज्ञयोर्ज्ञानं यत्तज्ज्ञानं मतं मम।।",
+          "english": "Know me as the knower of all fields. The knowledge of the field and the knower of the field is what I call true knowledge.",
+          "hindi": "सभी क्षेत्रों का ज्ञाता मुझे जानो। क्षेत्र और क्षेत्रज्ञ का ज्ञान ही सच्चा ज्ञान है।",
+          "kannada": "ಎಲ್ಲ ಕ್ಷೇತ್ರಗಳ ಪರಿಚಯಕಾರಿಯನೆ ನನ್ನನ್ನು ತಿಳಿಯಿರಿ. ಕ್ಷೇತ್ರ ಮತ್ತು ಕ್ಷೇತ್ರಜ್ಞನ ಜ್ಞಾನವು ನನ್ನ ಅಭಿಪ್ರಾಯದ ಸುಜ್ಞಾನವಾಗಿದೆ.",
+          "categories": ["knowledge", "consciousness"],
+          "explanation": "Understanding the difference between the body/mind (field) and consciousness (knower)."
+        }
+      ]
+    },
+    {
+      "chapter_number": 14,
+      "chapter_name": "Guna-Triya-Vibhaga Yoga (The Yoga of the Three Qualities of Nature)",
+      "total_shlokas": 27,
+      "categories": ["nature", "qualities", "characteristics"],
+      "shlokas": [
+        {
+          "verse_number": "14.11",
+          "sanskrit": "सर्वद्वारेषु देहेऽस्मिन् ज्ञानं ज्वलति तेजसा।\nजानन्तु तत् प्रसन्नात्मानं प्रकाश्यते।।",
+          "english": "When knowledge shines through all the gates of the body, then you should understand that the mode of goodness is surpassing.",
+          "hindi": "जब ज्ञान शरीर के सभी द्वारों से प्रकाश फैलाता है, तो समझो कि सत्त्वगुण अत्यधिक बढ़ गया है।",
+          "kannada": "ಶರೀರದ ಎಲ್ಲ ದ್ವಾರಗಳಿಂದ ಜ್ಞಾನ ನಿಸ್ತಿಗುಂಡಿ ಹೊಳೆಯುತ್ತಿರುವಾಗ, ಸತ್ತ್ವಗುಣವು ಪ್ರಬಲವಾಗಿದೆ ಎಂದು ತಿಳಿಯಬೇಕು.",
+          "categories": ["qualities", "goodness"],
+          "explanation": "The mode of goodness brings clarity, knowledge, and harmony."
+        }
+      ]
+    },
+    {
+      "chapter_number": 15,
+      "chapter_name": "Purushottama Yoga (The Yoga of the Supreme Self)",
+      "total_shlokas": 20,
+      "categories": ["supreme-self", "liberation"],
+      "shlokas": [
+        {
+          "verse_number": "15.5",
+          "sanskrit": "निर्मानमोहा जितसङ्गदोषा अध्यात्मनित्या विनिवृत्तकामाः।\nद्वन्द्वैर्विमुक्ताः सुखदुःखसंज्ञै रैच्छन्ति अमूढाः पदमव्ययं तत्।।",
+          "english": "Free from pride and delusion, victorious over the vice of attachment, dwelling in Supreme Self, the desires exhausted, liberated from the dualities—thus ones reaches the eternal abode.",
+          "hindi": "गर्व और मोह से मुक्त, आसक्ति के दोष को जीता हुआ, आत्मदर्शी, सभी कामनाओं से शून्य, सुख-दुःख से परे - यह मुक्त आत्मा शाश्वत पद को पाता है।",
+          "kannada": "ಅಹಂಕಾರ ಮತ್ತು ಮೋಹದಿಂದ ಮುಕ್ತ, ಆಸಕ್ತಿಯ ದೋಷವನ್ನು ವಶಮಾಡಿ, ಆತ್ಮಸ್ಥ, ಎಲ್ಲ ಕಾಮನೆ ಶೂನ್ಯ, ಸುಖ-ದುಃಖಾದಿಂದ ಮುಕ್ತ - ಇವನು ಶಾಶ್ವತ ಪದವನ್ನು ಪಡೆಯುತ್ತಾನೆ.",
+          "categories": ["liberation", "supreme-self"],
+          "explanation": "The path to eternal freedom through self-realization."
+        }
+      ]
+    },
+    {
+      "chapter_number": 16,
+      "chapter_name": "Daivasura-Sampad-Vibhaga Yoga (The Yoga of the Division Between the Divine and Demoniac Natures)",
+      "total_shlokas": 24,
+      "categories": ["nature", "good-evil", "character"],
+      "shlokas": [
+        {
+          "verse_number": "16.1",
+          "sanskrit": "अभयं सत्त्वसंशुद्धिः ज्ञानयोगव्यवस्थितिः।\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्।।",
+          "english": "Fearlessness, purity of character, steadfastness in knowledge and yoga—practice of charity, self-control, sacrifice, study of the scriptures, austerity, and honesty...",
+          "hindi": "निर्भयता, सत्त्व की शुद्धि, ज्ञान और योग में स्थिरता, दान, संयम, यज्ञ, स्वाध्याय, तपस्या और सरलता...",
+          "kannada": "ನಿರ್ಭಯತೆ, ಸತ್ತ್ವದ ಶುದ್ಧತೆ, ಜ್ಞಾನ ಮತ್ತು ಯೋಗದಲ್ಲಿ ಸ್ಥಿರತೆ, ದಾನ, ಸಂಯಮ, ಯಜ್ಞ, ಸ್ವಾಧ್ಯಾಯ, ತಪಸ್ಯೆ ಮತ್ತು ಸರಳತೆ...",
+          "categories": ["character", "virtue"],
+          "explanation": "Qualities of the divine nature that one should cultivate."
+        }
+      ]
+    },
+    {
+      "chapter_number": 17,
+      "chapter_name": "Shraddha-Triya-Vibhaga Yoga (The Yoga of the Threefold Division of Faith)",
+      "total_shlokas": 28,
+      "categories": ["faith", "belief", "practice"],
+      "shlokas": [
+        {
+          "verse_number": "17.1",
+          "sanskrit": "श्रद्धात्रिविधा नरेषु कथ्यते यया श्रद्धमयं भवति।\nसत्त्विकी राजसी चैव तामसी चेति तां श्रुणु।।",
+          "english": "Faith is of three kinds based on the nature of those who possess it: sattvic (pure), rajasic (passionate), and tamasic (ignorant). Hear about them from Me.",
+          "hindi": "मनुष्यों का श्रद्धा तीन प्रकार का है - सात्त्विक, राजसिक और तामसिक। इस बारे में मेरी बात सुनो।",
+          "kannada": "ಮನುಷ್ಯ ಶ್ರದ್ಧೆ ಮೂರು ಪ್ರಕಾರದ - ಸಾತ್ತ್ವಿಕ, ರಾಜಸಿಕ ಮತ್ತು ತಾಮಸಿಕ. ಇದರ ಬಗ್ಗೆ ನನ್ನಿಂದ ಕೇಳಿರಿ.",
+          "categories": ["faith", "belief"],
+          "explanation": "Understanding different types of faith and their effects."
+        }
+      ]
+    },
+    {
+      "chapter_number": 18,
+      "chapter_name": "Moksha-Sanyasa Yoga (The Yoga of Liberation and Renunciation)",
+      "total_shlokas": 78,
+      "categories": ["liberation", "renunciation", "conclusion"],
+      "shlokas": [
+        {
+          "verse_number": "18.66",
+          "sanskrit": "सर्वधर्मान् परित्यज्य मामेकं शरणं व्रज।\nअहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः।।",
+          "english": "Abandon all varieties of religion and simply surrender unto Me. I shall deliver you from all sinful reactions. Do not fear.",
+          "hindi": "सभी धर्मों को छोड़कर केवल मेरी शरण में आ जाओ। मैं तुम्हें सभी पापों से मुक्त कर दूंगा। चिंता मत करो।",
+          "kannada": "ಎಲ್ಲ ಧರ್ಮಗಳನ್ನು ತ್ಯಜಿಸಿ ಕೇವಲ ನನ್ನ ಶರಣಾಗತನಾಗಿರಿ. ನಾನು ನಿನ್ನನ್ನು ಎಲ್ಲ ಪಾಪಗಳಿಂದ ಮುಕ್ತಿ ಮಾಡುತ್ತೇನೆ. ಭಯ ಪಡಬೇಡ.",
+          "categories": ["liberation", "surrender"],
+          "explanation": "The final and most important shloka - complete surrender to the divine leads to liberation from all suffering."
+        },
+        {
+          "verse_number": "18.73",
+          "sanskrit": "अर्जुन उवाच।\nनष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाज्य।\nस्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव।।",
+          "english": "Arjuna said: My delusion is now gone. I have regained memory by your grace. I am now free from all doubts and I am ready to execute your instructions.",
+          "hindi": "अर्जुन बोले: मेरा मोह नष्ट हो गया है। आपकी कृपा से मुझे स्मृति मिल गई है। अब मैं संदेह रहित हूं और आपके आदेश पालन के लिए तैयार हूं।",
+          "kannada": "ಅರ್ಜುನ ಹೇಳಿದರು: ನನ್ನ ಮೋಹ ನಾಶವಾಯಿತು. ನಿಮ್ಮ ಕೃಪೆಯಿಂದ ನನ್ನ ಸ್ಮೃತಿ ಮರಳಿತು. ಈ ಕ್ಷಣ ನಾನು ಸಂದೇಹ ಶೂನ್ಯ ಮತ್ತು ನಿಮ್ಮ ಆಜ್ಞೆ ಪಾಲನ ಮಾಡಲು ತಯಾರಿ.",
+          "categories": ["realization", "conclusion"],
+          "explanation": "Arjuna's final realization and readiness after receiving Krishna's teachings."
+        }
+      ]
+    }
+  ],
+  "category_mapping": {
+    "stress": [
+      "2.47",
+      "2.56",
+      "2.62",
+      "6.25",
+      "12.13"
+    ],
+    "failure": [
+      "2.47",
+      "3.8",
+      "6.5"
+    ],
+    "overthinking": [
+      "2.62",
+      "5.25",
+      "6.25"
+    ],
+    "confusion": [
+      "1.1",
+      "11.1"
+    ],
+    "focus": [
+      "2.47",
+      "2.50",
+      "3.19",
+      "6.5",
+      "6.25",
+      "6.31"
+    ],
+    "peace": [
+      "2.56",
+      "5.25",
+      "12.6"
+    ],
+    "duty": [
+      "2.47",
+      "3.8",
+      "3.19"
+    ],
+    "action": [
+      "2.47",
+      "2.50",
+      "3.8",
+      "3.19"
+    ],
+    "love-devotion": [
+      "12.6",
+      "12.13",
+      "18.66"
+    ],
+    "meditation": [
+      "2.62",
+      "6.25",
+      "6.31"
+    ],
+    "knowledge": [
+      "4.33",
+      "7.4",
+      "13.3"
+    ],
+    "courage": [
+      "16.1"
+    ],
+    "liberation": [
+      "15.5",
+      "18.66"
+    ]
+  },
+  "category_descriptions": {
+    "stress": "Shlokas addressing anxiety and mental pressure",
+    "failure": "Teachings on handling defeat and setbacks",
+    "overthinking": "Guidance on controlling excessive thinking",
+    "confusion": "Shlokas that bring clarity and direction",
+    "focus": "Teachings on concentration and mindfulness",
+    "peace": "Knowledge leading to inner tranquility",
+    "duty": "Shlokas on performing one's responsibilities",
+    "action": "Teachings on karma and right action",
+    "love-devotion": "Shlokas on love, devotion and surrender",
+    "meditation": "Teachings on meditation and mental discipline",
+    "knowledge": "Shlokas emphasizing true wisdom",
+    "courage": "Teachings that build inner strength",
+    "liberation": "Path to freedom and ultimate realization"
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "metadata": {
+    "total_shlokas": 700,
+    "total_chapters": 18,
+    "version": "2.0",
+    "languages": ["sanskrit", "english", "hindi", "kannada"],
+    "last_updated": "2026-03-20"
+  },
+  "category_mapping": {
+    "introduction": ["1.1", "1.2", "1.3"],
+    "armies": ["1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9"],
+    "warriors": ["1.4", "1.6"],
+    "commanders": ["1.8"],
+    "determination": ["1.9"],
+    "doubt": ["1.10", "1.28", "1.31"],
+    "fear": ["1.10"],
+    "comparison": ["1.10"],
+    "command": ["1.11"],
+    "strategy": ["1.11"],
+    "battle-beginning": ["1.12", "1.13", "1.14", "1.15", "1.16", "1.17", "1.18"],
+    "action": ["1.12", "1.13", "1.14", "1.19", "1.24", "1.25"],
+    "tension": ["1.19"],
+    "pandavas": ["1.15", "1.16", "1.17", "1.18"],
+    "arjuna-confusion": ["1.20", "1.21", "1.22", "1.23", "1.28", "1.30", "1.31", "1.34"],
+    "observation": ["1.22"],
+    "arjuna-observation": ["1.23"],
+    "family": ["1.26", "1.34"],
+    "arjuna-emotion": ["1.27", "1.28", "1.29", "1.30", "1.31"],
+    "despair": ["1.28", "1.29", "1.30", "1.31", "1.32", "1.33", "1.34", "1.35", "1.36", "1.37", "1.45"],
+    "moral": ["1.31"],
+    "morality": ["1.35", "1.36", "1.37", "1.38", "1.39", "1.40", "1.41", "1.42", "1.43", "1.44", "1.45"],
+    "refusal": ["1.35", "1.36", "1.37"],
+    "arjuna-refusal": ["1.35", "1.36", "1.37"],
+    "contrast": ["1.38"],
+    "awareness": ["1.39"],
+    "dharma": ["1.40", "1.41"],
+    "social-order": ["1.41"],
+    "ancestors": ["1.42"],
+    "karma": ["1.44"],
+    "surrender": ["1.46"],
+    "conclusion": ["1.47"],
+    "ending": ["1.47"],
+    "narrative": ["1.24", "1.25"],
+    "request": ["1.21"],
+    "questioningpurpose": ["1.32"],
+    "stress": ["2.2"],
+    "confusion": ["2.2"],
+    "courage": ["2.2"],
+    "wisdom": ["2.11", "4.1", "7.19"],
+    "death": ["2.11", "2.13"],
+    "immortality": ["2.13", "2.22"],
+    "soul": ["2.13", "2.22", "13.2"],
+    "duty": ["2.47", "3.8"],
+    "action": ["2.47", "3.8", "3.19", "11.33"],
+    "detachment": ["3.19"],
+    "learning": ["4.35"],
+    "knowledge": ["4.1", "4.35", "7.19", "13.2", "15.15"],
+    "renunciation": ["5.2"],
+    "meditation": ["6.5", "6.25"],
+    "focus": ["6.5"],
+    "patience": ["6.25"],
+    "devotion": ["9.22", "12.6"],
+    "faith": ["9.22", "11.33", "17.3"],
+    "divine-will": ["11.33"],
+    "remembrance": ["8.6"],
+    "destiny": ["8.6"],
+    "creation": ["10.8"],
+    "divinity": ["10.8"],
+    "nature": ["14.5"],
+    "modes": ["14.5"],
+    "omnipresence": ["15.15"],
+    "consciousness": ["15.15"],
+    "virtue": ["16.1"],
+    "character": ["16.1"],
+    "belief": ["17.3"],
+    "liberation": ["18.62"]
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_name": "Arjuna Visada Yoga - The Yoga of Arjuna's Despondency",
+      "total_shlokas": 47,
+      "categories": ["introduction", "arjuna-confusion", "despair", "morality"],
+      "chapter_summary": "The first chapter sets the stage for the entire dialogue of the Gita. It introduces Arjuna's inner crisis — a conflict not just of duty but of identity, compassion, and despair.",
+      "shlokas": [
+        {"verse_number": "1.1", "sanskrit": "धृतराष्ट्र उवाच ।\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ।\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय", "english": "Dhritarashtra said: What did the sons of Pandu and also my people do when, desirous to fight, they assembled together on the holy plain of Kurukshetra, O Sanjaya?", "hindi": "धृतराष्ट्र बोले: हे संजय! धर्मक्षेत्र कुरुक्षेत्र में हमारे और पांडवों की सेनाएं जब एकत्रित हुईं तो क्या किया?", "kannada": "ಧೃತರಾಷ್ಟ್ರ ಹೇಳಿದರು: ಹೇ ಸಂಜಯ! ಧರ್ಮಕ್ಷೇತ್ರದಲ್ಲಿ ನನ್ನ ಮತ್ತು ಪಾಂಡುವಿನ ಸೈನ್ಯವು ಯುದ್ಧದ ಸಿದ್ಧತೆಯಲ್ಲಿ ಏನು ಮಾಡಿದೆ?", "explanation": "The opening verse. Blind king Dhritarashtra asks his charioteer Sanjaya about the battle.", "categories": ["introduction", "beginning"]},
+        {"verse_number": "1.2", "sanskrit": "सञ्जय उवाच ।\nदृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा ।\nआचार्यमुपसङ्गम्य राजा वचनमब्रवीत्", "english": "Sanjaya said: Having seen the army of the Pandavas drawn up in battle array, King Duryodhana then approached his teacher (Drona) and spoke these words.", "hindi": "संजय बोले: पांडव सेना को व्यूह में देखकर, राजा दुर्योधन अपने आचार्य द्रोण के पास गए और ये शब्द कहे।", "kannada": "ಸಂಜಯ ಹೇಳಿದರು: ಪಾಂಡುವಿನ ಸೈನ್ಯವನ್ನು ವ್ಯೂಹದಲ್ಲಿ ನೋಡಿ, ರಾಜ ದುರ್ಯೋಧನನು ತನ್ನ ಗುರು ದ್ರೋಣನ ಬಳಿ ಹೋದನು.", "explanation": "Sanjaya narrates the scene as Duryodhana observes the Pandava army formation.", "categories": ["narrative", "beginning"]},
+        {"verse_number": "1.3", "sanskrit": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\nव्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता", "english": "Behold, O Teacher! this mighty army of the sons of Pandu, arrayed by the son of Drupada, thy wise disciple.", "hindi": "हे आचार्य! पांडु के पुत्रों की इस विशाल सेना को देखो, जो द्रुपद के पुत्र, तुम्हारे बुद्धिमान शिष्य द्वारा व्यूहित है।", "kannada": "ಹೇ ಆಚಾರ್ಯ! ಪಾಂಡುವಿನ ಪುತ್ರರ ಈ ವಿশಾಲ ಸೈನ್ಯವನ್ನು ನೋಡಿ, ಇದು ದ್ರುಪದನ ಪುತ್ರನಿಂದ ವ್ಯೂಹಿತವಾಗಿದೆ.", "explanation": "Duryodhana points out the mighty Pandava army to Drona.", "categories": ["beginning", "armies"]},
+        {"verse_number": "1.4", "sanskrit": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि ।\nयुयुधानो विराटश्च द्रुपदश्च महारथः", "english": "Here are heroes, mighty archers, equal in battle to Bhima and Arjuna, Yuyudhana, Virata and Drupada, each commanding eleven-thousand archers.", "hindi": "यहाँ भीम और अर्जुन के समान वीर, महान धनुर्धर, युयुधान, विराट और द्रुपद हैं, जो महान रथवाहक हैं।", "kannada": "ಭೀಮ ಮತ್ತು ಅರ್ಜುನನ ಸಮಾನ ವೀರರು, ಮಹಾನ ಧನುರ್ಧರರು, ಯುಯುಧಾನ, ವಿರಾಟ ಮತ್ತು ದ್ರುಪದ ಇಲ್ಲಿವೆ.", "explanation": "Enumeration of Pandava heroes and commanders.", "categories": ["armies", "warriors"]},
+        {"verse_number": "1.5", "sanskrit": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान् ।\nपुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुङ्गवः", "english": "Dhrishtaketu, Chekitana, and the valiant king of Kashi, Purujit and Kuntibhoja and Saibya, the best of men.", "hindi": "धृष्टकेतु, चेकितान, काशी के वीर राजा, पुरुजित, कुंतिभोज और शैब्य, ये सभी मनुष्यों में श्रेष्ठ हैं।", "kannada": "ಧೃಷ್ಟಕೇತು, ಚೇಕಿತಾನ, ಕಾಶಿರಾಜ, ಪುರುಜಿತ್, ಕುಂತಿಭೋಜ ಮತ್ತು ಶೈಬ್ಯ - ಇವರು ಪುರುಷರಲ್ಲಿ ಶ್ರೇಷ್ಠರು.", "explanation": "More Pandava allies listed by Duryodhana.", "categories": ["armies"]},
+        {"verse_number": "1.6", "sanskrit": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान् ।\nसौभद्रो द्रौपदेयाश्च सर्व एव महारथाः", "english": "The strong Yudhamanyu and the brave Uttamaujas, the son of Subhadra and the sons of Draupadi, all of them, divisional commanders.", "hindi": "शक्तिशाली युधामन्यु, वीर उत्तमौजस्, सुभद्रा का पुत्र और द्रौपदी के पुत्र - ये सभी महान रथवाहक हैं।", "kannada": "ಶಕ್ತಿಶಾಲಿ ಯುಧಾಮನ್ಯು, ವೀರ ಉತ್ತಮೌಜಸ್, ಸುಭದ್ರೆಯ ಪುತ್ರ ಮತ್ತು ದ್ರೌಪದಿಯ ಪುತ್ರರು - ಇವರೆಲ್ಲರು ಮಹಾರಥಿಗಳು.", "explanation": "More Pandava commanders and warriors.", "categories": ["armies", "warriors"]},
+        {"verse_number": "1.7", "sanskrit": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम ।\nनायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते", "english": "Know also, O best among the twice-born, the names of those who are the most distinguished amongst ourselves, the leaders of my army; these I name to thee for thy information.", "hindi": "हे द्विजोत्तम! हमारी सेना के मुख्य सेनापतियों के नाम जान; मैं तुम्हारी जानकारी के लिए उन्हें नाम से कहता हूँ।", "kannada": "ಹೇ ದ್ವಿಜೋತ್ತಮ! ನಮ್ಮ ಸೈನ್ಯದ ಮುಖ್ಯ ಸೇನಾಪತಿಗಳನ್ನು ತಿಳಿಯಿರಿ; ನಿಮ್ಮ ಮಾಹಿತಿಗಾಗಿ ನಾನು ಅವರನ್ನು ಹೆಸರಿಸುತ್ತಿದ್ದೇನೆ.", "explanation": "Duryodhana introduces the Kaurava commanders.", "categories": ["armies"]},
+        {"verse_number": "1.8", "sanskrit": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः ।\nअश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च", "english": "Yourself and Bishma, and Karna and also Kripa, the victorious in war; Aswatthama, Vikarna and so also the son of Somadatta.", "hindi": "आप, भीष्म, कर्ण, कृप - ये युद्ध में विजयी हैं; अश्वत्थामा, विकर्ण और सौमदत्ति के पुत्र भी।", "kannada": "ನೀವು, ಭೀಷ್ಮ, ಕರ್ಣ, ಕೃಪ - ಯುದ್ಧದಲ್ಲಿ ವಿಜಯಿಗಳು; ಅಶ್ವತ್ಥಾಮ, ವಿಕರ್ಣ ಮತ್ತು ಸೌಮದತ್ತಿಯ ಪುತ್ರವೂ.", "explanation": "Chief commanders of the Kauravas listed.", "categories": ["armies", "commanders"]},
+        {"verse_number": "1.9", "sanskrit": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः ।\nनानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः", "english": "And many other heroes also who are determined to give up their lives for my sake, armed with various weapons and missiles, all well-skilled in battle.", "hindi": "और भी कई वीर हैं जो मेरे लिए जीवन देने को तैयार हैं, विभिन्न हथियार धारण किए हुए, सभी युद्ध में कुशल हैं।", "kannada": "ಮತ್ತು ನನ್ನ ಸಕೆ ಜೀವನ ಅರ್ಪಿಸಲು ಸಿದ್ಧವಾದ ಇತರ ಅನೇಕ ವೀರರು, ವಿವಿಧ ಶಸ್ತ್ರಾಸ್ತ್ರಗಳು ಹೊಂದುಕೊಂಡು, ಯುದ್ಧದಲ್ಲಿ ನುಪುಣ್ಯರು.", "explanation": "Many more warriors on Duryodhana's side devoted to his cause.", "categories": ["armies", "determination"]},
+        {"verse_number": "1.10", "sanskrit": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम् ।\nपर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम्", "english": "This army of ours defended by Bhishma is insufficient, whereas that army of theirs defended by Bhima is sufficient.", "hindi": "भीष्म से संरक्षित हमारी सेना अपर्याप्त है, जबकि भीम से संरक्षित उनकी सेना पर्याप्त है।", "kannada": "ಭೀಷ್ಮದಿಂದ ರಕ್ಷಿತ ನಮ್ಮ ಸೈನ್ಯ ಅಸಾಕ್ಷ್ಯವಾಗಿದೆ, ಜೊತೆ ಭೀಮದಿಂದ ರಕ್ಷಿತ ಅವರ ಸೈನ್ಯ ಸಾಕ್ಷ್ಯವಾಗಿದೆ.", "explanation": "Duryodhana's anxieties about the relative strengths of the armies.", "categories": ["doubt", "fear", "comparison"]},
+        {"verse_number": "1.11", "sanskrit": "अयनेषु च सर्वेषु यथाभागमवस्थिताः ।\nभीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि", "english": "Therefore do you all, stationed in your respective positions in the several divisions of the army, protect Bhishma alone.", "hindi": "इसलिए आप सभी अपनी-अपनी स्थितियों में रहकर केवल भीष्म की रक्षा करें।", "kannada": "ಆದ್ದರಿಂದ ನೀವೆಲ್ಲರು ನಿಮ್ಮ-ಹಿಮ್ಮೆಯ ಸ್ಥಾನಗಳಿಂದ ಭೀಷ್ಮನನ್ನೆ ರಕ್ಷಿಸಿರಿ.", "explanation": "Duryodhana instructs all commanders to protect Bhishma.", "categories": ["command", "strategy"]},
+        {"verse_number": "1.12", "sanskrit": "तस्य सञ्जनयन्हर्षं कुरुवृद्धः पितामहः ।\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान्", "english": "His glorious grandsire (Bhishma), the oldest of the Kauravas, in order to cheer Duryodhana, now sounded aloud a lion's roar and blew his conch.", "hindi": "उसके गौरवशाली पितामह भीष्म, कौरवों में सबसे बुजुर्ग, दुर्योधन को खुश करने के लिए सिंह गर्जना करते हुए अपनी शंख बजाई।", "kannada": "ಅವನ ಗೌರವಶಾಲಿ ಪಿತಾಮಹ ಭೀಷ್ಮ, ಕೌರವರಲ್ಲಿ ಸರ್ವ ವಯಸ್ಕ, ದುರ್ಯೋಧನನನ್ನು ಆನಂದಿಸಲು ಸಿಂಹ ಗರ್ಜನೆ ಮಾಡಿ ಶಂಖವನ್ನು ನುಡಿಸಿದರು.", "explanation": "Bhishma blows his conch to boost morale and announce the start of battle.", "categories": ["battle-beginning", "action"]},
+        {"verse_number": "1.13", "sanskrit": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः ।\nसहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत्", "english": "Then (following Bhishma), conches and kettle-drums, tabors, drums and cow-horns blared forth quite suddenly and the sound was tremendous.", "hindi": "फिर शंख, ड्रम, तबल, ढोल और सींगें एक साथ बजने लगे और शोर बहुत तेज हो गया।", "kannada": "ನಂತರ ಶಂಖ, ಡ್ರಮ್‌ಗಳು, ತಾಲಿಗಳು, ಡ್ರಮ್‌ಗಳು ಮತ್ತು ಕೋ-ಸೀಂಗುಗಳು ಏಕಕಾಲದಲ್ಲಿ ಬಾರಿಸಿದವು ಮತ್ತು ಶಬ್ದ ಬಹಳ ತೀವ್ರವಾಯಿತು.", "explanation": "All the musical instruments of war are sounded creating a tumultuous noise.", "categories": ["battle-beginning", "action"]},
+        {"verse_number": "1.14", "sanskrit": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ ।\nमाधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः", "english": "Then, also Madhava and the son of Pandu, seated in their magnificent chariot yoked with white horses, blew their divine conches.", "hindi": "फिर माधव और पांडु के पुत्र, अपने शानदार रथ में बैठे जिसमें सफेद घोड़े जुते थे, अपनी दिव्य शंखें बजाई।", "kannada": "ನಂತರ ಮಾಧವ ಮತ್ತು ಪಾಂಡು ಪುತ್ರ, ತಮ್ಮ ಭವ್ಯ ರಥದಲ್ಲಿ ಕೂತು ಬಿಳಿ ಕುದುರೆಗಳಿಂದ ಹಿಂಡಿದ, ತಮ್ಮ ದೈವಿಕ ಶಂಖಗಳನ್ನು ನುಡಿಸಿದರು.", "explanation": "Krishna and Arjuna sound their conches from their magnificent chariot.", "categories": ["battle-beginning", "action"]},
+        {"verse_number": "1.15", "sanskrit": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जयः ।\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः", "english": "Hrishikesha blew the Panchajanya and Dhananjaya (Arjuna) blew the Devadatta and Vrikodara (Bhima), the doer of terrible deeds, blew the great conch, named Paundra.", "hindi": "हृषीकेश ने पांचजन्य बजाया और धनञ्जय (अर्जुन) ने देवदत्त बजाया और वृकोदर (भीम), भयानक कार्यों के करने वाले, ने महान शंख पौंड्र को बजाया।", "kannada": "ಹೃಷೀಕೇಶ ಪಾಂಚಜನ್ಯವನ್ನು ನುಡಿಸಿದರು ಮತ್ತು ಧನಂಜಯ (ಅರ್ಜುನ) ದೇವದತ್ತವನ್ನು ನುಡಿಸಿದರು ಮತ್ತು ವೃಕೋದರ (ಭೀಮ), ಭಯಾನಕ ಕ್ರಿಯೆಗಳನ್ನು ಮಾಡುವವನು, ಮಹಾನ ಶಂಖ ಪೌಂಡ್ರವನ್ನು ನುಡಿಸಿದರು.", "explanation": "Krishna, Arjuna and Bhima sound their named conches.", "categories": ["battle-beginning", "pandavas"]},
+        {"verse_number": "1.16", "sanskrit": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः ।\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ", "english": "King Yudhisthira, the son of Kunti, blew the Anantavijaya; Nakula and Sahadeva blew the Sughosha and the Manipushpaka.", "hindi": "राजा युधिष्ठिर, कुंती के पुत्र, ने अनंत विजय बजाया; नकुल और सहदेव ने सुघोष और मणिपुष्पक बजाए।", "kannada": "ರಾಜ ಯುಧಿಷ್ಠಿರ, ಕುಂತಿ ಪುತ್ರ, ಅನಂತವಿಜಯವನ್ನು ನುಡಿಸಿದರು; ನಕುಲ ಮತ್ತು ಸಹದೇವ ಸುಘೋಷ ಮತ್ತು ಮಣಿಪುಷ್ಪಕವನ್ನು ನುಡಿಸಿದರು.", "explanation": "The Pandava princes sound their respective conches.", "categories": ["pandavas", "battle-beginning"]},
+        {"verse_number": "1.17", "sanskrit": "काश्यश्च परमेष्वासः शिखण्डी च महारथः ।\nधृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः", "english": "The king of Kashi, an excellent archer, Shikhandi, the mighty commander of eleven thousand archers, Dhristadyumna and Virata and Satyaki, the unconquered;", "hindi": "काशी के राजा, उत्तम धनुर्धर, शिखंडी, ग्यारह हजार धनुर्धरों के महान सेनागणक धृष्टद्युम्न, विराट और सात्यकि, अपराजेय।", "kannada": "ಕಾಶಿ ರಾಜ, ಉದ್ತಮ ಧನುರ್ಧರ, ಶಿಖಂಡಿ, ಹದಿನೊಂದು ಸಾವಿರ ಧನುರ್ಧರರ ಮಹಾನ ಸೈನ್ಯಪತಿ ಧೃಷ್ಟದ್ಯುಮ್ನ, ವಿರಾಟ ಮತ್ತು ಸಾತ್ಯಕಿ, ಅಪರಾಜೇಯ.", "explanation": "More Pandava commanders sound their conches.", "categories": ["pandavas", "commanders"]},
+        {"verse_number": "1.18", "sanskrit": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते ।\nसौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक्", "english": "Drupada and the sons of Draupadi, O Lord of the Earth, and the son of Subhadra, the mighty armed, blew their respective conches.", "hindi": "द्रुपद और द्रौपदी के पुत्र, हे पृथ्वी के स्वामी, और सुभद्रा के पुत्र, महान भुजाओं वाले, ने अपनी-अपनी शंखें बजाईं।", "kannada": "ದ್ರುಪದ ಮತ್ತು ದ್ರೌಪದಿಯ ಪುತ್ರರು, ಹೇ ಭೂಮಿಯ ಸ್ವಾಮಿ, ಮತ್ತು ಸುಭದ್ರೆಯ ಪುತ್ರ, ಮಹಾನ ಶಸ್ತ್ರಿ, ತಮ್ಮ ಶಂಖಗಳನ್ನು ನುಡಿಸಿದರು.", "explanation": "More Pandava warriors sound their conches.", "categories": ["pandavas", "battle-beginning"]},
+        {"verse_number": "1.19", "sanskrit": "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत् ।\nनभश्च पृथिवीं चैव तुमुलोऽभ्यनुनादयन्", "english": "That tumultuous sound rent the hearts of (the people of) Dhritarashtra's party and made both heaven and earth reverberate.", "hindi": "वह शोर धृतराष्ट्र के पक्ष के लोगों के दिलों को फाड़ डाला और आकाश और पृथ्वी दोनों में गूंज उत्पन्न की।", "kannada": "ಆ ಶೋರ್ಯವು ಧೃತರಾಷ್ಟ್ರ ಪಕ್ಷದ ಜನರ ಹೃದಯವನ್ನು ಭೇದಿಸಿತು ಮತ್ತು ಆಕಾಶ ಮತ್ತು ಭೂಮಿ ಎರಡರಲ್ಲೂ ಅನುರಣನ ಸೃಷ್ಟಿಸಿತು.", "explanation": "The tremendous sound of the conches terrifies the Kauravas.", "categories": ["action", "tension"]},
+        {"verse_number": "1.20", "sanskrit": "अथ व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान् कपिध्वजः ।\nप्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डवः ।\nहृषीकेशं तदा वाक्यमिदमाह महीपते", "english": "Then, seeing the people of Dhritarashtra's party standing arrayed and the discharge of weapons about to begin, Arjuna, the son of Pandu, whose ensign was a monkey, took up his bow and said these words to Krishna (Hrishikesha) , O Lord of the Earth!", "hindi": "फिर, धृतराष्ट्र के लोगों को सज्जित देखकर और हथियारों के बारी बारी से छोड़े जाने की तैयारी में, पांडु के पुत्र अर्जुन, जिनका झंडा बंदर का था, ने अपना धनुष उठाया और कृष्ण से ये शब्द कहे।", "kannada": "ನಂತರ, ಧೃತರಾಷ್ಟ್ರ ಪಕ್ಷದ ಜನರನ್ನು ಸಜ್ಜಿತವಾಗಿ ನೋಡಿ ಮತ್ತು ಶಸ್ತ್ರಗಳ ಪ್ರಸರಣ ಪ್ರಾರಂಭವಾಗುತ್ತಿರಿ, ಪಾಂಡುವಿನ ಪುತ್ರ ಅರ್ಜುನ, ಯಾರ ಝಂಡೆ ಕೋತಿಯ, ತನ್ನ ಧನುಷ್ಯವನ್ನು ಆತ್ಮಿಕವನ್ನು ತೆಗೆದು ತನ್ನ ಶಬ್ದಗಳನ್ನು ಕೃಷ್ಣನಿಗೆ ಹೇಳಿದನು.", "explanation": "Arjuna asks Krishna to position the chariot for observing the armies.", "categories": ["arjuna-confusion", "doubt"]},
+        {"verse_number": "1.21", "sanskrit": "अर्जुन उवाच ।\nसेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत", "english": "Arjuna said: In the midst of the two armies, place my chariot, O Achyuta, that I may behold those who stand here desirous of fighting and, on the eve of this battle, let me know with whom I must fight.", "hindi": "अर्जुन बोले: दोनों सेनाओं के बीच में मेरा रथ रखो, हे अच्युत, ताकि मैं उन लोगों को देख सकूँ जो यहाँ लड़ने के लिए उत्सुक हैं।", "kannada": "ಅರ್ಜುನನು ಹೇಳಿದನು: ಎರಡು ಸೈನ್ಯದ ಮಧ್ಯದಲ್ಲಿ ನನ್ನ ರಥವನ್ನು ಇರಿಸು, ಹೇ ಅಚ್ಯುತ, ನಾನು ಇಲ್ಲಿರುವ ತೆರೆದ ಮಾತನಾಡುವವರನ್ನು ನೋಡಬಹುದೆಂದು.", "explanation": "Arjuna requests Krishna to position the chariot between the armies.", "categories": ["arjuna-confusion", "request"]},
+        {"verse_number": "1.22", "sanskrit": "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान् ।\nकैर्मया सह योद्धव्यमस्मिन् रणसमुद्यमे", "english": "That I may behold those who are assembled here for the fight, wishing to please the evil-minded  Duryodhana; with whom shall I engage in this battle.", "hindi": "ताकि मैं उन सभी को देख सकूँ जो यहाँ लड़ने के लिए सकारा हैं; इस युद्ध में मैं किनसे युद्ध करूँगा।", "kannada": "ನಾನು ಯುದ್ಧದ ಸಿದ್ಧತೆಯಲ್ಲಿರುವ ಜನರನ್ನು ನೋಡಿದರೆ ಉತ್ತಮ; ಈ ಯುದ್ಧದಲ್ಲಿ ನಾನು ಯಾರೊಂದಿಗೆ ಯುದ್ಧ ಮಾಡುವುದು.", "explanation": "Arjuna's desire to survey the armies before battle.", "categories": ["arjuna-confusion", "observation"]},
+        {"verse_number": "1.23", "sanskrit": "योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः ।\nधार्तराष्ट्रस्य दुर्बुद्धेर्युद्धे प्रियचिकीर्षवः", "english": "For I desire to observe those who are assembled here for the fight, wishing to please in battle, the evil-minded sons of Dhritarashtra.", "hindi": "क्योंकि मैं उन लोगों को देखना चाहता हूँ जो यहाँ लड़ने के लिए इकट्ठा हुए हैं, धृतराष्ट्र के दुष्ट पुत्रों को युद्ध में खुश करने के लिए।", "kannada": "ಏಕೆಂದರೆ ನಾನು ಇಲ್ಲಿ ಯುದ್ಧದ ಸಿದ್ಧತೆಯಲ್ಲಿರುವ ಜನರನ್ನು ನೋಡಲು ಬಯಸುತ್ತೇನೆ, ಧೃತರಾಷ್ಟ್ರ ಪುತ್ರರ ದುರ್ಬುದ್ಧಿಯನ್ನು ಯುದ್ಧದಲ್ಲಿ ತೃಪ್ತಿ ಮಾಡಲು.", "explanation": "Arjuna wants to see those fighting to please Duryodhana.", "categories": ["arjuna-observation", "doubt"]},
+        {"verse_number": "1.24", "sanskrit": "सञ्जय उवाच ।\nएवमुक्तो हृषीकेशो गुडाकेशेन भारत ।\nसेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्", "english": "Sanjaya said: Thus addressed by Gudakesha, O Bharata, Hrishikesha, having stationed the best of chariots between the two armies;", "hindi": "संजय बोले: इस तरह गुडाकेश द्वारा संबोधित होकर, हे भारत, हृषीकेश ने दोनों सेनाओं के बीच में सबसे अच्छा रथ खड़ा किया।", "kannada": "ಸಂಜಯ ಹೇಳಿದರು: ಗುಡಾಕೇಶ ಹೀಗೆ ಮಾತನಾಡಿದಾಗ, ಹೇ ಭಾರತ, ಹೃಷೀಕೇಶ ಎರಡು ಸೈನ್ಯದ ಮಧ್ಯದಲ್ಲಿ ಅತ್ಯುತ್ತಮ ರಥವನ್ನು ನಿಲ್ಲಿಸಿದನು.", "explanation": "Sanjaya narrates Krishna's action in positioning the chariot.", "categories": ["action", "narrative"]},
+        {"verse_number": "1.25", "sanskrit": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम् ।\nउवाच पार्थ पश्यैतान् समवेतान्कुरूनिति", "english": "In front of Bhishma and Drona, and all the rulers of the earth, he said, O Partha, behold these Kurus gathered together.", "hindi": "भीष्म, द्रोण और पृथ्वी के सभी राजाओं के सामने, उसने कहा, हे पार्थ, इन कुरुओं को देखो जो एकत्र हुए हैं।", "kannada": "ಭೀಷ್ಮ, ದ್ರೋಣ ಮತ್ತು ಭೂಮಿಯ ಎಲ್ಲ ರಾಜಕುಮಾರರ ಮುಂದೆ, ಅವನು ಹೇಳಿದನು, ಹೇ ಪಾರ್ಥ, ಇಲ್ಲಿರುವ ಕುರುವನ್ನು ನೋಡಿ.", "explanation": "Krishna asks Arjuna to see the assembled Kurus.", "categories": ["action", "observation"]},
+        {"verse_number": "1.26", "sanskrit": "तत्रापश्यत्स्थितान्पार्थः पितॄनथ पितामहान् ।\nआचार्यान्मातुलान्भ्रातॄन् पुत्रान्पौत्रान्सखींस्तथा", "english": "Then Partha saw stationed there in both the armies, fathers, grandfathers, teachers, maternal uncles, brothers, sons, grandsons and friends too.", "hindi": "तब पार्थ ने दोनों सेनाओं में खड़े हुए पिता, दादा, गुरु, मामा, भाई, पुत्र, पोते और मित्रों को देखा।", "kannada": "ನಂತರ ಪಾರ್ಥ ಎರಡೂ ಸೈನ್ಯದಲ್ಲಿ ನಿಂತಿರುವ ತಂದೆಯನ್ನು, ಡದ್ದಯನ್ನು, ಗುರುವನ್ನು, ಚಿಕ್ಕತ್ತೆಯನ್ನು, ಸಹೋದರುಗಳನ್ನು, ಪುತ್ರರನ್ನು, ಮೊಮ್ಮೆಗಳನ್ನು ಮತ್ತು ಸ್ನೇಹಿತರನ್ನು ನೋಡಿದರು.", "explanation": "Arjuna recognizes family members on both sides.", "categories": ["arjuna-observation", "family"]},
+        {"verse_number": "1.27", "sanskrit": "श्वशुरान्सुहृदश्चैव सेनयोरुभयोरपि ।\nतान्समीक्ष्य स कौन्तेयः सर्वान्बन्धूनवस्थितान् ।\nकृपया परयाविष्टो विषीदन्निदमब्रवीत्", "english": "(He saw) Fathers-in-law and friends also in both the armies. Then the son of Kunti, seeing all these kinsmen thus standing arrayed, spoke thus sorrowfully, filled with deep pity.", "hindi": "ससुर और मित्र भी दोनों सेनाओं में थे। तब कुंती पुत्र, अपने सभी रिश्तेदारों को सज्जित देख गहरी दया से भरा हुआ, दुःख से बोला।", "kannada": "ಸ್ಯಾಲಿ ಮತ್ತು ಸ್ನೇಹಿತರೂ ಎರಡೂ ಸೈನ್ಯದಲ್ಲಿದ್ದರು. ನಂತರ ಕುಂತಿ ಪುತ್ರ, ತನ್ನ ಎಲ್ಲಾ ಸಂಬಂಧಿತರನ್ನು ಸಜ್ಜಿತವಾಗಿ ನೋಡಿ ಆಳವಾದ ದಯೆಯಿಂದ ತುಂಬಿ ದುಃಖದಿಂದ ಹೇಳಿದ.", "explanation": "Arjuna is moved to sorrow seeing all his relatives arrayed for battle.", "categories": ["arjuna-emotion", "despair"]},
+        {"verse_number": "1.28", "sanskrit": "अर्जुन उवाच ।\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्", "english": "Arjuna said: Seeing these my kinsmen, O Krishna, arrayed, eager to fight,", "hindi": "अर्जुन बोले: हे कृष्ण, अपने रिश्तेदारों को लड़ने के लिए उत्सुक देखकर,", "kannada": "ಅರ್ಜುನನು ಹೇಳಿದನು: ಹೇ ಕೃಷ್ಣ, ನನ್ನ ಸಂಬಂಧಿತರನ್ನು ಯುದ್ಧದ ಸಿದ್ಧತೆಯಲ್ಲಿ ನೋಡಿ,", "explanation": "Arjuna begins to express his profound sorrow.", "categories": ["arjuna-emotion", "despair"]},
+        {"verse_number": "1.29", "sanskrit": "सीदन्ति मम गात्राणि मुखं च परिशुष्यति ।\nवेपथुश्च शरीरे मे रोमहर्षश्च जायते", "english": "My limbs fail and my mouth is parched, my body quivers and my hair stands on end.", "hindi": "मेरे अंग शिथिल हो गए, मुँह सूख गया, शरीर कांपने लगा और रोंगटे खड़े हो गए।", "kannada": "ನನ್ನ ಅಂಗಗಳು ಅಸಮರ್ಥವಾದವು, ನನ್ನ ಬುಡುಕೆ ಒಣಗಿದೆ, ನನ್ನ ಶರೀರ ನಡುಣಾಡುತ್ತಿದೆ ಮತ್ತು ರೋಮವು ಎದ್ದುನಿಂತಿದೆ.", "explanation": "Arjuna's physical symptoms of emotional distress.", "categories": ["arjuna-emotion", "despair", "confusion"]},
+        {"verse_number": "1.30", "sanskrit": "गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते ।\nन च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः", "english": "The Gandiva-bow slips from my hand, and my skin burns all over; I am also unable to stand and my mind is whirling round, as it were.", "hindi": "गांडीव धनुष मेरे हाथ से फिसल रहा है, मेरी त्वचा जल रही है; मैं खड़ा नहीं हो सकता और मेरा मन घूम रहा है।", "kannada": "ಗಾಂಡೀವ ಧನುವು ನನ್ನ ಕೈಯಿಂದ ಜಾರಿಬೀಳುತ್ತಿದೆ, ನನ್ನ ಚರ್ಮವು ಸರ್ವತ್ರ ಸುಡುತ್ತಿದೆ; ನಾನು ನಿಲ್ಲಲು ಸಾಧ್ಯವಿಲ್ಲ ಮತ್ತು ನನ್ನ ಮನವು ಘೂರುತ್ತಿದೆ.", "explanation": "Arjuna's continuing emotional collapse manifested physically.", "categories": ["arjuna-emotion", "despair", "confusion"]},
+        {"verse_number": "1.31", "sanskrit": "निमित्तानि च पश्यामि विपरीतानि केशव ।\nन च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे", "english": "And I see adverse omens, O Keshava. Nor do I see any good in killing my kinsmen in battle.", "hindi": "और मैं बुरे संकेत देखता हूँ, हे केशव। मुझे अपने रिश्तेदारों को युद्ध में मारने में कोई भलाई नहीं दिख रही।", "kannada": "ಮತ್ತು ನಾನು ಅನುಕೂಲವಲ್ಲದ ಸಂಕೇತಗಳನ್ನು ನೋಡುತ್ತೇನೆ, ಹೇ ಕೇಶವ. ನನ್ನ ಸಂಬಂಧಿತರನ್ನು ಯುದ್ಧದಲ್ಲಿ ಕೊಲ್ಲುವುದರಲ್ಲಿ ಯಾವುದೇ ಒಳ್ಳೆತನ ನೋಡುವುದಿಲ್ಲ.", "explanation": "Arjuna sees no purpose or morality in the battle.", "categories": ["arjuna-confusion", "doubt", "despair"]},
+        {"verse_number": "1.32", "sanskrit": "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च ।\nकिं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा", "english": "For, I desire not victory, O Krishna, nor kingdom, nor pleasures. Of what avail is dominion to us, O Govinda? Of what avail are pleasures or even life itself?", "hindi": "क्योंकि, हे कृष्ण, मैं न विजय चाहता हूँ, न राज्य, न सुख। हे गोविंद, हमें राज्य से क्या लाभ? सुखों या जीवन से ही क्या लाभ?", "kannada": "ಏಕೆಂದರೆ, ಹೇ ಕೃಷ್ಣ, ನಾನು ವಿಜಯವನ್ನು ಬಯಸುವುದಿಲ್ಲ, ತಾಂತ್ರಿಕತೆಯೂ ಅಲ್ಲ, ಸುಖವೂ ಅಲ್ಲ. ಹೇ ಗೋವಿಂದ, ವಾಸ್ತವ್ರಷ್ಟವಿಂದ ನಮಗೆ ಅದೃಶ್ಯ? ಸುಖಗಳಿಂದ ಅಥವಾ ಜೀವನದಿಂದಲೂ ಸಮರ್ಥ?", "explanation": "Arjuna rejects all worldly motivations for the battle.", "categories": ["arjuna-confusion", "despair", "questioningpurpose"]},
+        {"verse_number": "1.33", "sanskrit": "येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च ।\nत इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च", "english": "They for whose sake we desire kingdom, enjoyment and pleasures stand here in battle, having renounced life and wealth.", "hindi": "जिनके लिए हम राज्य, भोग और सुख चाहते हैं, वे ही यहाँ जीवन और धन त्यागकर युद्ध के लिए खड़े हैं।", "kannada": "ಯಾರ ಸಕೆ ನಾವು ರಾಜ್ಯ, ಭೋಗ ಮತ್ತು ಸುಖವನ್ನು ಬಯಸುತ್ತೇವೆ, ಅವರೇ ಜೀವನ ಮತ್ತು ಸಂಪತ್ತನ್ನು ತ್ಯಾಗ ಮಾಡಿ ಯುದ್ಧವನ್ನು ನೋಡುತ್ತಿದ್ದಾರೆ.", "explanation": "The paradox of those for whom the desires exist are now ready to die.", "categories": ["arjuna-confusion", "despair"]},
+        {"verse_number": "1.34", "sanskrit": "आचार्याः पितरः पुत्रास्तथैव च पितामहाः ।\nमातुलाः श्वशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा", "english": "Teachers, fathers, sons and also grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law and other relatives.", "hindi": "शिक्षक, पिता, पुत्र, दादा, मामा, ससुर, पोते, जेठ-साले और अन्य रिश्तेदार।", "kannada": "ಗುರುಗಳು, ತಂದೆಯರು, ಪುತ್ರರು, ಡದ್ದಯರು, ಚಿಕ್ಕತ್ತೆಗಳು, ಸ್ಯಾಲಿಗಳು, ಮೊಮ್ಮೆಗಳು, ಸೋದರ ಸೀಸೆಗಳು ಮತ್ತು ಇತರ ಸಂಬಂಧಿತರು.", "explanation": "Enumeration of all family relationships present in the battle.", "categories": ["family", "arjuna-confusion"]},
+        {"verse_number": "1.35", "sanskrit": "एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन ।\nअपि त्रैलोक्यराज्यस्य हेतोः किं नु महीकृते", "english": "These I do not wish to kill, though they kill me, O Madhusudana, even for the sake of dominion over the three worlds; how much less for the sake of the earth.", "hindi": "हे मधुसूदन, मैं इन्हें नहीं मारना चाहता, भले ही वे मुझे मारें, तीनों लोकों के राज्य के लिए भी नहीं; तो पृथ्वी के लिए और भी कम।", "kannada": "ಹೇ ಮಧುಸೂದನ, ಅವರು ನನ್ನನ್ನು ಕೊಲ್ಲಿದರೂ ನಾನು ಅವರನ್ನು ಕೊಲ್ಲಲು ಬಯಸಿಲ್ಲ, ತಿರುಕೋಕುಲ್ ರಾಜ್ಯಗಳ ಸಕೆ ನೂಕಲೂ ಪೃಥ್ವಿಗೆ.","explanation": "Arjuna's absolute refusal to kill his relatives.", "categories": ["arjuna-refusal", "despair"]},
+        {"verse_number": "1.36", "sanskrit": "निहत्य धार्तराष्ट्रान्नः का प्रीतिः स्याज्जनार्दन ।\nपापमेवाश्रयेदस्मान् हत्वैतानाततायिनः", "english": "Killing these sons of Dhritarashtra, what pleasure can be ours, O Janardana? Sin alone will be our gain by killing these felons.", "hindi": "धृतराष्ट्र के पुत्रों को मारकर, हे जनार्दन, हमें क्या सुख मिलेगा? इन दुष्टों को मारने से हमें केवल पाप ही मिलेगा।", "kannada": "ಧೃತರಾಷ್ಟ್ರ ಪುತ್ರರನ್ನು ಕೊಂದ ನಮಗೆ ಸುಖ ಮಿಳಿಯುವುದು? ಹೇ ಜನಾರ್ದನ. ಈ ದುರ್ಜನರನ್ನು ಕೊಂದ ಪಾಪವೇ ನಮಗೆ ಪ್ರಾಪ್ತಿಯಾಗುತ್ತದೆ.", "explanation": "Killing relatives brings not happiness but sin.", "categories": ["arjuna-refusal", "morality"]},
+        {"verse_number": "1.37", "sanskrit": "तस्मान्नार्हा वयं हन्तुं धार्तराष्ट्रान्स्वबान्धवान् ।\nस्वजनं हि कथं हत्वा सुखिनः स्याम माधव", "english": "Therefore we shall not kill the sons of Dhritarashtra, our relatives; for how can we be happy by killing our own people, O Madhava?", "hindi": "इसलिए हम धृतराष्ट्र के पुत्रों, अपने रिश्तेदारों को नहीं मार सकते; क्योंकि अपने ही लोगों को मारकर कैसे सुखी हो सकते हैं, हे माधव?", "kannada": "ಆದ್ದರಿಂದ ನಾವು ಧೃತರಾಷ್ಟ್ರ ಪುತ್ರರನ್ನು, ನಮ್ಮ ಸಂಬಂಧಿತರನ್ನು ಕೊಲ್ಲಲು ಅರ್ಹರಲ್ಲ; ಏಕೆಂದರೆ ನಮ್ಮ ಸ್ವಜನರನ್ನು ಕೊಂದ ನಾವು ಸುಖಿ ಆಗಿರುವುದು? ಹೇ ಮಾಧವ?", "explanation": "Arjuna's conclusion that killing relatives is fundamentally wrong.", "categories": ["arjuna-refusal", "morality"]},
+        {"verse_number": "1.38", "sanskrit": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः ।\nकुलक्षयकृतं दोषं मित्रद्रोहे च पातकम्", "english": "Though these, with their intelligence clouded by greed, see no evil in the destruction of the families in the society, and no sin in their cruelty to friends;", "hindi": "यद्यपि ये लोभ से मोहित हुए इस परिवार के विनाश में कोई बुराई नहीं देखते, मित्रों के साथ विश्वासघात में कोई पाप नहीं देखते;", "kannada": "ಯದ್ಯಪಿ ಈ ಲೋಭದಿಂದ ಆನೀತ ಮನಸ್ಸುಗಳು ಕುಲ ವಿನಾಶದಲ್ಲಿ ಕೋನೆ ದೋಷ ನೋಡುವುದಿಲ್ಲ, ಮಿತ್ರ ದ್ರೋಹದಲ್ಲಿ ಕೋನೆ ಪಾಪ ನೋಡುವುದಿಲ್ಲ;", "explanation": "The Kauravas' moral blindness due to greed.", "categories": ["morality", "contrast"]},
+        {"verse_number": "1.39", "sanskrit": "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम् ।\nकुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन", "english": "Why should not we, who clearly see evil in the destruction of the family-units, learn to turn away from this sin, O Janardana?", "hindi": "परिवार के विनाश में बुराई स्पष्ट देखने वाले हमें इस पाप से दूर रहना क्यों नहीं चाहिए, हे जनार्दन?", "kannada": "ಕುಲ ವಿನಾಶದಲ್ಲಿ ದೋಷ ಸ್ಪಷ್ಟವಾಗಿ ನೋಡುವ ನಾವು ಈ ಪಾಪದಿಂದ ತೆರೆಯಾಗುವುದು ಯಾಕಿಲ್ಲ, ಹೇ ಜನಾರ್ದನ?", "explanation": "Arjuna contrasts the Kauravas' blindness with their own moral clarity.", "categories": ["morality", "awareness"]},
+        {"verse_number": "1.40", "sanskrit": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः ।\nधर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत", "english": "In the destruction of a family, the immemorial religious rites of that family perish; on the destruction of spirituality, impiety overcomes the whole family.", "hindi": "परिवार के विनाश में उस परिवार के प्राचीन धर्मोपदेश नष्ट हो जाते हैं; धर्म के नाश पर अधर्म पूरे परिवार को अपने अधीन कर लेता है।", "kannada": "ಕುಲ ವಿನಾಶದಲ್ಲಿ ಆ ಕುಲದ ದೀರ್ಘ ಧರ್ಮೋಪದೇಶಗಳು ನಷ್ಟವಾಗುತ್ತವೆ; ಧರ್ಮ ನಷ್ಟದಲ್ಲಿ ಅಧರ್ಮವು ಪೂರೆ ಕುಲವನ್ನು ಬಿದ್ದುಕೋಳ್ಳುತ್ತದೆ.", "explanation": "The philosophical consequences of family destruction.", "categories": ["morality", "dharma"]},
+        {"verse_number": "1.41", "sanskrit": "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः ।\nस्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः", "english": "By the prevalence of impiety, O Krishna, the women of the family become corrupt; and women being corrupted, O descendent of the Vrishni-clan, there arises intermingling of castes (VARNA-SAMKARA) .", "hindi": "अधर्म की प्रबलता से, हे कृष्ण, परिवार की नारियाँ दूषित हो जाती हैं; और नारियाँ दूषित होने पर, हे वृष्णि वंशज, जाति का संमिश्रण बढ़ता है।", "kannada": "ಅಧರ್ಮದ ಪ್ರವುದ್ಧತೆಯಿಂದ, ಹೇ ಕೃಷ್ಣ, ಕುಲದ ಸ್ತ್ರೀಯರು ದೂಷಿತವಾಗುತ್ತಾರೆ; ಮತ್ತು ಸ್ತ್ರೀಯರು ದೂಷಿತವಾಗಿದ್ದಾಗ, ಹೇ ವೃಷ್ಣಿ ವಂಶ, ಜಾತಿ ಮಿಶ್ರಣ ಉಂಟಾಗುತ್ತದೆ.", "explanation": "The moral and social decay resulting from family destruction.", "categories": ["morality", "social-order"]},
+        {"verse_number": "1.42", "sanskrit": "सङ्करो नरकायैव कुलघ्नानां कुलस्य च ।\nपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः", "english": "Confusion of castes leads the slayer of the family to hell; for their forefathers fall, deprived of the offerings of PINDA (rice-ball) and water (libations) .", "hindi": "जाति का संमिश्रण परिवार के नाशक को नरक में ले जाता है; क्योंकि उनके पूर्वज पिंड और जल की पूजा से वंचित हो जाते हैं।", "kannada": "ಜಾತಿಯ ಮಿಶ್ರಣ ಕುಲ ನಾಶಕನನ್ನು ನರಕಕ್ಕೆ ಕೊಂಡೆ; ಏಕೆಂದರೆ ಅವರ ಪೂರ್ವಜರು ಪಿಂಡ ಮತ್ತು ಜಲ ಪೂಜೆಯಿಂದ ಒಳಿತಾಗೋಕರುತ್ತಾರೆ.", "explanation": "The spiritual consequences for ancestors whose rites are unsupported.", "categories": ["morality", "ancestors"]},
+        {"verse_number": "1.43", "sanskrit": "दोषैरेतैः कुलघ्नानां वर्णसङ्करकारकैः ।\nउत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः", "english": "By these evil deeds of the destroyers of the family, which cause confusion of castes, the eternal religious rites of the caste and the family are destroyed.", "hindi": "परिवार के विनाशकारियों के इन बुरे कामों से जो जाति का संमिश्रण करते हैं, वर्ण और कुल के शाश्वत धर्म नष्ट हो जाते हैं।", "kannada": "ಕುಲ ನಾಶಕಿನಿಂದ ಜಾತಿ ಸಂಮಿಶ್ರಣ ಕಾರಕ ಈ ಬುರೆ ಕಾರ್ಯಗಳಿಂದ ವರ್ಣ ಮತ್ತು ಕುಲದ ದಿರ್ಘ ಧರ್ಮಗಳು ನಷ್ಟವಾಗುತ್ತವೆ.", "explanation": "The societal destruction resulting from family destruction.", "categories": ["morality", "dharma"]},
+        {"verse_number": "1.44", "sanskrit": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन ।\nनरके नियतं वासो भवतीत्यनुशुश्रुम", "english": "We have heard, O Janardana, that it is inevitable for those men, in whose families the religious practices have been destroyed, to dwell in hell for an unknown period of time.", "hindi": "हे जनार्दन, हमने सुना है कि जिन पुरुषों के परिवार के धर्मोपदेश नष्ट हो गए हैं, उन्हें नरक में रहना निश्चित है।", "kannada": "ಹೇ ಜನಾರ್ದನ, ನಾವು ಕೇಳಿದ್ದೇವೆ ಮತ್ತು ಯಾರ ಕುಲದ ಧರ್ಮೋಪದೇಶಗಳು ನಷ್ಟವಾಗಿದೆ, ಅವರು ನರಕದಲ್ಲಿ ಚಿರಕಾಲ ವಾಸ ಚಾಲುವಾಗಿರುತ್ತದೆ.", "explanation": "The karmic consequences for those whose families are destroyed.", "categories": ["morality", "karma"]},
+        {"verse_number": "1.45", "sanskrit": "अहो बत महत्पापं कर्तुं व्यवसिता वयम् ।\nयद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः", "english": "Alas! We are involved in a great sin, in that we are prepared to kill our kinsmen, from greed for the pleasures of the kingdom.", "hindi": "अरे! हम बड़े पाप में लिप्त हो गए हैं कि राज्य के सुख के लोभ में अपने रिश्तेदारों को मारने के लिए तैयार हैं।", "kannada": "ಅಯ್ಯೋ! ನಾವು ಮಹಾ ಪಾಪದಲ್ಲಿ ಲಿಪ್ತವಾಗಿದ್ದೆವೆ, ರಾಜ್ಯದ ಸುಖದ ಲೋಭದಿಂದ ನಮ್ಮ ಸಂಬಂಧಿತರನ್ನು ಕೊಲ್ಲುವುದರ ಸಿದ್ಧತೆಯಲ್ಲಿ.", "explanation": "Arjuna's moral condemnation of his own situation.", "categories": ["arjuna-despair", "morality"]},
+        {"verse_number": "1.46", "sanskrit": "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः ।\nधार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत्", "english": "If the sons of Dhritarashtra, weapons-in-hand, slay me in battle, unresisting and unarmed, that would be better for me.", "hindi": "अगर धृतराष्ट्र के पुत्र, हथियार हाथ में लिए, मुझे प्रतिरोध किए बिना और निहत्थे हुए युद्ध में मार दें, वह मेरे लिए बेहतर होगा।", "kannada": "ಧೃತರಾಷ್ಟ್ರ ಪುತ್ರರು, ಶಸ್ತ್ರ ಹೊಂದುಕೊಂಡು, ನನ್ನನ್ನು ಪ್ರತಿರೋಧವನ್ನಿಲ್ಲದೆ ಮತ್ತು ನಿರಸ್ತ್ರವಾಗಿ ಯುದ್ಧದಲ್ಲಿ ಕೊಂದರೆ, ಅದು ನನಗೆ ಉತ್ತಮವಾಗಿರುತ್ತದೆ.", "explanation": "Arjuna's ultimate expression of despair - preferring death to killing his relatives.", "categories": ["arjuna-despair", "surrender", "conclusion"]},
+        {"verse_number": "1.47", "sanskrit": "सञ्जय उवाच ।\nएवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत् ।\nविसृज्य सशरं चापं शोकसंविग्नमानसः", "english": "Sanjaya said: Having thus spoken in the midst of the battle-field, Arjuna sat down on the seat of the chariot, casting away his bow and arrow, with a mind distressed with sorrow.", "hindi": "संजय बोले: इस तरह बोलकर अर्जुन युद्ध के मैदान में रथ की सीट पर बैठ गए, अपना धनुष और तीर फेंक दिए, दुःख से व्यथित मन के साथ।", "kannada": "ಸಂಜಯ ಹೇಳಿದರು: ಈ ರೀತಿ ಮಾತನಾಡಿ ನವಾಗಿ ಯುದ್ಧ ಮೈದಾನದಲ್ಲಿ ರಿಥದ ಅಳತೆಯಲ್ಲಿ ಕೂತುಬಿದ್ದರು, ತನ್ನ ಧನುಷ್ಯವನ್ನು ಮತ್ತು ಬಾಣವನ್ನು ಎಸೆದು ದುಃಖಸಂವಿಗ್ನ ಮನದಿಂದ.", "explanation": "The conclusion of Chapter 1 - Arjuna's complete emotional breakdown and refusal.", "categories": ["arjuna-despair", "conclusion", "ending"]}
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_name": "Samkhya Yoga",
+      "total_shlokas": 72,
+      "categories": ["wisdom", "death", "immortality", "soul", "action", "duty"],
+      "shlokas": [
+        {"verse_number": "2.1", "sanskrit": "सञ्जय उवाच ।\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् ।\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः", "english": "Sanjaya said: To him who was thus overcome with pity and despondency, with eyes full of tears and agitated, Madhusudana spoke these words.", "hindi": "संजय बोले: इस तरह दुःख से व्यथित, आंसुओं से भरी आंखों वाले अर्जुन को मधुसूदन ने ये शब्द कहे।", "kannada": "ಸಂಜಯ ಹೇಳಿದರು: ಈ ರೀತಿ ಚಿಂತೆಯಿಂದ ವ್ಯಥಿತ ಮತ್ತು ಆಸ್ತ್ರುಗಳಿಂದ ಭರೆ ಅಂಗೀಕಾರ ಸಹಿತ ಬೇರೆ ತನ್ನನ್ನು ಮಧುಸೂದನ ಹೇಳುವುದೆ.", "explanation": "Sanjaya narrates Krishna's compassion towards Arjuna's distress.", "categories": ["narrative", "compassion"]},
+        {"verse_number": "2.2", "sanskrit": "श्रीभगवानुवाच ।\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् ।\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन", "english": "The Blessed Lord said: Whence is this perilous condition come upon thee, this dejection, un-Aryan-like, heaven-excluding, disgraceful, O Arjuna?", "hindi": "भगवान ने कहा: हे अर्जुन! तुम इस दुर्बलता में कैसे पड़ गए? यह तुम्हारे योग्य नहीं है।", "kannada": "ಭಗವಂತನು ಹೇಳಿದರು: ಅರ್ಜುನ! ನೀವು ಈ ದುರ್ಬಲತೆಯಲ್ಲಿ ಹೇಗೆ ಬಿದ್ದಿದ್ದೀರಿ? ಇದು ನಿಮಗೆ ಯೋಗ್ಯವಲ್ಲ.", "explanation": "Krishna begins his teachings by addressing Arjuna's weakness directly.", "categories": ["confusion", "courage"]},
+        {"verse_number": "2.3", "sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते ।\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप", "english": "Yield not to impotence, O Partha! It does not befit thee, Cast off this mean weakness of heart! Stand up, O Parantapa (O scorcher of foes)!", "hindi": "हे पार्थ! इस दुर्बलता को त्यागो। यह तुम्हारे लिए उचित नहीं है। उठ जाओ, हे शत्रु विजयी!", "kannada": "ಹೇ ಪಾರ್ಥ! ಈ ದುರ್ಬಲತೆಯನ್ನು ತೀರಿ ಹಾಕಿ. ಇದು ನಿನಗೆ ಯೋಗ್ಯವಲ್ಲ. ಎದ್ದುನಿಲ್ಲು!", "explanation": "Krishna encourages Arjuna to overcome his weakness and fear.", "categories": ["courage", "strength"]},
+        {"verse_number": "2.4", "sanskrit": "अर्जुन उवाच ।\nकथं भीष्ममहं सङ्ख्ये द्रोणं च मधुसूदन ।\nइषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन", "english": "Arjuna said: How, O Madhusudana, shall I, in battle, fight with arrows against Bhishma and Drona, who are fit to be worshipped?", "hindi": "अर्जुन बोले: हे मधुसूदन! मैं भीष्म और द्रोण के विरुद्ध कैसे तीर चलाऊँ, वे पूजनीय हैं।", "kannada": "ಅರ್ಜುನನು ಹೇಳಿದನು: ಹೇ ಮಧುಸೂದನ! ಪೂಜ್ಯರಾದ ಭೀಷ್ಮ ಮತ್ತು ದ್ರೋಣನ ವಿರುದ್ಧ ನಾನು ಕಾಂಡದಿಂದ ಯುದ್ಧ ಮಾಡುವುದು?", "explanation": "Arjuna expresses his moral dilemma about fighting his revered teachers.", "categories": ["arjuna-confusion", "morality"]},
+        {"verse_number": "2.5", "sanskrit": "गुरूनहत्वा हि महानुभावान्\nश्रेयो भोक्तुं भैक्ष्यमपीह लोके ।\nहत्वार्थकामांस्तु गुरूनिहैव\nभुञ्जीय भोगान् रुधिरप्रदिग्धान्", "english": "Better indeed, in this world, is to eat even the bread of beggary than to slay the most noble of teachers. But, if I kill them, even in this world, all my enjoyments of wealth and desires will be stained with blood.", "hindi": "महान गुरुओं को न मारकर भीख माँगना बेहतर है। उन्हें मारकर जो भोग करूँगा वह रक्त से भरा होगा।", "kannada": "ಮಹಾನ ಗುರುಗಳನ್ನು ಕೊಲ್ಲದೆ ಭಿಕ್ಷೆ ಮಾಗುವುದು ಉತ್ತಮ. ಅವರನ್ನು ಕೊಂದ ಮಾಡಿದ ಭೋಗ ರಕ್ತದಲ್ಲಿ ಪೂರೆ ಇರುತ್ತದೆ.", "explanation": "Arjuna's moral reasoning about the consequences of killing his elders.", "categories": ["morality", "guilt"]},
+        {"verse_number": "2.6", "sanskrit": "न चैतद्विद्मः कतरन्नो गरीयो\nयद्वा जयेम यदि वा नो जयेयुः ।\nयानेव हत्वा न जिजीविषाम-\nस्तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः", "english": "I can scarcely say which will be better, that we should conquer them or that they should conquer us. Even the sons of Dhritarashtra, after slaying whom we do not wish to live, stand facing us.", "hindi": "मुझे नहीं पता किसकी जीत बेहतर है। दुर्योधन आदि को मारकर मैं जीवन नहीं जीना चाहता।", "kannada": "ಯಾರ ಜೇತ್ರೆ ಉತ್ತಮ ಎಂದು ನನಗೆ ತಿಳಿಯಿಲ್ಲ. ದುರ್ಯೋಧನನನ್ನು ಕೊಂದ ನಾನು ಜೀವನಿಸಲು ಬಯಸುವುದಿಲ್ಲ.", "explanation": "Arjuna's complete moral collapse expressed through his indecision.", "categories": ["doubt", "despair"]},
+        {"verse_number": "2.7", "sanskrit": "कार्पण्यदोषोपहतस्वभावः\nपृच्छामि त्वां धर्मसम्मूढचेताः ।\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे\nशिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम्", "english": "My heart is overpowered by the taint of pity; my mind is confused as to duty. I ask Thee. Tell me decisively what is good for me. I am Thy disciple. Instruct me, who have taken refuge in Thee.", "hindi": "मेरा दिल दया से भरा है, मुझे धर्म समझ नहीं आ रहा। मैं तुम्हारा शिष्य हूँ, मुझे बताओ क्या करूँ।", "kannada": "ನನ್ನ ಹೃದಯ ಕರುಣೆಯಿಂದ ತುಂಬಿದೆ, ಧರ್ಮ ನನಗೆ ಸ್ಪಷ್ಟ ನಲ್ಲ. ನಾನು ನಿಮ್ಮ ಶಿಷ್ಯ, ನನಗೆ ಸೂಚನೆ ನೀಡಿರಿ.", "explanation": "Arjuna's complete surrender to Krishna as his teacher.", "categories": ["surrender", "confusion"]},
+        {"verse_number": "2.8", "sanskrit": "न हि प्रपश्यामि ममापनुद्याद्\nयच्छोकमुच्छोषणमिन्द्रियाणाम् ।\nअवाप्य भूमावसपत्नमृद्धं\nराज्यं सुराणामपि चाधिपत्यम्", "english": "I do not see that it would remove this sorrow that burns up my senses, even if I should attain prosperous and unrivalled dominion on earth, or even Lordship over the gods.", "hindi": "मुझे लगता नहीं कि पृथ्वी का राज्य या देवताओं का राज्य भी मेरे दुःख को दूर कर सकता है।", "kannada": "ಪೃಥ್ವಿಯ ರಾಜ್ಯ ಅಥವಾ ದೇವತೆಗಳ ರಾಜ್ಯವೂ ನನ್ನ ಬೇಸತಿಯನ್ನು ತೆಗೆದುಹಾಕುವುದು ಸಾಧ್ಯವಿಲ್ಲ.", "explanation": "Arjuna's ultimate despair - worldly possessions cannot cure his inner pain.", "categories": ["despair", "meaninglessness"]},
+        {"verse_number": "2.9", "sanskrit": "सञ्जय उवाच ।\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप ।\nन योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह", "english": "Sanjaya said: Having spoken thus to Hrishikesha, Gudakesha, the destroyer of foes, said to Govinda: I will not fight; and became silent.", "hindi": "संजय बोले: अर्जुन ने कृष्ण से कहा 'मैं लड़ाई नहीं करूँगा' और चुप हो गए।", "kannada": "ಸಂಜಯ ಹೇಳಿದರು: ಅರ್ಜುನ ಕೃಷ್ಣಸಮ ನನ್ನು ಯುದ್ಧ ಮಾಡುವುದಿಲ್ಲ ತಪ್ಪುವ ಹೇಳಿ ಸುಮುಸತ್ತ.", "explanation": "Arjuna concludes his argument with complete refusal to fight.", "categories": ["refusal", "silence"]},
+        {"verse_number": "2.10", "sanskrit": "तमुवाच हृषीकेशः प्रहसन्निव भारत ।\nसेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः", "english": "To him who was despondent in the midst of the two armies, Hrishikesha, as if smiling, O Bharata, spoke these words.", "hindi": "कृष्ण, मानो हँसते हुए, दुःखी अर्जुन से ये शब्द कहते हैं।", "kannada": "ಕೃಷ್ಣ, ಮೋಸಮಾದೆ, ವಿವರಿಸಿದ ಅರ್ಜುನನಿಗೆ ಈ ಮಾತುಗಳನ್ನು ಹೇಳಿದರು.", "explanation": "Krishna's compassionate response to Arjuna's despair begins here.", "categories": ["compassion", "wisdom"]},
+        {"verse_number": "2.11", "sanskrit": "श्रीभगवानुवाच ।\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे ।\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः", "english": "The Blessed Lord said: You have grieved for those that should not be grieved for; yet, you speak words of wisdom. The wise grieve neither for the living nor for the dead.", "hindi": "भगवान बोले: आप बुद्धिमान की बातें कर रहे हैं किंतु शोक कर रहे हैं। ज्ञानी न तो जीवितों के लिए न मृतकों के लिए रोते हैं।", "kannada": "ಭಗವಂತನು ಹೇಳಿದರು: ನೀವು ಬುದ್ಧಿವಂತರ ಮಾತುಗಳನ್ನು ಹೇಳುತ್ತಿದ್ದೀರಿ ಆದರೆ ಸಂಗಾಗುತ್ತಿದ್ದೀರಿ.", "explanation": "Krishna's first teaching: the wise understand the nature of existence and don't grieve.", "categories": ["wisdom", "detachment"]},
+        {"verse_number": "2.12", "sanskrit": "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः ।\nन चैव न भविष्यामः सर्वे वयमतः परम्", "english": "It is not that at any time (in the past), indeed, was I not, nor were you, nor these rulers of men. Nor, verily, shall we all ever cease to be hereafter.", "hindi": "कभी एक समय नहीं था जब मैं नहीं था या तुम नहीं थे या ये राजा नहीं थे। आगे भी हम हमेशा रहेंगे।", "kannada": "ಕಾಲನ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ನಾನು ಇರಲಿಲ್ಲ ಅಥವಾ ನೀವು ಇರಲಿಲ್ಲ ಅಥವಾ ಈ ರಾಜಾಗಳು ಇರಲಿಲ್ಲ. ಮುಂದೆ ನಾವು ಚಿರಂತನವಾಗಿ ಇರುವುದು.", "explanation": "The eternal nature of the atman (soul) - it always existed and always will.", "categories": ["immortality", "eternity"]},
+        {"verse_number": "2.13", "sanskrit": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा ।\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति", "english": "Just as in this body the embodied (soul) passes into childhood, youth and old age, so also does he pass into another body; the firm man does not grieve at it.", "hindi": "जैसे शरीर में बचपन, जवानी, बुढ़ापा आता है, वैसे ही आत्मा दूसरे शरीर में जाती है।", "kannada": "ದೇಹದಲ್ಲಿ ಬಾಲ್ಯ, ಯೌವನ, ವೃದ್ಧತೆ ಆಗುವಂತೆ ಆತ್ಮ ಬೇರೆ ದೇಹಕ್ಕೆ ಹೋಗುತ್ತದೆ.", "explanation": "The transmigration of souls through different bodies. A wise person accepts this.", "categories": ["immortality", "reincarnation"]},
+        {"verse_number": "2.14", "sanskrit": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः ।\nआगमापायिनोऽनित्या स्तांस्तितिक्षस्व भारत", "english": "The contacts of senses with objects, O son of Kunti, which cause heat and cold, pleasure and pain, have a beginning and an end; they are impermanent; endure them bravely, O descendant of Bharata.", "hindi": "हे कुंती पुत्र! सुख-दुःख सब नश्वर हैं, इन्हें धैर्य से सहो।", "kannada": "ಸುಖ-ದುಃಖಗಳು ಸಾನಿತ್ಯವಾಗಿದೆ, ಅವುಗಳನ್ನು ಧೈರ್ಯದಿಂದ ಸಹಾಗಿ.", "explanation": "Temporal experiences like pleasure and pain are impermanent - accept them with equanimity.", "categories": ["equanimity", "impermanence"]},
+        {"verse_number": "2.15", "sanskrit": "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ ।\nसमदुःखसुखं धीरं सोऽमृतत्वाय कल्पते", "english": "That firm man whom, surely, these afflict not, O chief among men, to whom pleasure and pain are the same, is fit for realising the Immortality of the Self.", "hindi": "जिस धीर पुरुष को सुख-दुःख समान हैं, वह मुक्ति के योग्य है।", "kannada": "ಸುಖ-ದುಃಖವನ್ನು ಸಮಾನವಾಗಿ ನೋಡುವ ಧೀರ ಪುರುಷ ಮುಕ್ತಿಗೆ ಯೋಗ್ಯ.", "explanation": "Equanimity (sama-drishti) is the mark of a realized soul and path to immortality.", "categories": ["equanimity", "realization"]},
+        {"verse_number": "2.16", "sanskrit": "नासतो विद्यते भावो नाभावो विद्यते सतः ।\nउभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः", "english": "The unreal has no being; there is no non-being of the Real; the truth about both these has been seen by the Knowers of the Truth (or the Seers of the Essence).", "hindi": "असत् का कोई अस्तित्व नहीं, सत् का कोई विनाश नहीं। यह तत्त्वदर्शियों का ज्ञान है।", "kannada": "ಅಸತ್ಯನ ಯಾವುದೇ ಅಸ್ತಿತ್ವ ಇಲ್ಲ, ಸತ್ಯನ ಕೋನೆ ನಾಶ ಇಲ್ಲ.", "explanation": "Metaphysical truth: only the eternal (sat) truly exists; the temporary doesn't.", "categories": ["truth", "metaphysics"]},
+        {"verse_number": "2.17", "sanskrit": "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम् ।\nविनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति", "english": "Know That to be Indestructible by which all this is pervaded. None can cause the destruction of That --- the Imperishable.", "hindi": "जो सब कुछ को व्याप्त करता है वह अविनाशी है। कोई भी उसका विनाश नहीं कर सकता।", "kannada": "ಎಲ್ಲವನ್ನೂ ವ್ಯಾಪಿಸುವ ಅಮರವಿದ್ಧೈಕ್ತ ನೊಂದಸಿ. ಯಾವನೂ ಅದನ್ನು ನಾಶಿಸಲಾರ?.", "explanation": "The indestructible eternal atman (soul) pervades all existence.", "categories": ["immortality", "atman"]},
+        {"verse_number": "2.18", "sanskrit": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः ।\nअनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत", "english": "They have an end, it is said, these bodies of the embodied-Self. The Self is Eternal, Indestructible, Incomprehensible. Therefore, fight, O Bharata.", "hindi": "शरीर नश्वर हैं पर आत्मा शाश्वत है। इसलिए युद्ध करो, हे भारत।", "kannada": "ದೇಹಗಳು ನಾಶ್ವರ ಆದರೆ ಆತ್ಮ ಶಾಶ್ವತ. ಆದ್ದರಿಂದ ಯುದ್ಧ ಮಾಡಿರ.", "explanation": "The practical conclusion: since the atman is eternal, fear not death and do your duty.", "categories": ["duty", "immortality"]},
+        {"verse_number": "2.19", "sanskrit": "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम् ।\nउभौ तौ न विजानीतो नायं हन्ति न हन्यते", "english": "He who takes the Self to be the slayer and he who thinks He is slain, neither of these knows. He slays not, nor in He slain.", "hindi": "जो सोचते हैं कि आत्मा को मारा जा सकता है, वे गलत हैं। आत्मा न मारता है न मरता है।", "kannada": "ಆತ್ಮನು ಏನನ್ನೂ ಕೊಲ್ಲುವುದಿಲ್ಲ ಮತ್ತು ಕೊಲ್ಲಲ್ಪಟುವುದಿಲ್ಲ.", "explanation": "The atman transcends violence - neither kills nor is killed.", "categories": ["immortality", "non-violence"]},
+        {"verse_number": "2.20", "sanskrit": "न जायते म्रियते वा कदाचिन्\nनायं भूत्वा भविता वा न भूयः ।\nअजो नित्यः शाश्वतोऽयं पुराणो\nन हन्यते हन्यमाने शरीरे", "english": "He is not born, nor does He ever die; after having been, He again ceases not to be; Unborn, Eternal, Changeless and Ancient, He is not killed when the body is killed.", "hindi": "आत्मा जन्म नहीं लेती, मरती नहीं। अजन्मा, नित्य, शाश्वत है। शरीर मरने से आत्मा नहीं मरती।", "kannada": "ಆತ್ಮ ಜನ್ಮವಿಲ್ಲ, ಮರಣವಿಲ್ಲ. ಅಜನ್ಮ, ನಿತ್ಯ, ಶಾಶ್ವತ. ದೇಹ ಸಾಯುವಾಗ ಆತ್ಮ ಸರುವುದಿಲ್ಲ.", "explanation": "The fundamental nature of the atman: eternal, beyond birth and death.", "categories": ["immortality", "eternity"]},
+        {"verse_number": "2.21", "sanskrit": "वेदाविनाशिनं नित्यं य एनमजमव्ययम् ।\nकथं स पुरुषः पार्थ कं घातयति हन्ति कम्", "english": "Whosoever knows Him to be Indestructible, Eternal, Unborn, and Inexhaustible, how can that man slay, O Partha, or cause others to be slain?", "hindi": "जो इसे अविनाशी, शाश्वत, अजन्मा मानता है, वह किसी को कैसे मार सकता है?", "kannada": "ಇದನ್ನು ಅವಿನಾಶಿ, ಶಾಶ್ವತ, ಅಜನ್ಮ ಎನುವ ನೋಡುವವನು ಯಾವನನ್ನೂ ಮಾರಲಾರ?", "explanation": "Direct question challenging Arjuna's fear of killing based on knowledge of atman.", "categories": ["knowledge", "immortality"]},
+        {"verse_number": "2.22", "sanskrit": "वासांसि जीर्णानि यथा विहाय\nनवानि गृह्णाति नरोऽपराणि ।\nतथा शरीराणि विहाय जीर्णा-\nन्यन्यानि संयाति नवानि देही", "english": "Just as a man casts off his worn out clothes and puts on new ones, so also the embodied-Self casts off its worn out bodies and enters others which are new.", "hindi": "जैसे आदमी पुराने कपड़े छोड़ नए पहनता है, वैसे आत्मा पुराने शरीर छोड़ नए लेती है।", "kannada": "ಮನುಷ್ಯ ಹೆಚ್ಚಳೆದ ಬಟ್ಟೆ ತೀರಿ ಹೊಸವನ್ನು ಧರಿಸುವಂತೆ ಆತ್ಮ ಹೆಚ್ಚಳೆದ ದೇಹ ತೀರಿ ಹೊಸದನ್ನು ಧರಿಸುತ್ತದೆ.", "explanation": "The powerful metaphor of clothing - bodies are like garments for the eternal soul.", "categories": ["immortality", "reincarnation"]},
+        {"verse_number": "2.23", "sanskrit": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः ।\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः", "english": "Weapons cleave It not, fire burns It not, water moistens It not, wind dries It not.", "hindi": "आत्मा को न तलवार काट सकती है, न आग जला सकती है, न पानी भिगो सकता है, न हवा सूखा सकती है।", "kannada": "ಆತ್ಮನನ್ನು ತರವಾರವು ಛೇದಿಸಲಾರದು, ಬೆಂಕಿ ಸುಟ್ಟುಬಿಡಲಾರದು, ನೀರು ಭಿಂಜುಬಿಡಲಾರದು.", "explanation": "The atman is beyond material elements and weapons - it's indestructible.", "categories": ["immortality", "invulnerability"]},
+        {"verse_number": "2.24", "sanskrit": "अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च ।\nनित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः", "english": "This Self cannot be cut, nor burnt, nor moistened, nor dried up. It is eternal, all-pervading, stable immovable and ancient.", "hindi": "आत्मा को न काटा जा सकता है, न जलाया जा सकता है। यह नित्य, सर्वव्यापी, स्थिर और शाश्वत है।", "kannada": "ಆತ್ಮನನ್ನು ಛೇದಿಸಲಾರದು, ದಹನ ಮಾಡಲಾರದು. ಇದು ನಿತ್ಯ, ಸರ್ವಗತ, ಸ್ಥಿರ ಆಯ ಶಾಶ್ವತ.", "explanation": "Summary of atman's qualities: uncut, unburnt, immutable and eternal.", "categories": ["immortality", "nature-of-atman"]},
+        {"verse_number": "2.25", "sanskrit": "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते ।\nतस्मादेवं विदित्वैनं नानुशोचितुमर्हसि", "english": "This (Self) is said to be Unmanifest, Unthinkable and Unchangeable. Therefore, knowing This to be such, you should not grieve.", "hindi": "आत्मा अव्यक्त, अचिंत्य और अविकारी है। इसलिए इसे जानकर शोक मत करो।", "kannada": "ಆತ್ಮ ಅವ್ಯಕ್ತ, ಅಚಿಂತ್ಯ ಮತ್ತು ಅವಿಕಾರಿ. ಆದ್ದರಿಂದ ಶೋಕ ಮಾಡಬೇಡ.", "explanation": "The atman transcends perception, thought, and change - therefore grief is baseless.", "categories": ["knowledge", "detachment"]},
+        {"verse_number": "2.26", "sanskrit": "अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम् ।\nतथापि त्वं महाबाहो नैवं शोचितुमर्हसि", "english": "But even if you think of Him as being constantly born and constantly dying, even then, O mighty-armed, you should not grieve.", "hindi": "भले ही आत्मा को हमेशा जन्मते-मरते मानो, तब भी शोक मत करो।", "kannada": "ಆತ್ಮ ಸದಾ ಜನ್ಮ-ಮರಣತೆ ಮಾಡುತ್ತಿದೆ ಅಂದೆ ನೋಡಿದರೂ ಶೋಕ ಮಾಡಬೇಡ.", "explanation": "Even accepting the conventional view of birth and death, grief is unjustified.", "categories": ["wisdom", "logic"]},
+        {"verse_number": "2.27", "sanskrit": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च ।\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि", "english": "Indeed, certain is death for the born, and certain is birth for the dead; therefore, over the inevitable, you should not grieve.", "hindi": "जो जन्मा है उसकी मृत्यु निश्चित है, जो मरा है उसका जन्म निश्चित है। अनिवार्य बातों पर शोक न करो।", "kannada": "ಜನ್ಮ ಹೊಂದಿದವನ ಮೃತ್ಯು ನಿಶ್ಚಿತ, ಮೃತನ ಜನ್ಮ ನಿಶ್ಚಿತ. ಅನಿವಾರ್ಯ ಕಾರ್ಯದಲ್ಲಿ ಶೋಕ ಮಾಡಬೇಡ.", "explanation": "Birth and death are the universal law - no point grieving the inevitable.", "categories": ["acceptance", "wisdom"]},
+        {"verse_number": "2.28", "sanskrit": "अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत ।\nअव्यक्तनिधनान्येव तत्र का परिदेवना", "english": "Beings unmanifest in the beginning, and unmanifest again in their end seem to be manifest in the middle, O Bharata. What then is there to grieve about?", "hindi": "सभी प्राणी शुरुआत में अव्यक्त हैं, अंत में भी अव्यक्त होंगे। बीच में ही प्रकट दिखते हैं। फिर क्या शोक?", "kannada": "ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳು ಆದಿಯಲ್ಲಿ ಅವ್ಯಕ್ತ, ಅಂತ್ಯದಲ್ಲಿ ಅವ್ಯಕ್ತ. ಮಧ್ಯದಲ್ಲಿ ಮಾತ್ರ ಪ್ರಕಟ. ಹಾಗೆ ಶೋಕ?", "explanation": "Manifestation is temporary; begin and end in the unmanifest absolute.", "categories": ["philosophy", "acceptance"]},
+        {"verse_number": "2.29", "sanskrit": "आश्चर्यवत्पश्यति कश्चिदेन-\nमाश्चर्यवद्वदति तथैव चान्यः ।\nआश्चर्यवच्चैनमन्यः श्रृणोति\nश्रुत्वाप्येनं वेद न चैव कश्चित्", "english": "One sees This as a wonder; another speaks of This as a wonder; another hears of This as a wonder; yet, having heard none understands This at all!", "hindi": "कोई इसे देखकर आश्चर्य करता है, कोई बताकर, कोई सुनकर। पर कोई समझ नहीं पाता।", "kannada": "ಕೆಲವರು ಇದನ್ನು ನೋಡಿ ಆಶ್ಚರ್ಯ, ಕೆಲವರು ಹೇಳುವುದನ್ನು ಆಶ್ಚರ್ಯ, ಕೆಲವರು ಕೇಳುವುದನ್ನು ಆಶ್ಚರ್ಯ. ಆದರೆ ಯಾರೂ ಅರ್ಥ ಮಾಡುವುದಿಲ್ಲ.", "explanation": "The mystery of the atman - incomprehensible even when described.", "categories": ["mystery", "knowledge"]},
+        {"verse_number": "2.30", "sanskrit": "देही नित्यमवध्योऽयं देहे सर्वस्य भारत ।\nतस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि", "english": "This, the Indweller in the body of everyone is ever indestructible, O Bharata; and, therefore, you should not grieve for any creature.", "hindi": "हे भारत! सभी के शरीर में रहने वाली आत्मा सदा अवध्य है। इसलिए किसी के लिए शोक न करो।", "kannada": "ಹೇ ಭಾರತ! ಎಲ್ಲರ ದೇಹದಲ್ಲಿ ವಾಸಿಸುವ ಆತ್ಮ ಸದಾ ಅವಧ್ಯ. ಆದ್ದರಿಂದ ಯಾವಕೋ ಶೋಕ ಮಾಡಬೇಡ.", "explanation": "Conclusion of the atman teachings: all beings have indestructible soul - grieve not.", "categories": ["wisdom", "acceptance"]},
+        {"verse_number": "2.31", "sanskrit": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि ।\nधर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते", "english": "Further, looking at thine own duty thou oughtest not to waver, for there is nothing higher for a KSHATRIYA than a righteous war.", "hindi": "अपने कर्तव्य को देखकर घबराओ मत। क्षत्रिय के लिए धर्मयुद्ध से बढ़कर कुछ नहीं।", "kannada": "ನಿಜ ಕರ್ತವ್ಯವನ್ನು ನೋಡಿ ಭಯ ಪಡಬೇಡ. ಕ್ಷತ್ರಿಯನ ಧರ್ಮಯುದ್ಧ ಶ್ರೇಷ್ಠ.", "explanation": "Dharma (duty) is paramount, especially for a warrior fighting a just war.", "categories": ["duty", "dharma"]},
+        {"verse_number": "2.32", "sanskrit": "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम् ।\nसुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम्", "english": "Happy indeed are the KSHATRIYAS, O Partha, who are called to fight in such a battle, that comes of itself as an open-door to heaven.", "hindi": "हे पार्थ! क्षत्रिय के लिए ऐसा युद्ध सौभाग्य है। यह स्वर्ग का द्वार है।", "kannada": "ಹೇ ಪಾರ್ಥ! ಕ್ಷತ್ರಿಯನ ಸಿದ್ದೆಯಾಗಿ ಬರುವ ಈ ಯುದ್ಧ ಸೌಭಾಗ್ಯ. ಸ್ವರ್ಗ ದ್ವಾರ.", "explanation": "A just war is a blessing for a warrior - leads to honor and heaven.", "categories": ["duty", "dharma"]},
+        {"verse_number": "2.33", "sanskrit": "अथ चेत्त्वमिमं धर्म्यं सङ्ग्रामं न करिष्यसि ।\nततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि", "english": "But, if you will not fight this righteous war, then, having abandoned your own duty and fame, you shall incur sin.", "hindi": "पर अगर तुम इस धर्मयुद्ध को नहीं करोगे तो अपना कर्तव्य और यश छोड़ पाप पाओगे।", "kannada": "ಆದರೆ ಈ ಧರ್ಮಯುದ್ಧವನ್ನು ಮಾಡದಿದ್ದರೆ ಕರ್ತವ್ಯ ಮತ್ತು ಯಶ ಕಳೆದು ಪಾಪ ಪಡೆವೆ.", "explanation": "Warning: abandoning duty leads to sin and loss of honor.", "categories": ["duty", "sin"]},
+        {"verse_number": "2.34", "sanskrit": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् ।\nसम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते", "english": "People too, will recount your everlasting dishonour; and to one who has been honoured, dishonour is more than death.", "hindi": "लोग तुम्हारी बदनामी कहेंगे। सम्मानित व्यक्ति के लिए अपयश मृत्यु से भी बदतर है।", "kannada": "ಜನರು ನಿಮ್ಮ ನಿಂದೆ ಹೇಳುವರು. ಸಮ್ಮಾನಿತನ ಮೋಸ ಮೃತ್ಯುವಿಗಿಂತ ಭಯಾನಕ.", "explanation": "Social consequences of shirking duty - dishonor worse than death.", "categories": ["honor", "duty"]},
+        {"verse_number": "2.35", "sanskrit": "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः ।\nयेषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम्", "english": "The great battalion commanders will think that you have withdrawn from the battle through fear; and you will be looked down upon by them who had thought much of you and your heroism in the past.", "hindi": "महारथी सोचेंगे कि तुम भय से युद्ध छोड़ रहे हो। तुम्हारी प्रतिष्ठा गिरेगी।", "kannada": "ಮಹಾರಥಿಗಳು ವಿಚಾರಿಸುವರು ನೀವು ಭಯದಿಂದ ಯುದ್ಧ ತೊರೆದಿದ್ದೀರಿ. ನಿಮ್ಮ ಸುಖ್ಯಾತಿ ತೀರುತ್ತದೆ.", "explanation": "Loss of reputation if perceived as coward - especially shame for a warrior.", "categories": ["honor", "shame"]},
+        {"verse_number": "2.36", "sanskrit": "अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः ।\nनिन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम्", "english": "And many unspeakable words will your enemies speak cavilling about your powers. What can be more painful than this?", "hindi": "तुम्हारे शत्रु तुम्हारी शक्ति की निंदा करेंगे। इससे बड़ा दुःख क्या है?", "kannada": "ನಿಮ್ಮ ಶತ್ರುಗಳು ನಿಮ್ಮ ಶಕ್ತಿಯ ನಿಂದೆ ಮಾಡುವರು. ಇದಿಂತ ಬೇಸತಿ?", "explanation": "Psychological pain of being mocked and insulted publicly.", "categories": ["shame", "pain"]},
+        {"verse_number": "2.37", "sanskrit": "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् ।\nतस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः", "english": "Slain, you will obtain heaven; victorious you will enjoy the earth; therefore, stand up, O son of Kunti, determined to fight.", "hindi": "मारे जाने पर स्वर्ग, जीत पर पृथ्वी का राज्य। इसलिए दृढ़ निश्चय करके लड़ो।", "kannada": "ಮಾರೆಹೋದರೆ ಸ್ವರ್ಗ, ಆದರೆ ಜಿತ್ವಾ ಭೂಮಿ. ಆದ್ದರಿಂದ ನಿಶ್ಚಯ ಮಾಡಿ ಯುದ್ಧ ಮಾಡಿರ.", "explanation": "No-lose scenario: death leads to heaven, victory to earthly kingdom.", "categories": ["duty", "motivation"]},
+        {"verse_number": "2.38", "sanskrit": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ ।\nततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि", "english": "Having made --- pleasure and pain, gain and loss, victory and defeat --- the same, engage in battle for the sake of battle; thus you shall not incur sin.", "hindi": "सुख-दुःख, लाभ-हानि, जय-पराजय को समान देख युद्ध करो। तब पाप नहीं लगेगा।", "kannada": "ಸುಖ-ದುಃಖ, ಲಾಭ-ನಷ್ಟ, ಜಯ-ಪರಾಜಯವನ್ನು ಸಮಾನ ಕಟ್ಟಿ ಯುದ್ಧ ಮಾಡಿರ. ತಪ್ಪು ಪಡುವುದಿಲ್ಲ.", "explanation": "Equanimity is key - do duty without attachment to outcomes.", "categories": ["equanimity", "yoga"]},
+        {"verse_number": "2.39", "sanskrit": "एषा तेऽभिहिता साङ्ख्ये बुद्धिर्योगे त्विमां श्रृणु ।\nबुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि", "english": "This, which has been taught to thee, is wisdom concerning SANKHYA. Now listen to the wisdom concerning YOGA, having known which, O Partha, you shall cast off the bonds-of-action.", "hindi": "यह सांख्य ज्ञान है। अब योग ज्ञान सुनो। इससे तुम कर्मबंधन से मुक्त हो जाओगे।", "kannada": "ಇದು ಸಾಂಖ್ಯ ಜ್ಞಾನ. ಈಗ ಯೋಗ ಜ್ಞಾನ ಕೇಳಿರಿ. ಇದರಿಂದ ಕರ್ಮಬಂಧನ ಮುಕ್ತ ಆಗುವೆ.", "explanation": "Transition from theoretical knowledge (Sankhya) to practical application (Yoga).", "categories": ["knowledge", "yoga"]},
+        {"verse_number": "2.40", "sanskrit": "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते ।\nस्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात्", "english": "In this there is no loss of effort, nor is there any harm (production of contrary results). Even a little of this knowledge, even a little practice of the YOGA, protects one from the great fear.", "hindi": "इस योग में कोई हानि नहीं है। थोड़ा सा भी अभ्यास महान भय से बचाता है।", "kannada": "ಈ ಯೋಗದಲ್ಲಿ ಯಾವುದೇ ನಷ್ಟ ಇಲ್ಲ. ಸ್ವಲ್ಪ ಅಭ್ಯಾಸೋ ಮಹತ್ಪ್ರಿಖಿ ರಕ್ಷಿಸುತ್ತದೆ.", "explanation": "Even small effort in yoga practice yields great protection and results.", "categories": ["yoga", "practice"]},
+        {"verse_number": "2.41", "sanskrit": "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन ।\nबहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम्", "english": "Here, O Joy of the Kurus, Kurunandana, there is but a single-pointed determination; many-branched and endless are the thoughts of the irresolute.", "hindi": "दृढ़ निश्चय वाले का बुद्धि एक है, अनिश्चित का बहुशाखी और अनंत।", "kannada": "ದೃಢ ನಿಶ್ಚಯವಾಳ ಬುದ್ಧಿ ಏಕ, ಅನಿಶ್ಚಿತನ ಬಹುಶಾಖೀ ಮತ್ತು ಅನಂತ.", "explanation": "Determination requires focused single-pointed mind, not scattered thoughts.", "categories": ["focus", "determination"]},
+        {"verse_number": "2.42", "sanskrit": "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः ।\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः", "english": "Flowery speech is uttered by the unwise, taking pleasure in the eulogising words of VEDAS, O Partha, saying, There is nothing else.", "hindi": "मूर्ख लोग वेदों की सुंदर वाणी से प्रसन्न होते हैं, कहते हैं इसके सिवा कुछ नहीं।", "kannada": "ಮೂರ್ಖರು ವೇದದ ಸುಂದರ ವಾಣಿಯಿಂದ ಸಪ್ರಸನ್ನರಾಗುತ್ತಾರೆ, ಇದರ ಸಿವಾ ಸಾಮಾನ್ಯ ಇಲ್ಲ ನೆಹರುತ್ತಾರೆ.", "explanation": "Criticism of those who take only the literal, flowery words of scripture.", "categories": ["wisdom", "knowledge"]},
+        {"verse_number": "2.43", "sanskrit": "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम् ।\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति", "english": "Full of desires, having heaven as their goal, they utter flowery words, which promise new birth as the reward of their actions, and prescribe various specific actions for the attainment of pleasure and Lordship.", "hindi": "इच्छाओं से भरे लोग स्वर्ग की चाह में फूलते-फूले शब्दों से नए जन्म का वचन देते हैं।", "kannada": "ಇಚ್ಛೆಯಿಂದಿದ್ದ ಜನರು ಸ್ವರ್ಗದ ಲೋಲುಪತೆಗೆ ಪುಷ್ಪೀತ ಪದಗಳಿಂದ ನವಜನ್ಮದ ವಾಗದೋ ನೀಡುತ್ತಾರೆ.", "explanation": "Those with desires pursue rituals promising rewards - trapped in material cycle.", "categories": ["desire", "worldliness"]},
+        {"verse_number": "2.44", "sanskrit": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् ।\nव्यवसायात्मिका बुद्धिः समाधौ न विधीयते", "english": "For, those who cling to joy and Lordship, whose minds are drawn away by such teaching, are neither determinate and resolute nor are they fit for steady meditation and SAMADHI.", "hindi": "भोग-ऐश्वर्य में आसक्त लोगों का मन इधर-उधर भटकता है। उन्हें समाधि नहीं मिलती।", "kannada": "ಭೋಗೈಶ್ವರ್ಯದಲ್ಲಿ ಆಸಕ್ತ ಜನರ ಮನ ಇಧರ-ಉಧರ ಭ್ರಮಿತವಾಗುತ್ತೆ. ಅವರಿಗೆ ಸಮಾಧಿ ದೊರೆಯುವುದಿಲ್ಲ.", "explanation": "Desire and attachment prevent concentration needed for spiritual realization.", "categories": ["attachment", "samadhi"]},
+        {"verse_number": "2.45", "sanskrit": "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन ।\nनिर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान्", "english": "The VEDAS deal with the three attributes; be you above these three attributes (GUNAS), O Arjuna, free yourself from the pairs-of-opposites, and ever remain in the SATTWA (goodness), freed from all thoughts of acquisition and preservation, and be established in the Self.", "hindi": "वेद तीन गुणों से संबंधित हैं। तुम इनके परे उठो। द्वंद्व से मुक्त होकर सत्व में स्थित रहो।", "kannada": "ವೇದಗಳು ತ್ರಿಗುಣದ ಸಂಬಂಧೀತ. ನೀವು ಇವುಗಳ ಪರೆ ಎದೆಗೋ. ದ್ವಂದ್ವ ಮುಕ್ತ ಸತ್ವದಲ್ಲಿ ಸ್ಥಿತರಾಗಿರಿ.", "explanation": "Transcend the qualities of nature; rise above duality; establish in sattva.", "categories": ["gunas", "transcendence"]},
+        {"verse_number": "2.46", "sanskrit": "यावानर्थ उदपाने सर्वतः सम्प्लुतोदके ।\nतावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः", "english": "To the BRAHMANA who has known the Self, all the VEDAS are of so much use, as is a reservoir of water in a place where there is flood everywhere.", "hindi": "आत्मज्ञानी के लिए सभी वेद उतने ही उपयोगी हैं जितना बाढ़ के समय कुआं।", "kannada": "ಆತ್ಮಜ್ಞಾನೀಗೆ ಎಲ್ಲಾ ವೇದಗಳು ಹೆಚ್ಚೆಚ್ಚು ಉಪಯೋಗಿ ಆಗುತ್ತವೆ ಎಂದು ವಾಹುನೆ ಕೂಪವು ಸಮೈದಾದಲ್ಲಿ.", "explanation": "Once self-realization is achieved, outer scriptures become less necessary.", "categories": ["knowledge", "self-realization"]},
+        {"verse_number": "2.47", "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि", "english": "Thy right is to work only, but never to its fruits; let not the fruit-of-action be thy motive, nor let thy attachment be to inaction.", "hindi": "कर्म करना तुम्हारा अधिकार है, फल नहीं। कर्मफल से लिप्त मत होना और निष्क्रिय भी मत रहना।", "kannada": "ಕರ್ಮ ಮಾಡುವುದು ನಿಮ್ಮ ಅಧಿಕಾರ, ಫಲ ಅಲ್ಲ. ಕರ್ಮಫಲಕ್ಕೆ ಆಸಕ್ತ ಆಗಬೇಡ ಮತ್ತು ನಿಷ್ಕ್ರಿಯಸ್ಥೋ ಆಗಬೇಡ.", "explanation": "The core teaching: right to action but not to results. Do your duty without attachment.", "categories": ["karma-yoga", "detachment"]},
+        {"verse_number": "2.48", "sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते", "english": "Perform action, O Dhananjaya, abandoning attachment, being steadfast in YOGA, and balanced in success and failure. Evenness of mind is called YOGA.", "hindi": "हे धनंजय! आसक्ति त्यागकर, सुख-दुःख में समान रहकर कर्म करो। यही योग है।", "kannada": "ಹೇ ಧನಂಜಯ! ಆಸಕ್ತಿ ತ್ಯಾಗಿ, ಸುಖ-ದುಃಖದಲ್ಲಿ ಸಮಾನ ನೋಡುಡದೆ ಕರ್ಮ ಮಾಡಿರ. ಸಮತೆ ಯೋಗ.", "explanation": "Yoga is equanimity (samatvam) - performing duty with balanced mind.", "categories": ["yoga", "equanimity"]},
+        {"verse_number": "2.49", "sanskrit": "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय ।\nबुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः", "english": "Far lower than the YOGA-of-wisdom is action, O Dhananjaya. Seek thou refuge in wisdom; wretched are they whose motive is the fruit.", "hindi": "हे धनंजय! बुद्धि-योग से कर्म निम्न है। बुद्धि में शरण लो। फल को लक्ष्य करने वाले दुर्भाग्यशाली हैं।", "kannada": "ಹೇ ಧನಂಜಯ! ಬುದ್ಧಿ-ಯೋಗ ಕರ್ಮಕ್ಕಿಂತ ಉತ್ತಮ. ಬುದ್ಧಿಯಲ್ಲಿ ಶರಣ ಹೆಟ್ಟುಕೊ. ಫಲಾಸಕ್ತರು ದುರ್ಭಾಗ್ಯವಾನ.", "explanation": "Wisdom (buddhi) guides action better than mere mechanical duty-performance.", "categories": ["wisdom", "yoga"]},
+        {"verse_number": "2.50", "sanskrit": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम्", "english": "Endowed with the Wisdom of evenness-of-mind, one casts off in this life both good deeds and evil deeds; therefore, devote yourself to YOGA, Skill in action is YOGA.", "hindi": "बुद्धि-युक्त पुरुष इस जीवन में पुण्य-पाप दोनों को त्याग देता है। इसलिए योग को अपनाओ।", "kannada": "ಬುದ್ಧಿ-ಯುಕ್ತ ಪುರುಷ ಈ ಜೀವನದಲ್ಲಿ ಪುಣ್ಯ-ಪಾಪ ಎರಡೂ ತ್ಯಾಗ ಮಾಡುತ್ತಾನೆ. ಆದ್ದರಿಂದ ಯೋಗ ಸ್ವೀಕಾರ ಮಾಡಿರ.", "explanation": "With wisdom one transcends the cycle of merit and demerit - true yoga.", "categories": ["yoga", "wisdom"]},
+        {"verse_number": "2.51", "sanskrit": "कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः ।\nजन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम्", "english": "The wise, possessed of knowledge, having abandoned the fruits of their actions, freed from the fetters of birth, go to the State which is beyond all evil.", "hindi": "ज्ञानी लोग कर्मफल त्यागकर जन्म-मृत्यु के बंधन से मुक्त हो जाते हैं।", "kannada": "ಜ್ಞಾನೀ ಜನರು ಕರ್ಮಫಲ ತ್ಯಾಗಿ ಜನ್ಮ-ಮೃತ್ಯು ಬಂಧನದಿಂದ ಮುಕ್ತವಾಗುತ್ತಾರೆ.", "explanation": "Knowledge brings liberation from cycle of birth and death.", "categories": ["liberation", "knowledge"]},
+        {"verse_number": "2.52", "sanskrit": "यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति ।\nतदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च", "english": "When your intellect crosses beyond the mire of delusion, then you shall attain to indifference as to what has been heard and what is yet to be heard.", "hindi": "जब तुम्हारी बुद्धि मोह के दलदल से निकल जाएगी, तब तुम सुने और अनसुने में समान रहोगे।", "kannada": "ನಿಮ್ಮ ಬುದ್ಧಿ ಮೋಹದ ದಲದಿಂದ ಕೆಲುದುಬಿದ್ದರೆ, ನೀವು ಸುನೆ-ಅನಸುನೆ ಸಮಾನವಾಗುವೆ.", "explanation": "Transcendence of scriptural knowledge - rising beyond all mental constructs.", "categories": ["wisdom", "transcendence"]},
+        {"verse_number": "2.53", "sanskrit": "श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला ।\nसमाधावचला बुद्धिस्तदा योगमवाप्स्यसि", "english": "When your intellect, though perplexed by what you have heard, shall stand immovable and steady in the Self, then you shall attain Self-realisation.", "hindi": "जब तुम्हारी बुद्धि सुनी हुई बातों से अलिप्त होकर आत्मा में स्थिर हो जाएगी, तब तुम्हें योग मिलेगा।", "kannada": "ನಿಮ್ಮ ಬುದ್ಧಿ ಕೇಳಿದ ಮಾತುಗಳಿಂದ ಮುಕ್ತವಾಗಿ ಆತ್ಮದಲ್ಲಿ ಸ್ಥಿತವಾದಾಗ, ನೀವು ಯೋಗ ಪಡೆವೆ.", "explanation": "Steady realized consciousness fixed in the Self - highest yoga.", "categories": ["yoga", "self-realization"]},
+        {"verse_number": "2.54", "sanskrit": "अर्जुन उवाच ।\nस्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव ।\nस्थितधीः किं प्रभाषेत किमासीत व्रजेत किम्", "english": "Arjuna said: What, O Keshava, is the description of him who has steady Wisdom and who is merged in the Superconscious state? How does one of steady Wisdom speak, how does he sit, how does he walk?", "hindi": "अर्जुन बोले: हे केशव! स्थित-प्रज्ञ पुरुष कैसा होता है? वह कैसे बोलता, बैठता और चलता है?", "kannada": "ಅರ್ಜುನ ಹೇಳಿದನು: ಹೇ ಕೇಶವ! ಸ್ಥಿತ-ಪ್ರಜ್ಞರು ಹೇಗೆ ಇರುತ್ತಾರೆ? ಮಾತನಿಡುವುದು, ಕೂತುಕೊಳ್ಳುವುದು, ನಡೆಯುವುದು?", "explanation": "Arjuna asks for practical description of a realized sage.", "categories": ["realization", "wisdom"]},
+        {"verse_number": "2.55", "sanskrit": "श्रीभगवानुवाच ।\nप्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान् ।\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते", "english": "The Blessed Lord said: When a man completely casts off, O Partha, all the desires of the mind, and is satisfied in the Self by the Self, then is he said to be one of steady Wisdom.", "hindi": "भगवान बोले: जो मनोगत सभी कामनाओं को त्याग आत्मा में ही तुष्ट रहता है, वह स्थितप्रज्ञ है।", "kannada": "ಭಗವಂತನು ಹೇಳಿದರು: ಮನೋಶಾಸುಕಾಮುಗಳನ್ನೂ ತ್ಯಾಗಿ ಆತ್ಮದಲ್ಲಿಯೇ ತೃಪ್ತರಾಗಿರುವವನಿ ಸ್ಥಿತ-ಪ್ರಜ್ಞ.", "explanation": "First characteristic of realized sage: freedom from desires, self-satisfied.", "categories": ["realization", "desire"]},
+        {"verse_number": "2.56", "sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः ।\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते", "english": "He whose mind is not shaken by adversity, and who in prosperity does not hanker after pleasures, who is free from attachment, fear and anger, is called a Sage-of-Steady-Wisdom.", "hindi": "दुःख में जिसका मन नहीं काँपता, सुख में जो लालायित नहीं होता, जो राग, भय और क्रोध से मुक्त है, वही मुनि है।", "kannada": "ದುಃಖದಲ್ಲಿ ಚೆಳುವುದಿಲ್ಲ, ಸುಖದಲ್ಲಿ ಲೋಲುಪತೆ ಇಲ್ಲ, ರಾಗ, ಭಯ, ಕ್ರೋಧ ಮುಕ್ತ - ಅವನು ಸ್ಥಿತ-ಪ್ರಜ್ಞ ಮುನಿ.", "explanation": "Second characteristic: equanimity in pleasure and pain, freedom from emotions.", "categories": ["equanimity", "detachment"]},
+        {"verse_number": "2.57", "sanskrit": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम् ।\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता", "english": "He who is everywhere without attachment, on meeting with anything good or bad, who neither rejoices nor hates, his Wisdom is fixed.", "hindi": "जो सर्वत्र आसक्ति से रहित है, कहीं भी न सुख से मग्न होता है न दुःख से घृणा। उसका ज्ञान स्थिर है।", "kannada": "ಸರ್ವತ್ರ ಆಸಕ್ತಿ-ರಹಿತನಾಗಿ ಸುಖದಲ್ಲಿ ಮುಗ್ಧ, ದುಃಖದಲ್ಲಿ ತೆರಿಗೆ ಆಗದೋ - ಅವನ ಜ್ಞಾನ ಸ್ಥಿರ.", "explanation": "Third characteristic: non-attachment leads to stable wisdom.", "categories": ["non-attachment", "wisdom"]},
+        {"verse_number": "2.58", "sanskrit": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः ।\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता", "english": "When, like the tortoise which withdraws its limbs from all sides, he withdraws his senses from the sense-objects then his Wisdom becomes steady.", "hindi": "जैसे कछुआ अपने अंगों को समेट लेता है, जब कोई इंद्रियों को विषयों से हटा लेता है, तब उसका ज्ञान स्थिर होता है।", "kannada": "ಕೂರ್ಮ ತನ್ನ ಅಂಗವನ್ನೆ ಸುಕುಂಬಿಕೊಳ್ಳುವಂತೆ, ಇಂದ್ರಿಯವನ್ನೆ ವಿಷಯದಿಂದ ಸರಿಸಿದಾಗ ಜ್ಞಾನ ಸ್ಥಿರವಾಗುತ್ತದೆ.", "explanation": "Fourth characteristic: sense control through withdrawal, like a tortoise.", "categories": ["sense-control", "withdrawal"]},
+        {"verse_number": "2.59", "sanskrit": "विषया विनिवर्तन्ते निराहारस्य देहिनः ।\nरसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते", "english": "The objects of the senses turn away from the abstinent man leaving the longing (behind); but his longing also leaves him on seeing the Supreme.", "hindi": "विषय स्वयं निराहारी को छोड़ देते हैं पर रुचि रह जाती है। परमात्मा को देखने से सब रुचि मिट जाती है।", "kannada": "ವಿಷಯಗಳು ಇಂದ್ರಿಯ-ಸಂಯಮಿಯನ್ನ ತೊರೆದು ಕೇವಲ ಅಭಿಲಾಷ ಬಿಡುತ್ತವೆ. ಪರಮಾತ್ಮನನ್ನು ಶಾಶ್ವತವಾಗುವಾಗ ಅಭಿಲಾಷೋ ತೆರೆಯುತ್ತದೆ.", "explanation": "Fifth characteristic: sense objects are renounced but craving may remain until higher realization.", "categories": ["detachment", "realization"]},
+        {"verse_number": "2.60", "sanskrit": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः ।\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः", "english": "The turbulent senses, O son of Kunti, do violently carry away the mind of a wise-man, though he be striving (to control them).", "hindi": "हे कुंती-पुत्र! चंचल इंद्रियाँ ज्ञानी को भी बलपूर्वक अपने साथ ले जाती हैं।", "kannada": "ಹೇ ಕುಂತಿ-ಪುತ್ರ! ಚಂಚಲ ಇಂದ್ರಿಯಗಳು ಜ್ಞಾನಿಯನ್ನೂ ಬಲವಾಗಿ ತಾವಾಗಿ ಕೊಂಡುಹೋಗುತ್ತವೆ.", "explanation": "Warning: even the wise struggle with powerful senses - constant effort needed.", "categories": ["warning", "struggle"]},
+        {"verse_number": "2.61", "sanskrit": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः ।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता", "english": "Having restrained them all, he should sit steadfast, intent on Me; his Wisdom is steady, whose senses are under control.", "hindi": "इंद्रियों को नियंत्रित कर मुझ पर ध्यान लगाना चाहिए। जिसकी इंद्रियाँ वश में हैं, उसका ज्ञान स्थिर है।", "kannada": "ಇಂದ್ರಿಯವನ್ನೆ ನಿಯಂತ್ರಿಸಿ ನನ್ನ ಮೇಲೆ ಧ್ಯಾನ ಕೇಂದ್ರೀಕರಿಸಬೇಕು. ಇಂದ್ರಿಯ-ನಿಯಂತ್ರೀತನಿ ಸ್ಥಿರ-ಜ್ಞಾನವಾಳ.", "explanation": "Sixth characteristic: active restraint of senses with constant focus on the divine.", "categories": ["sense-control", "devotion"]},
+        {"verse_number": "2.62", "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते ।\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते", "english": "When a man thinks of objects, attachment for them arises; from attachment desire is born; from desire arises anger", "hindi": "विषयों का चिंतन करने से आसक्ति उत्पन्न होती है। आसक्ति से काम, काम से क्रोध उत्पन्न होता है।", "kannada": "ವಿಷಯದ ಚಿಂತನೆಯಿಂದ ಆಸಕ್ತಿ ಜನ್ಮವಾಗುತ್ತದೆ. ಆಸಕ್ತಿಯಿಂದ ಕಾಮನೆ, ಕಾಮದಿಂದ ಕ್ರೋಧ ಜನ್ಮವಾಗುತ್ತದೆ.", "explanation": "Seventh characteristic: understanding the chain of desire, attachment, anger.", "categories": ["psychology", "attachment"]},
+        {"verse_number": "2.63", "sanskrit": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः ।\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति", "english": "From anger comes delusion; from delusion loss of memory; from loss of memory the destruction of discrimination; from destruction of discrimination he perishes.", "hindi": "क्रोध से मोह उत्पन्न होता है, मोह से स्मृति भ्रंश, स्मृति भ्रंश से बुद्धि नाश, और यह सब मनुष्य को नष्ट कर देता है।", "kannada": "ಕ್ರೋಧದಿಂದ ಮೋಹ, ಮೋಹದಿಂದ ಸ್ಮೃತಿ-ಭ್ರಂಶ, ಸ್ಮೃತಿ-ಭ್ರಂಶದಿಂದ ಬುದ್ಧಿ-ನಾಶ, ಬುದ್ಧಿ-ನಾಶದಿಂದ ನಾಶ.", "explanation": "The destructive chain: anger → delusion → loss of memory → loss of wisdom → destruction.", "categories": ["psychology", "destruction"]},
+        {"verse_number": "2.64", "sanskrit": "रागद्वेषवियुक्तैस् भुते विषयानिन्द्रियैश्चरन् ।\nआत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति", "english": "But the self-controlled man, moving among objects, with his senses under restraint, and free from both attraction and repulsion, attains peace.", "hindi": "परंतु आत्मवश्य योगी, विषयों में रहते हुए भी, इंद्रियों को नियंत्रित करके राग-द्वेष से मुक्त होकर शांति पाता है।", "kannada": "ಆದರೆ ಆತ್ಮ-ವಶ್ಯ ಜನನು ವಿಷಯಗಳಲ್ಲಿ ಇರುವಾಗಲೂ ಇಂದ್ರಿಯನಿಯಂತ್ರಿತ, ರಾಗ-ದ್ವೇಷ-ಮುಕ್ತ ಶಾಂತಿ ವರ ಬುತ್ತಾನೆ.", "explanation": "The way of balance: engage with objects but without attachment or aversion.", "categories": ["wisdom", "peace"]},
+        {"verse_number": "2.65", "sanskrit": "प्रसादे सर्वदुःखानां हानिरस्योपजायते ।\nप्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते", "english": "In that peace all pains are destroyed; for, the intellect of the tranquil-minded soon becomes steady.", "hindi": "प्रसन्नता में सभी दुःख नष्ट हो जाते हैं। प्रसन्न-चित्त की बुद्धि तेजी से स्थिर हो जाती है।", "kannada": "ಪ್ರಸನ್ನತೆಯಲ್ಲಿ ಎಲ್ಲ ದುಃಖ ನಾಶವಾಗುತ್ತವೆ. ಪ್ರಸನ್ನ-ಚಿತ್ತನ ಬುದ್ಧಿ ಶೀಘ್ರವಾಗಿ ಸ್ಥಿರವಾಗುತ್ತದೆ.", "explanation": "Eighth characteristic: inner peace dissolves suffering, stabilizes wisdom.", "categories": ["peace", "wisdom"]},
+        {"verse_number": "2.66", "sanskrit": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना ।\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम्", "english": "There is no knowledge (of the Self) to the unsteady; and to the unsteady no meditation; and to the unmeditative no peace; to the peaceless, how can there be happiness?", "hindi": "अस्थिर को ज्ञान नहीं, अस्थिर को ध्यान नहीं, ध्यान रहित को शांति नहीं। शांति रहित को सुख कहाँ?", "kannada": "ಅಸ್ಥಿರನಿಗೆ ಜ್ಞಾನ ಇಲ್ಲ, ಅದ್ಯಾನ ಇಲ್ಲ, ಧ್ಯಾನ-ರಹಿತಿಗೆ ಶಾಂತಿ ಇಲ್ಲ, ಶಾಂತಿ-ರಹಿತಿಗೆ ಸುಖ?", "explanation": "Ninth characteristic: the chain of requirements - steadiness → knowledge → meditation → peace → happiness.", "categories": ["conditions", "happiness"]},
+        {"verse_number": "2.67", "sanskrit": "इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते ।\nतदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि", "english": "For, the mind, which follows in the wake of the wandering senses, carries away his discrimination, as the wind carries away a boat on the waters.", "hindi": "जो मन चंचल इंद्रियों के पीछे दौड़ता है, वह ज्ञान को नष्ट कर देता है, जैसे हवा नाव को बहा ले जाती है।", "kannada": "ಚಂಚಲ ಇಂದ್ರಿಯಾನುಸರಣ ಮನವು ಜ್ಞಾನನನ್ನೆ ಹರಿದುಕೊಂಡುಹೋಗುತ್ತದೆ, ಗಾಳಿ ತೆನೆ ಮುಹುರ್ತುವುದಂತೆ.", "explanation": "Metaphor: mind following senses is like a boat without rudder on stormy sea.", "categories": ["metaphor", "sense-control"]},
+        {"verse_number": "2.68", "sanskrit": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः ।\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता", "english": "Therefore, O Mighty-armed, his knowledge is steady whose senses are completely restrained from sense-objects.", "hindi": "इसलिए हे महाबाहु! जिसकी इंद्रियाँ विषयों से पूर्णतः निवृत्त हैं, उसका ज्ञान स्थिर है।", "kannada": "ಆದ್ದರಿಂದ ಹೇ ಮಹಾಬಾಹೋ! ಇಂದ್ರಿಯ-ನಿಯಂತ್ರಿತನಿ ಸ್ಥಿರ-ಜ್ಞಾನವಾಳ ಚಿತ್ತವುಳ್ಳವ.", "explanation": "Tenth characteristic: complete sense control leads to steady wisdom.", "categories": ["sense-control", "wisdom"]},
+        {"verse_number": "2.69", "sanskrit": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी ।\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः", "english": "That which is night to all beings, in that the self-controlled man keeps awake; where all beings are awake, that is the night for the Sage (MUNI) who sees.", "hindi": "जो सभी प्राणियों के लिए रात है, उसमें योगी जागता है। जहाँ सब जागते हैं, वह ज्ञानी के लिए रात है।", "kannada": "ಎಲ್ಲ ಪ್ರಾಣಿಗಳಿಗೆ ರಾತ್ರಿಯುಳ್ಳ ಸಮಯದಲ್ಲಿ ಯೋಗವನ್ನು ಜಾಗ್ರತ ಇರುತ್ತಾನೆ. ಎಲ್ಲರು ಎಚೆತ್ಕೊಳ್ಳುವ ಶಾಂತಿ ಜ್ಞಾನೀಗೆ ರಾತ್ರಿ.", "explanation": "Eleventh characteristic: wisdom reverses values - sage's wakefulness vs world's sleep.", "categories": ["wisdom", "transcendence"]},
+        {"verse_number": "2.70", "sanskrit": "आपूर्यमाणमचलप्रतिष्ठं\nसमुद्रमापः प्रविशन्ति यद्वत् ।\nतद्वत्कामा यं प्रविशन्ति सर्वे\nस शान्तिमाप्नोति न कामकामी", "english": "He attains Peace into whom all desires enter as waters enter the ocean, which, filled from all sides, remains unmoved; but not the desirer of desires.", "hindi": "जिस में सभी कामनाएँ ऐसे प्रविष्ट होती हैं जैसे नदियाँ समुद्र में, किंतु वह अचल रहता है, वही शांति पाता है। पर जो कामनाओं की चाहत रखता है, वह नहीं।", "kannada": "ಯಾರ ಪ್ರತಿ ಎಲ್ಲ ಕಾಮ ಪ್ರವೇಶಿಸುತ್ತವೆ ಸಮುದ್ರದಲ್ಲಿ ಓ ಪ್ರವೇಶಿಸುವಂತೆ, ಅವನು ಅವಿಚಲ ಶಾಂತಿ ವರುತ್ತಾನೆ. ಆದರೆ ಕಾಮೇಚ್ಛುಕ ನಾಪೆ.", "explanation": "Twelfth characteristic: desires flow through but don't disturb - like rivers in ocean.", "categories": ["detachment", "peace"]},
+        {"verse_number": "2.71", "sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः ।\nनिर्ममो निरहङ्कारः स शान्तिमधिगच्छति", "english": "That man attains peace who, abandoning all desires, moves about without longing, without the sense of 'l-ness' and 'my-ness.'", "hindi": "जो सभी कामनाओं को त्यागकर, लालसा रहित, ममता और अहंकार से मुक्त होकर भ्रमण करता है, वह शांति प्राप्त करता है।", "kannada": "ಎಲ್ಲ ಕಾಮ ತ್ಯಾಗಿ, ಲೋಲುಪತೆ-ರಹಿತ, ಮಮತೆ ಮತ್ತು ಅಹಂಕಾರ-ಮುಕ್ತ ಜನ ಶಾಂತಿ ವರುತ್ತಾನೆ.", "explanation": "Thirteenth (final) characteristic: freedom from desires, possessiveness, ego = peace.", "categories": ["detachment", "peace"]},
+        {"verse_number": "2.72", "sanskrit": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति ।\nस्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति", "english": "This is the BRAHMIC-state, O Son of Pritha. Attaining this, none is deluded. Being established therein, even at the end of life, one attains to oneness with BRAHMAN.", "hindi": "हे पार्थ! यह ब्राह्मी स्थिति है। इसे प्राप्त कर मनुष्य कभी मोहित नहीं होता। इसमें स्थित होकर अंतिम समय में भी वह ब्रह्मनिर्वाण को प्राप्त करता है।", "kannada": "ಹೇ ಪಾರ್ಥ! ಇದು ಬ್ರಾಹ್ಮೀ ಸ್ಥಿತಿ. ಇದನ್ನು ಪ್ರಾಪ್ತ ಜನ ಮೋಹೀ ಆಗುವುದಿಲ್ಲ. ಇದರಲ್ಲಿ ಸ್ಥಿತ ಅಂತ್ಯದಲ್ಲಿ ಬ್ರಹ್ಮನಿರ್ವಾಣ ವರುತ್ತಾನೆ.", "explanation": "Final conclusion: This is the state of Brahman-consciousness - liberation from all delusion.", "categories": ["liberation", "brahman"]}
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_name": "Karma Yoga",
+      "total_shlokas": 43,
+      "categories": ["action", "duty", "detachment"],
+      "shlokas": [
+        {
+          "verse_number": "3.8",
+          "sanskrit": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः।\nशरीरयात्रापि च ते न प्रसिद्ध्येद अकर्मणः।।",
+          "english": "Perform your duty with action, since action is superior to inaction. Even maintaining the body cannot be accomplished without action.",
+          "hindi": "अपना निर्धारित कार्य करो क्योंकि कार्य निष्क्रियता से श्रेष्ठ है।",
+          "kannada": "ನಿಮ್ಮ ಕೀವಲಭೂತ ಕರ್ತವ್ಯವನ್ನು ಪಾಲಿಸಿ.",
+          "explanation": "Action is necessary and superior to inaction. One must be engaged in activities.",
+          "categories": ["action"]
+        },
+        {
+          "verse_number": "3.19",
+          "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर।\nअसक्तो ह्याचरन् कर्म परमाप्नोति पूरुषः।।",
+          "english": "Therefore, without attachment to fruits, perform your prescribed duty. By working without attachment, one attains the Supreme.",
+          "hindi": "इसलिए फलों से रहित होकर अपना कार्य करो।",
+          "kannada": "ಆದ್ದರಿಂದ ಫಲಗಳಿಂದ ಬೇರೆಪಟ್ಟು ಕರ್ತವ್ಯವನ್ನು ಪಾಲಿಸಿ.",
+          "explanation": "Performing duty without attachment is the path to spiritual realization.",
+          "categories": ["action", "detachment"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_name": "Jnana Yoga",
+      "total_shlokas": 42,
+      "categories": ["knowledge", "wisdom", "learning"],
+      "shlokas": [
+        {
+          "verse_number": "4.1",
+          "sanskrit": "श्रीभगवान् उवाच।\nइमं विवस्वते योगं प्रोक्तवान् अहम् अव्ययम्।\nविवस्वान् मनवे प्राह मनुरिक्ष्वाकवे ऽब्रवीत्।।",
+          "english": "The Supreme Lord said: I spoke this imperishable knowledge to Vivasvan (the Sun-god) and Vivasvan spoke it to Manu. In that way, knowledge descended from one to the next.",
+          "hindi": "भगवान बोले: मैंने यह ज्ञान विवस्वान को बताया था।",
+          "kannada": "ಭಗವಂತನು ಹೇಳಿದರು: ನಾನು ಈ ಜ್ಞಾನವನ್ನು ವಿವಸ್ವಾನನಿಗೆ ಹೇಳಿದೆ.",
+          "explanation": "The parampara (disciplic succession) through which spiritual knowledge flows.",
+          "categories": ["knowledge", "wisdom"]
+        },
+        {
+          "verse_number": "4.35",
+          "sanskrit": "तज्जिज्ञासस्व प्रणिपातेन परिप्रश्नेन सेवया।\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः।।",
+          "english": "Approach a spiritual master submissively, inquire from him and serve him. The self-realized souls can impart knowledge unto you.",
+          "hindi": "आध्यात्मिक गुरु के पास जाओ, विनम्रतापूर्वक प्रश्न पूछो।",
+          "kannada": "ಆಧ್ಯಾತ್ಮಿಕ ಗುರುವನ್ನು ಸಮೀಪಿಸಿ, ವಿನಮ್ರವಾಗಿ ಪ್ರಶ್ನೆ ಕೇಳಿ.",
+          "explanation": "Spiritual knowledge comes through guidance of a realized teacher.",
+          "categories": ["learning", "wisdom"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_name": "Sannyasa Yoga",
+      "total_shlokas": 29,
+      "categories": ["renunciation", "action"],
+      "shlokas": [
+        {
+          "verse_number": "5.2",
+          "sanskrit": "श्रीभगवान् उवाच।\nसन्न्यासः कर्मयोगश् च निःश्रेयसकरौ उभौ।\nतयोस् तु कर्मसन्न्यासात् कर्मयोग विशिष्यते।।",
+          "english": "The Lord said: Renunciation and action both lead to salvation. Between the two, action is superior to renunciation.",
+          "hindi": "भगवान ने कहा: कर्मों का त्याग और कर्मयोग दोनों ही कल्याण के मार्ग हैं।",
+          "kannada": "ಭಗವಂತನು ಹೇಳಿದರು: ಪರಿತ್ಯಾಗ ಮತ್ತು ಕರ್ಮಯೋಗ ಎರಡೂ ಮುಕ್ತಿಗೆ ಕಾರಣ.",
+          "explanation": "Action with proper consciousness is better than renunciation.",
+          "categories": ["action", "renunciation"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_name": "Dhyana Yoga",
+      "total_shlokas": 47,
+      "categories": ["meditation", "focus", "patience"],
+      "shlokas": [
+        {
+          "verse_number": "6.5",
+          "sanskrit": "उद्धरेद् आत्मना आत्मानं नात्मानम् अवसादयेत्।\nआत्मैव ह्यात्मनो बन्धुः आत्मैव रिपुः आत्मनः।।",
+          "english": "O mind, you must elevate yourself by your own effort and not degrade yourself. The mind is the friend of the conditioned soul and his enemy as well.",
+          "hindi": "अपने मन से अपने को ऊंचा उठाओ, नीचा मत गिराओ।",
+          "kannada": "ನಿಜ ಮನಸ್ಸಿಂದ ನಿಜ ಆತ್ಮನನ್ನು ಶುದ್ಧಗೊಳಿಸಿ.",
+          "explanation": "Mental control and self-discipline are essential.",
+          "categories": ["meditation", "focus"]
+        },
+        {
+          "verse_number": "6.25",
+          "sanskrit": "शनैः शनैर्उपरमेद् बुद्ध्या धृतिगृहीतया।\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत्।।",
+          "english": "Gradually, with full conviction, the mind becomes steady in meditation and attains complete peace.",
+          "hindi": "धीरे-धीरे, पूरे विश्वास के साथ, मन ध्यान में केंद्रित होता जाता है।",
+          "kannada": "ಕ್ರಮೇ ಕ್ರಮೆ ದೃಢ ಸಂಕಲ್ಪದಿಂದ ಮನಸ್ಸು ಧ್ಯಾನದಲ್ಲಿ ಸ್ಥಿರವಾಗುತ್ತದೆ.",
+          "explanation": "Meditation requires patience and consistent practice.",
+          "categories": ["meditation", "patience"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_name": "Jnana Vijnana Yoga",
+      "total_shlokas": 30,
+      "categories": ["wisdom", "knowledge", "surrender"],
+      "shlokas": [
+        {
+          "verse_number": "7.19",
+          "sanskrit": "बहूनां जन्मनां अन्ते ज्ञानवान् मां प्रपद्यते।\nवासुदेवः सर्वम् इति स मह। आत्मा बहुश्रुतः।।",
+          "english": "After many births, the wise surrender unto Me, knowing Me to be all-cause and all that is.",
+          "hindi": "कई जन्मों के बाद, ज्ञानी व्यक्ति मुझ में समर्पित हो जाता है।",
+          "kannada": "ಅನೇಕ ಜನ್ಮಗಳ ನಂತರ ಜ್ಞಾನವಂತ ವ್ಯಕ್ತಿ ನನ್ನಲ್ಲಿ ಸರಣಾಗತವಾಗುತ್ತಾನೆ.",
+          "explanation": "Wisdom culminates in surrender to the Divine.",
+          "categories": ["wisdom", "surrender"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_name": "Akshara Brahma Yoga",
+      "total_shlokas": 28,
+      "categories": ["remembrance", "destiny"],
+      "shlokas": [
+        {
+          "verse_number": "8.6",
+          "sanskrit": "यं यं वापि स्मरन्त्यन्ते तनुं त्यजति भारत।\nतं तमेवैति कौन्तेय सदा तद्भाववभावितः।।",
+          "english": "Whatever state a person remembers while quitting the body, that state is attained.",
+          "hindi": "जो व्यक्ति जीवन के अंत में मुझ को ही याद करता है, वह मेरे स्वरूप को प्राप्त करता है।",
+          "kannada": "ಯಾವ ವ್ಯಕ್ತಿ ಜೀವನದ ಅಂತ್ಯದಲ್ಲಿ ನನ್ನನ್ನೆ ಸ್ಮರಿಸುತ್ತಾನೆ, ಅವನು ನನ್ನ ಸ್ವರೂಪವನ್ನು ಪ್ರಾಪ್ತಿ ಮಾಡುತ್ತಾನೆ.",
+          "explanation": "The final thought at death determines one's destination.",
+          "categories": ["remembrance", "destiny"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_name": "Raja Vidya Yoga",
+      "total_shlokas": 34,
+      "categories": ["devotion", "faith"],
+      "shlokas": [
+        {
+          "verse_number": "9.22",
+          "sanskrit": "अनन्यचेताः सततं यो मां स्मरति नित्यशः।\nतस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः।।",
+          "english": "For those always remembering Me with full attention, I carry their necessities.",
+          "hindi": "जो लोग निरंतर मेरा ध्यान करते हैं, मैं उनके सभी कार्य पूरे करता हूँ।",
+          "kannada": "ಯಾವ ಜನರು ನಿತ್ಯ ನನ್ನನ್ನು ಸ್ಮರಿಸುತ್ತಾರೆ, ನಾನು ಅವರ ಎಲ್ಲ ಅಗತ್ಯವನ್ನು ಪೂರೈಸುತ್ತೇನೆ.",
+          "explanation": "Constant devotion brings divine care and protection.",
+          "categories": ["devotion", "faith"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_name": "Vibhuti Yoga",
+      "total_shlokas": 42,
+      "categories": ["creation", "divinity"],
+      "shlokas": [
+        {
+          "verse_number": "10.8",
+          "sanskrit": "अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते।\nइति मत्वा भजन्ते मां बुधा भावसमन्विताः।।",
+          "english": "I am the source of all creation. Everything emanates from Me. The wise engage in My devotion and surrender unto Me.",
+          "hindi": "मैं सभी का स्रोत हूँ। सभी कुछ मुझ से निकलता है।",
+          "kannada": "ನಾನೆ ಎಲ್ಲವೂ ಮೂಲ. ಎಲ್ಲವೂ ನನ್ನದಿಂದ ನಿರ್ಗತವಾಗುತ್ತದೆ.",
+          "explanation": "God is the ultimate source and foundation of all creation.",
+          "categories": ["creation", "divinity"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "chapter_name": "Visvarupa Darsana Yoga",
+      "total_shlokas": 55,
+      "categories": ["action", "faith", "divine-will"],
+      "shlokas": [
+        {
+          "verse_number": "11.33",
+          "sanskrit": "तस्मात् त्वं उत्तिष्ठ यशो लभस्व जित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम्।\nमयैवैते निहताः पूर्वम् एव निमित्तमात्रं भव सव्यसाचिन्।।",
+          "english": "Rise up and fight gloriously. Your enemies are already slain by Me. Be an instrument in this divine plan.",
+          "hindi": "इसलिए उठो और विजयी बनो। तुम्हारे दुश्मन पहले से ही मेरी व्यवस्था से मार दिए गए हैं।",
+          "kannada": "ಆದ್ದರಿಂದ ಎದ್ದುಕೊಂಡು ಯುದ್ಧ ಮಾಡಿ. ನಿಮ್ಮ ಶತ್ರುಗಳು ನನ್ನ ವ್ಯವಸ್ಥೆಯಿಂದ ಈಗಾಗಲೇ ಮೃತರಾಗಿದ್ದಾರೆ.",
+          "explanation": "Divine encouragement that victory is assured through faith.",
+          "categories": ["action", "faith", "divine-will"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "chapter_name": "Bhakti Yoga",
+      "total_shlokas": 20,
+      "categories": ["devotion", "surrender"],
+      "shlokas": [
+        {
+          "verse_number": "12.6",
+          "sanskrit": "ये तु सर्वाणि कर्माणि मयि सन्न्यस्य मत्पराः।\nअनन्येनैव योगेन मां ध्यायन्त उपासते।।",
+          "english": "Those who renounce all actions to Me and worship only Me with complete consciousness are most dear to Me.",
+          "hindi": "जो सभी कर्मों को मुझ पर छोड़कर पूरी तरह मेरी भक्ति में लगे रहते हैं, वे मुझे बहुत प्रिय हैं।",
+          "kannada": "ಆದರೆ ಯಾವ ಜನರು ಎಲ್ಲ ಕರ್ತವ್ಯವನ್ನು ನನ್ನಿಗೆ ಸಮರ್ಪಿಸಿ ನನ್ನ ಭಕ್ತಿಯಲ್ಲಿ ನಿಲೀನವಾಗಿದ್ದಾರೆ, ಅವರು ನನಗೆ ಬಹುಪ್ರಿಯ.",
+          "explanation": "Devotion combined with surrender is the most powerful path.",
+          "categories": ["devotion", "surrender"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 13,
+      "chapter_name": "Kshetra Kshetrajna Yoga",
+      "total_shlokas": 35,
+      "categories": ["knowledge", "soul"],
+      "shlokas": [
+        {
+          "verse_number": "13.2",
+          "sanskrit": "इदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते।\nएतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः।।",
+          "english": "This body is called the field and the soul within is called the knower of the field.",
+          "hindi": "इस शरीर को क्षेत्र कहा जाता है, और इसे जानने वाले को क्षेत्रज्ञ कहते हैं।",
+          "kannada": "ಈ ದೇಹವನ್ನು ಕ್ಷೇತ್ರ ಎನ್ನುತ್ತಾರೆ, ಮತ್ತು ಇದನ್ನು ತಿಳಿದುಕೊಳ್ಳುವವನನ್ನು ಕ್ಷೇತ್ರಜ್ಞ ಮನವು.",
+          "explanation": "The distinction between the physical body and the eternal soul.",
+          "categories": ["knowledge", "soul"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 14,
+      "chapter_name": "Gunatraya Vibhaga Yoga",
+      "total_shlokas": 27,
+      "categories": ["nature", "modes"],
+      "shlokas": [
+        {
+          "verse_number": "14.5",
+          "sanskrit": "सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः।\nनिबध्नन्ति महाबाहो देहे देहिनमव्ययम्।।",
+          "english": "The three modes of nature - sattva, rajas and tamas, bind the eternal soul to the body.",
+          "hindi": "सत्व, रज, तम - ये तीनों गुण मुझ से निकलते हैं और जीव को शरीर में बांधते हैं।",
+          "kannada": "ಸತ್ತ್ವ, ರಜೋ, ತಮೋ - ಈ ಮೂರು ಗುಣಗಳು ಮುಂದಿನಿಂದ ನಿರ್ಗತವಾಗುತ್ತವೆ.",
+          "explanation": "Understanding the three qualities of nature is key to liberation.",
+          "categories": ["nature", "modes"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 15,
+      "chapter_name": "Purushottama Yoga",
+      "total_shlokas": 20,
+      "categories": ["omnipresence", "consciousness"],
+      "shlokas": [
+        {
+          "verse_number": "15.15",
+          "sanskrit": "सर्वस्य चाहं हृदि संनिविष्टो ममांतर्यामी न त्वं मामपि।\nमत्तः स्मृतिर्ज्ञानमपोहनं च वेदैश्च सर्वैरहमेव वेद्यः।।",
+          "english": "I am seated in everyone's heart. From Me comes remembrance, knowledge, and forgetfulness. I am the compiler of Vedanta and the knower of the Vedas.",
+          "hindi": "मैं सभी के दिल में बैठा हूँ। स्मृति, ज्ञान, विस्मृति - सब मुझ से आते हैं।",
+          "kannada": "ನಾನು ಎಲ್ಲರ ಹೃದಯದಲ್ಲಿ ವಾಸಿಸುತ್ತೇನೆ. ಸ್ಮರಣೆ, ಜ್ಞಾನ, ವಿಸ್ಮರಣೆ - ಎಲ್ಲವು ನನ್ನದಿಂದ ಬರುತ್ತದೆ.",
+          "explanation": "The Supreme Lord dwells in every heart as the inner witness.",
+          "categories": ["omnipresence", "consciousness"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 16,
+      "chapter_name": "Daivasura Sampad Vibhaga Yoga",
+      "total_shlokas": 24,
+      "categories": ["virtue", "character"],
+      "shlokas": [
+        {
+          "verse_number": "16.1",
+          "sanskrit": "अभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः।\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्।।",
+          "english": "Fearlessness, purity, knowledge, charity, self-control, sacrifice, study of Vedas, austerity and uprightness are the divine qualities.",
+          "hindi": "निडरता, शुद्धता, आध्यात्मिक ज्ञान, दान, आत्मनियंत्रण - ये दैवी गुण हैं।",
+          "kannada": "ನಿರ್ಭಯತೆ, ಶುದ್ಧತೆ, ಆಧ್ಯಾತ್ಮಿಕ ಜ್ಞಾನ, ದಾನ, ಆತ್ಮನಿಯಂತ್ರಣ - ಇವೆ ದೈವ ಗುಣಗಳು.",
+          "explanation": "Divine qualities elevate a person spiritually and materially.",
+          "categories": ["virtue", "character"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 17,
+      "chapter_name": "Shraddhatraya Vibhaga Yoga",
+      "total_shlokas": 28,
+      "categories": ["faith", "belief"],
+      "shlokas": [
+        {
+          "verse_number": "17.3",
+          "sanskrit": "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत।\nश्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः।।",
+          "english": "According to their nature and inclinations, a person's faith is accordingly situated. Each worships according to their faith.",
+          "hindi": "हे भारत! हर व्यक्ति का विश्वास उसके प्रकृति के अनुसार होता है।",
+          "kannada": "ಹೇ ಭಾರತ! ಪ್ರತಿಯೊಬ್ಬ ವ್ಯಕ್ತಿಯ ವಿಶ್ವಾಸ ಅವನ ಪ್ರಕೃತಿ ಅನುಸಾರ.",
+          "explanation": "Faith reflects a person's inherent nature and cultivated qualities.",
+          "categories": ["faith", "belief"]
+        }
+      ]
+    },
+    {
+      "chapter_number": 18,
+      "chapter_name": "Moksha Sannyasa Yoga",
+      "total_shlokas": 78,
+      "categories": ["surrender", "liberation"],
+      "shlokas": [
+        {
+          "verse_number": "18.62",
+          "sanskrit": "तमेव शरणं गच्छ सर्वभावेन भारत।\nतत्प्रसादात्परां शान्तिं स्थानं प्राप्स्यसि शाश्वतम्।।",
+          "english": "Surrender unto Him entirely, O Bharata. By His grace, you will attain transcendental peace and the eternal abode.",
+          "hindi": "हे भारत! पूरी तरह मेरी शरण लो। मेरी कृपा से तुम्हें शांति मिलेगी।",
+          "kannada": "ಹೇ ಭಾರತ! ಪೂರ್ಣತಾಣವಾಗಿ ನನ್ನ ಶರಣಾಗತವಾಗೋ. ನನ್ನ ಕೃಪೆಯಿಂದ ನೀವು ಶಾಂತಿ ಪ್ರಾಪ್ತಿ ಮಾಡುತ್ತೀರಿ.",
+          "explanation": "The final teaching: Complete surrender to God is the path to liberation.",
+          "categories": ["surrender", "liberation"]
+        }
+      ]
+    }
+  ]
+}
