@@ -110,34 +110,34 @@ function App() {
         {currentView === 'dashboard' && (
           <div>
             {/* Epic Hero Section */}
-            <section className="bg-gradient-to-b from-orange-700 via-orange-600 to-orange-500 text-white py-24 px-4 relative overflow-hidden">
+            <section className="bg-gradient-to-b from-orange-700 via-orange-600 to-orange-500 text-white py-12 md:py-16 px-4 relative overflow-hidden">
               <div className="absolute inset-0 opacity-10">
                 <div className="absolute top-0 left-1/4 w-96 h-96 bg-white rounded-full mix-blend-multiply filter blur-3xl"></div>
                 <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-orange-300 rounded-full mix-blend-multiply filter blur-3xl"></div>
               </div>
               <div className="max-w-6xl mx-auto text-center relative z-10">
-                <div className="mb-6 inline-block">
-                  <span className="bg-orange-400 text-white px-6 py-2 rounded-full text-sm font-bold">✨ 2000+ Years of Wisdom</span>
+                <div className="mb-4 inline-block">
+                  <span className="bg-orange-400 text-white px-5 py-1.5 rounded-full text-xs md:text-sm font-black">✨ 2000+ Years of Wisdom</span>
                 </div>
-                <h1 className="text-6xl md:text-7xl font-black mb-6 leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 md:mb-6 leading-tight">
                   Bhagavad Gita for Modern Life
                 </h1>
-                <p className="text-xl md:text-2xl text-orange-100 mb-4 max-w-3xl mx-auto">
+                <p className="text-base md:text-lg lg:text-xl text-orange-100 mb-2 md:mb-3 max-w-3xl mx-auto font-bold">
                   Transform your stress into clarity. Your confusion into direction. Your fear into courage.
                 </p>
-                <p className="text-lg text-orange-100 mb-8 max-w-2xl mx-auto">
+                <p className="text-sm md:text-base text-orange-100 mb-6 md:mb-8 max-w-2xl mx-auto font-semibold">
                   Access 700+ authentic shlokas with AI-powered guidance to solve real problems in your life.
                 </p>
-                <div className="flex gap-4 justify-center flex-wrap mb-8">
+                <div className="flex gap-2 md:gap-4 justify-center flex-wrap mb-6 md:mb-8">
                   <button
                     onClick={() => setCurrentView('krishna')}
-                    className="px-10 py-4 bg-white text-orange-700 font-bold rounded-xl hover:shadow-2xl transition text-lg transform hover:scale-105"
+                    className="px-6 md:px-10 py-2 md:py-3 bg-white text-orange-700 font-black rounded-lg md:rounded-xl hover:shadow-2xl transition text-sm md:text-base transform hover:scale-105"
                   >
                     🧠 Try Krishna Mode
                   </button>
                   <button
                     onClick={() => setCurrentView('allshlokas')}
-                    className="px-10 py-4 bg-orange-400 text-white font-bold rounded-xl hover:shadow-2xl transition text-lg transform hover:scale-105"
+                    className="px-6 md:px-10 py-2 md:py-3 bg-orange-400 text-white font-black rounded-lg md:rounded-xl hover:shadow-2xl transition text-sm md:text-base transform hover:scale-105"
                   >
                     📖 Explore 700 Shlokas
                   </button>
@@ -148,15 +148,15 @@ function App() {
             {/* Main Container */}
             <div className="max-w-6xl mx-auto px-4 md:px-8">
               {/* Daily Shloka Section */}
-              <section className="mt-6 mb-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl pt-16 pb-12 px-12 text-center">
-                <h2 className="text-4xl font-black mb-8">📅 Today's Wisdom</h2>
+              <section className="mt-4 md:mt-6 mb-10 md:mb-12 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-xl md:rounded-2xl pt-8 md:pt-12 pb-8 md:pb-10 px-4 md:px-8 lg:px-12 text-center">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-black mb-4 md:mb-6 lg:mb-8">📅 Today's Wisdom</h2>
                 <DailyShloka />
               </section>
 
               {/* How It Works Section */}
-              <section className="mb-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl p-12 text-center">
-                <h2 className="text-4xl font-black mb-12">🎯 How It Works</h2>
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              <section className="mb-10 md:mb-12 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-xl md:rounded-2xl p-6 md:p-8 lg:p-12 text-center">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-black mb-6 md:mb-8 lg:mb-10">🎯 How It Works</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 lg:gap-6">
                   {[
                     { step: '1', title: 'Share Your Feeling', icon: '💭', desc: 'Tell us what\'s troubling you' },
                     { step: '2', title: 'AI Detects Emotion', icon: '🤖', desc: 'System analyzes your emotional state' },
@@ -165,23 +165,23 @@ function App() {
                   ].map((item, i) => (
                     <div
                       key={i}
-                      className="text-center bg-white/10 rounded-xl border border-white/20 p-8 hover:bg-white/15 transition shadow-sm h-full flex flex-col justify-between"
+                      className="text-center bg-white/10 rounded-lg md:rounded-xl border border-white/20 p-4 md:p-6 hover:bg-white/15 transition shadow-sm h-full flex flex-col justify-between"
                     >
                       <div>
-                        <div className="text-5xl mb-4">{item.icon}</div>
-                        <div className="text-3xl font-bold mb-2">{item.step}</div>
-                        <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                        <div className="text-3xl md:text-4xl lg:text-5xl mb-2 md:mb-3">{item.icon}</div>
+                        <div className="text-2xl md:text-3xl font-black mb-1 md:mb-2">{item.step}</div>
+                        <h3 className="text-sm md:text-base lg:text-lg font-black mb-1 md:mb-2">{item.title}</h3>
                       </div>
-                      <p className="text-white/90">{item.desc}</p>
+                      <p className="text-xs md:text-sm text-white/90 font-semibold">{item.desc}</p>
                     </div>
                   ))}
                 </div>
               </section>
 
               {/* Main Features Grid */}
-              <section className="mb-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-2xl p-12 text-center">
-                <h2 className="text-4xl font-black mb-8">✨ Explore Features</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <section className="mb-10 md:mb-12 bg-gradient-to-r from-orange-600 to-orange-700 text-white rounded-xl md:rounded-2xl p-6 md:p-8 lg:p-12 text-center">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-black mb-4 md:mb-6 lg:mb-8">✨ Explore Features</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 lg:gap-6">
                   <div
                     onClick={() => setCurrentView('krishna')}
                     className="bg-white/10 p-8 rounded-xl border border-white/20 hover:bg-white/15 transition transform hover:scale-[1.02] cursor-pointer shadow-sm h-full flex flex-col justify-between"

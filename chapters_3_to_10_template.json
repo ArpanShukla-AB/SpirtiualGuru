@@ -1,0 +1,66 @@
+{
+  "3": {
+    "chapter_number": 3,
+    "chapter_name": "Karma Yoga",
+    "total_shlokas": 43,
+    "categories": ["action", "duty", "karma"],
+    "chapter_summary": "The Karma Yoga chapter teaches the yoga of selfless action. Krishna explains that renunciation of duty is not freedom; true renunciation lies in performing one's duty without attachment to results. Action is inevitable—even sustaining the body requires action.",
+    "shlokas": []
+  },
+  "4": {
+    "chapter_number": 4,
+    "chapter_name": "Jñāna-Karma-Sannyāsa Yoga",
+    "total_shlokas": 42,
+    "categories": ["knowledge", "action", "wisdom"],
+    "chapter_summary": "This chapter reveals the divine wisdom and explains how knowledge transforms action. Krishna traces the lineage of this Yoga through the ages and reveals that all birth and action are manifestations of His divine nature.",
+    "shlokas": []
+  },
+  "5": {
+    "chapter_number": 5,
+    "chapter_name": "Sannyāsa Yoga - Yoga of Renunciation",
+    "total_shlokas": 29,
+    "categories": ["renunciation", "detachment"],
+    "chapter_summary": "This chapter addresses the apparent contradiction between action and renunciation. Krishna clarifies that both paths—Karma Yoga and Sannyasa—lead to the same goal when practiced with proper understanding.",
+    "shlokas": []
+  },
+  "6": {
+    "chapter_number": 6,
+    "chapter_name": "Dhyana Yoga - Yoga of Meditation",
+    "total_shlokas": 47,
+    "categories": ["meditation", "focus", "discipline"],
+    "chapter_summary": "This chapter details the practice of meditation and the disciplines needed for spiritual realization. Krishna describes the methods of meditation, the nature of the mind, and the state of the self-realized sage.",
+    "shlokas": []
+  },
+  "7": {
+    "chapter_number": 7,
+    "chapter_name": "Jñāna-Vijñāna Yoga - Yoga of Knowledge and Wisdom",
+    "total_shlokas": 30,
+    "categories": ["knowledge", "divinity"],
+    "chapter_summary": "Krishna reveals His cosmic form and nature, explaining that He is the source of all existence. He describes different aspects of knowledge and wisdom, and the various forms of worship.",
+    "shlokas": []
+  },
+  "8": {
+    "chapter_number": 8,
+    "chapter_name": "Akshara-Brahma Yoga - Yoga of the Eternal Absolute",
+    "total_shlokas": 28,
+    "categories": ["brahman", "eternity"],
+    "chapter_summary": "This chapter discusses the nature of Brahman (the Absolute), the nature of the self, and what happens at the time of death. It explains the paths that lead to liberation and the ultimate destination.",
+    "shlokas": []
+  },
+  "9": {
+    "chapter_number": 9,
+    "chapter_name": "Rāja-Guhya Yoga - Yoga of Royal Secret",
+    "total_shlokas": 34,
+    "categories": ["devotion", "faith"],
+    "chapter_summary": "Krishna reveals the royal secret of all knowledge and the power of devotion. He explains His transcendental nature and assures that surrender through devotion is the greatest path to Him.",
+    "shlokas": []
+  },
+  "10": {
+    "chapter_number": 10,
+    "chapter_name": "Vibhūti Yoga - Yoga of Manifestation",
+    "total_shlokas": 42,
+    "categories": ["divinity", "creation"],
+    "chapter_summary": "Krishna describes His divine manifestations in the universe. He reveals different forms of His glory, assuring Arjuna that the essence of all powerful and glorious beings is only a fraction of His infinite power.",
+    "shlokas": []
+  }
+}
