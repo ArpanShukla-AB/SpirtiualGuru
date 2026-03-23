@@ -5,7 +5,10 @@ import { getAllChapters } from '../utils/shlokasHelper';
  * All Shlokas Component - Display ALL 700 shlokas in organized view
  */
 export const AllShlokas: React.FC = () => {
-  const [selectedChapter, setSelectedChapter] = useState<number>(1);
+  const [selectedChapter, setSelectedChapter] = useState<number>(() => {
+    const savedChapter = sessionStorage.getItem('selectedChapter');
+    return savedChapter ? parseInt(savedChapter, 10) : 1;
+  });
   const [language, setLanguage] = useState<'english' | 'hindi' | 'kannada' | 'sanskrit'>('english');
   const [favorites, setFavorites] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
