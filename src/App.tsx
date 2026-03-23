@@ -9,8 +9,12 @@ import FeaturesShowcase from './components/FeaturesShowcase';
 import KrishnaGPT from './components/KrishnaGPT';
 import ChaptersGrid from './components/ChaptersGrid';
 import VideoSection from './components/VideoSection';
+import PricingPage from './components/PricingPage';
+import PremiumBadge from './components/PremiumBadge';
+import UsageTracker from './components/UsageTracker';
+import UpgradeModal from './components/UpgradeModal';
 
-type View = 'dashboard' | 'mood' | 'category' | 'search' | 'allshlokas' | 'video' | 'features' | 'krishna';
+type View = 'dashboard' | 'mood' | 'category' | 'search' | 'allshlokas' | 'video' | 'features' | 'krishna' | 'pricing';
 
 /**
  * Main App Component - Improved UI with all features integrated
@@ -19,11 +23,19 @@ function App() {
   const [currentView, setCurrentView] = useState<View>('dashboard');
   const [userName] = useState('Arpan');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [userPlan, setUserPlan] = useState<'free' | 'pro' | 'mentor'>('free');
+  const [chatUsage, setChatUsage] = useState(3);
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
 
   const handleChapterSelect = (chapterNumber: number) => {
     setCurrentView('allshlokas');
     // Store the selected chapter in sessionStorage for AllShlokas component to use
     sessionStorage.setItem('selectedChapter', chapterNumber.toString());
+  };
+
+  const handleUpgrade = (plan: 'free' | 'pro' | 'mentor') => {
+    setUserPlan(plan);
+    setShowUpgradeModal(false);
   };
 
   const navItems = [
@@ -35,6 +47,7 @@ function App() {
     { id: 'search', label: 'Search', emoji: '🔍' },
     { id: 'video', label: 'Videos', emoji: '🎥' },
     { id: 'features', label: 'Features', emoji: '✨' },
+    { id: 'pricing', label: 'Pricing', emoji: '💎' },
   ];
 
   return (
@@ -186,6 +199,18 @@ function App() {
 
             {/* Main Content Area */}
             <div className="max-w-6xl mx-auto px-6 py-12 relative z-10">
+              {/* Usage Tracker - Revenue Model Display */}
+              {userPlan === 'free' && (
+                <div className="mb-8">
+                  <UsageTracker
+                    currentUsage={chatUsage}
+                    maxUsage={5}
+                    feature="AI Chat Messages"
+                    onUpgrade={() => setShowUpgradeModal(true)}
+                  />
+                </div>
+              )}
+
               {/* Daily Wisdom */}
               <section className="mb-16">
                 <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-xl p-6 md:p-10">
@@ -332,6 +357,9 @@ function App() {
 
         {/* Features View */}
         {currentView === 'features' && <FeaturesShowcase />}
+
+        {/* Pricing View */}
+        {currentView === 'pricing' && <PricingPage onUpgrade={handleUpgrade} />}
       </main>
 
       {/* Premium Footer */}
@@ -394,6 +422,13 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* Upgrade Modal */}
+      <UpgradeModal
+        isOpen={showUpgradeModal}
+        onClose={() => setShowUpgradeModal(false)}
+        onUpgrade={handleUpgrade}
+      />
     </div>
   );
 }
