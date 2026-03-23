@@ -234,9 +234,12 @@ export const KrishnaGPT: React.FC = () => {
     : 'bg-gray-50 text-gray-900 border-gray-200';
 
   return (
-    <div className={`min-h-screen flex ${theme === 'dark' ? 'bg-gray-900' : 'bg-gray-50'}`}>
+    <div className="min-h-screen flex bg-[#0f172a]">
+      {/* Background Grid Pattern */}
+      <div className="fixed inset-0 bg-grid-pattern opacity-20 pointer-events-none"></div>
+      
       {/* Sidebar */}
-      <div className={`w-64 ${themeClasses} border-r flex flex-col`}>
+      <div className="relative z-10 w-64 bg-white/5 backdrop-blur-md border border-white/10 flex flex-col">
         {/* Sidebar Header */}
         <div className="p-4 border-b">
           <div className="flex items-center justify-between mb-4">
@@ -309,16 +312,16 @@ export const KrishnaGPT: React.FC = () => {
       </div>
 
       {/* Main Chat Area */}
-      <div className="flex-1 flex flex-col">
+      <div className="relative z-10 flex-1 flex flex-col">
         {/* Top Bar */}
-        <div className={`${themeClasses} border-b p-4`}>
+        <div className="bg-white/5 backdrop-blur-md border border-white/10 p-4">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-lg font-semibold">Spiritual Guidance</h2>
-              <p className="text-sm opacity-70">Powered by Bhagavad Gita</p>
+              <h2 className="text-lg font-semibold text-white">Spiritual Guidance</h2>
+              <p className="text-sm text-gray-400">Powered by Bhagavad Gita</p>
             </div>
             <div className="flex items-center gap-2">
-              <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">
+              <span className="px-3 py-1 bg-green-500/20 text-green-300 border border-green-500/30 rounded-full text-xs font-medium">
                 🕉️ Gita-based
               </span>
             </div>
@@ -342,8 +345,8 @@ export const KrishnaGPT: React.FC = () => {
                 <div
                   className={`max-w-2xl p-4 rounded-2xl ${
                     message.role === 'user'
-                      ? 'bg-blue-500 text-white rounded-br-none shadow-lg'
-                      : messageThemeClasses + ' rounded-bl-none shadow-lg border'
+                      ? 'bg-blue-600/20 border border-blue-500/30 text-white rounded-br-none shadow-lg'
+                      : 'bg-gray-800 border border-gray-700 text-white rounded-bl-none shadow-lg'
                   }`}
                 >
                   {message.emotion && message.role === 'krishna' && (
@@ -356,8 +359,8 @@ export const KrishnaGPT: React.FC = () => {
                     {message.content}
                   </div>
                   
-                  <div className="flex items-center justify-between mt-3 pt-2 border-t border-gray-200 dark:border-gray-600">
-                    <span className="text-xs opacity-70">
+                  <div className="flex items-center justify-between mt-3 pt-2 border-t border-gray-700">
+                    <span className="text-xs text-gray-400">
                       {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                     </span>
                     
@@ -365,21 +368,21 @@ export const KrishnaGPT: React.FC = () => {
                       <div className="flex items-center gap-2">
                         <button
                           onClick={() => toggleFavorite(message)}
-                          className="p-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+                          className="p-1 rounded hover:bg-gray-700 transition"
                           aria-label={message.isFavorite ? 'Remove from favorites' : 'Add to favorites'}
                         >
                           <Heart className={`w-3 h-3 ${message.isFavorite ? 'fill-red-500 text-red-500' : ''}`} />
                         </button>
                         <button
                           onClick={() => copyMessage(message.content)}
-                          className="p-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+                          className="p-1 rounded hover:bg-gray-700 transition"
                           aria-label="Copy message"
                         >
                           <Copy className="w-3 h-3" />
                         </button>
                         <button
                           onClick={() => shareMessage(message.content)}
-                          className="p-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+                          className="p-1 rounded hover:bg-gray-700 transition"
                           aria-label="Share message"
                         >
                           <Share2 className="w-3 h-3" />
@@ -419,15 +422,15 @@ export const KrishnaGPT: React.FC = () => {
 
         {/* Suggestions */}
         {showSuggestions && messages.length === 1 && (
-          <div className={`${messageThemeClasses} border-t p-4`}>
+          <div className="bg-white/5 backdrop-blur-md border border-white/10 p-4">
             <div className="max-w-4xl mx-auto">
-              <p className="text-center font-semibold mb-4">✨ {language === 'hindi' ? 'पूछें:' : 'Ask Krishna:'}</p>
+              <p className="text-center font-semibold mb-4 text-white">✨ {language === 'hindi' ? 'पूछें:' : 'Ask Krishna:'}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {suggestionPrompts.map((prompt, idx) => (
                   <button
                     key={idx}
                     onClick={() => setInputValue(prompt)}
-                    className="p-3 text-left rounded-xl border hover:bg-gray-100 dark:hover:bg-gray-700 transition text-sm"
+                    className="p-3 text-left rounded-xl border border-gray-700 bg-gray-800/50 hover:bg-gray-700 transition text-sm text-gray-300"
                     aria-label={`Use prompt: ${prompt}`}
                   >
                     {prompt}
@@ -439,14 +442,14 @@ export const KrishnaGPT: React.FC = () => {
         )}
 
         {/* Input Area */}
-        <div className={`${themeClasses} border-t p-4`}>
+        <div className="bg-white/5 backdrop-blur-md border border-white/10 p-4">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-end gap-3">
               <button
                 className={`p-3 rounded-lg transition ${
                   isRecording 
                     ? 'bg-red-500 text-white' 
-                    : 'hover:bg-gray-100 dark:hover:bg-gray-700'
+                    : 'hover:bg-gray-700'
                 }`}
                 onClick={() => setIsRecording(!isRecording)}
                 aria-label={isRecording ? 'Stop recording' : 'Start voice recording'}
@@ -460,7 +463,7 @@ export const KrishnaGPT: React.FC = () => {
                   onChange={(e) => setInputValue(e.target.value)}
                   onKeyPress={handleKeyPress}
                   placeholder={language === 'hindi' ? 'कृष्ण से कुछ भी पूछें...' : 'Ask Krishna anything about life...'}
-                  className={`w-full p-3 rounded-lg border resize-none focus:outline-none focus:ring-2 focus:ring-blue-500 ${messageThemeClasses} border`}
+                  className="w-full p-3 rounded-lg border border-gray-700 bg-gray-800 text-white placeholder-gray-400 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   rows={3}
                   disabled={loading}
                 />
@@ -471,8 +474,8 @@ export const KrishnaGPT: React.FC = () => {
                 disabled={loading || !inputValue.trim()}
                 className={`p-3 rounded-lg transition flex items-center gap-2 ${
                   loading || !inputValue.trim()
-                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                    : 'bg-blue-500 text-white hover:bg-blue-600'
+                    ? 'bg-gray-700 text-gray-500 cursor-not-allowed'
+                    : 'bg-blue-600 text-white hover:bg-blue-700'
                 }`}
               >
                 <Send className="w-5 h-5" />
@@ -480,7 +483,7 @@ export const KrishnaGPT: React.FC = () => {
               </button>
             </div>
             
-            <p className="text-xs opacity-70 mt-2 text-center">
+            <p className="text-xs text-gray-400 mt-2 text-center">
               💡 {language === 'hindi' ? 'टिप: बेहतर मार्गदर्शन के लिए अपनी समस्या के बारे में विशिष्ट हों' : 'Tip: Be specific about what\'s troubling you for better guidance'}
             </p>
           </div>

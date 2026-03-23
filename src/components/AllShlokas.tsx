@@ -50,12 +50,15 @@ export const AllShlokas: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-orange-50 to-white">
+    <div className="min-h-screen bg-[#0f172a]">
+      {/* Background Grid Pattern */}
+      <div className="fixed inset-0 bg-grid-pattern opacity-20 pointer-events-none"></div>
+      
       {/* Epic Header */}
-      <div className="bg-gradient-to-r from-orange-700 via-orange-600 to-orange-500 text-white p-6 shadow-2xl sticky top-0 z-50">
+      <div className="relative z-10 bg-white/5 backdrop-blur-md border-b border-white/10 text-white p-6 shadow-2xl sticky top-0 z-50">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl font-black mb-2 text-center">📖 Complete Bhagavad Gita</h1>
-          <p className="text-center text-orange-100 mb-6">Explore all 700 shlokas across 18 chapters</p>
+          <p className="text-center text-gray-400 mb-6">Explore all 700 shlokas across 18 chapters</p>
           
           {/* Language Selector */}
           <div className="flex gap-2 flex-wrap justify-center mb-6">

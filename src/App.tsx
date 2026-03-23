@@ -335,13 +335,16 @@ function App() {
       </main>
 
       {/* Premium Footer */}
-      <footer className="bg-gradient-to-r from-orange-900 via-orange-800 to-orange-900 text-white py-12 mt-12">
-        <div className="max-w-6xl mx-auto px-4">
+      <footer className="relative bg-[#0f172a] text-white py-12 mt-12 border-t border-white/10">
+        {/* Background Grid Pattern */}
+        <div className="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none"></div>
+        
+        <div className="relative z-10 max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             {/* About */}
             <div>
               <h3 className="text-xl font-bold mb-4">🪔 Spiritual Gita</h3>
-              <p className="text-orange-100 text-sm">
+              <p className="text-gray-400 text-sm">
                 Ancient wisdom for modern minds. Transform your life with timeless teachings.
               </p>
             </div>
@@ -349,44 +352,44 @@ function App() {
             {/* Quick Links */}
             <div>
               <h4 className="font-bold mb-4">Quick Links</h4>
-              <ul className="space-y-2 text-sm text-orange-100">
-                <li><button onClick={() => setCurrentView('mood')} className="hover:text-white">Mood Guide</button></li>
-                <li><button onClick={() => setCurrentView('allshlokas')} className="hover:text-white">All Shlokas</button></li>
-                <li><button onClick={() => setCurrentView('search')} className="hover:text-white">Search</button></li>
-                <li><button onClick={() => setCurrentView('features')} className="hover:text-white">Features</button></li>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><button onClick={() => setCurrentView('mood')} className="hover:text-white transition">Mood Guide</button></li>
+                <li><button onClick={() => setCurrentView('allshlokas')} className="hover:text-white transition">All Shlokas</button></li>
+                <li><button onClick={() => setCurrentView('search')} className="hover:text-white transition">Search</button></li>
+                <li><button onClick={() => setCurrentView('features')} className="hover:text-white transition">Features</button></li>
               </ul>
             </div>
 
             {/* Resources */}
             <div>
               <h4 className="font-bold mb-4">Resources</h4>
-              <ul className="space-y-2 text-sm text-orange-100">
-                <li><a href="#" className="hover:text-white">Documentation</a></li>
-                <li><a href="#" className="hover:text-white">FAQ</a></li>
-                <li><a href="#" className="hover:text-white">Blog</a></li>
-                <li><a href="#" className="hover:text-white">Contact</a></li>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><a href="#" className="hover:text-white transition">Documentation</a></li>
+                <li><a href="#" className="hover:text-white transition">FAQ</a></li>
+                <li><a href="#" className="hover:text-white transition">Blog</a></li>
+                <li><a href="#" className="hover:text-white transition">Contact</a></li>
               </ul>
             </div>
 
             {/* Newsletter */}
             <div>
               <h4 className="font-bold mb-4">Daily Shloka</h4>
-              <p className="text-sm text-orange-100 mb-3">Get a shloka delivered daily</p>
-              <button className="w-full bg-white text-orange-900 font-bold py-2 rounded-lg hover:bg-orange-100 transition">
+              <p className="text-sm text-gray-400 mb-3">Get a shloka delivered daily</p>
+              <button className="w-full bg-white/10 border border-white/20 text-white font-bold py-2 rounded-lg hover:bg-white/20 transition">
                 Subscribe
               </button>
             </div>
           </div>
 
-          <hr className="border-orange-700 mb-6" />
+          <hr className="border-white/10 mb-6" />
 
           {/* Bottom Bar */}
-          <div className="flex flex-col md:flex-row justify-between items-center text-sm text-orange-200">
+          <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
             <p>© 2026 Spiritual Gita. All wisdom is eternal. 🙏</p>
             <div className="flex gap-4 mt-4 md:mt-0">
-              <a href="#" className="hover:text-white">Privacy</a>
-              <a href="#" className="hover:text-white">Terms</a>
-              <a href="#" className="hover:text-white">Disclaimer</a>
+              <a href="#" className="hover:text-white transition">Privacy</a>
+              <a href="#" className="hover:text-white transition">Terms</a>
+              <a href="#" className="hover:text-white transition">Disclaimer</a>
             </div>
           </div>
         </div>

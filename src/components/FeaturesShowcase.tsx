@@ -46,12 +46,19 @@ export const FeaturesShowcase: React.FC = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-br from-slate-50 to-slate-100 py-12 px-4">
-      <div className="max-w-6xl mx-auto">
+    <div className="bg-[#0f172a] py-12 px-4">
+      {/* Background Grid Pattern */}
+      <div className="fixed inset-0 bg-grid-pattern opacity-20 pointer-events-none"></div>
+      
+      <div className="relative z-10 max-w-6xl mx-auto">
         {/* Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-900 mb-4">✨ Unique Features</h2>
-          <p className="text-slate-700 text-lg">Discover what makes Spiritual Gita different</p>
+          <h2 className="text-4xl font-bold mb-4">
+            <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
+              ✨ Unique Features
+            </span>
+          </h2>
+          <p className="text-gray-400 text-lg">Discover what makes Spiritual Gita different</p>
         </div>
 
         {/* Features Grid */}
@@ -62,8 +69,8 @@ export const FeaturesShowcase: React.FC = () => {
               onClick={() => setActiveFeature(index)}
               className={`p-6 rounded-lg transition transform hover:scale-105 cursor-pointer ${
                 activeFeature === index
-                  ? `bg-gradient-to-br ${feature.color} text-white shadow-lg`
-                  : 'bg-white text-slate-900 shadow-md hover:shadow-lg'
+                  ? `bg-white/10 border border-white/20 text-white shadow-lg backdrop-blur-sm`
+                  : 'bg-white/5 border border-white/10 text-white shadow-md hover:shadow-lg hover:bg-white/10 backdrop-blur-sm'
               }`}
             >
               <div className="text-4xl mb-3">{feature.icon}</div>
@@ -73,11 +80,11 @@ export const FeaturesShowcase: React.FC = () => {
         </div>
 
         {/* Active Feature Details */}
-        <div className={`bg-gradient-to-br ${features[activeFeature].color} text-white rounded-2xl p-8 shadow-2xl`}>
+        <div className="bg-white/5 backdrop-blur-md border border-white/10 text-white rounded-2xl p-8 shadow-2xl">
           <div className="text-6xl mb-4">{features[activeFeature].icon}</div>
           <h3 className="text-3xl font-bold mb-4">{features[activeFeature].title}</h3>
-          <p className="text-xl leading-relaxed">{features[activeFeature].description}</p>
-          <button className="mt-6 bg-white text-current px-6 py-2 rounded-lg font-bold hover:bg-opacity-90 transition">
+          <p className="text-xl leading-relaxed text-gray-300">{features[activeFeature].description}</p>
+          <button className="mt-6 bg-white/10 border border-white/20 text-white px-6 py-2 rounded-lg font-bold hover:bg-white/20 transition">
             Learn More →
           </button>
         </div>
