@@ -1,3 +1,4 @@
+https://deploy-preview-2--spritiualgita.netlify.app/
 # 🪔 Spiritual Gita - Ancient Wisdom for Modern Minds
 
 > **An AI-powered emotional intelligence platform powered by the Bhagavad Gita**
