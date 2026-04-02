@@ -102,6 +102,28 @@ npm run build
 
 Visit `http://localhost:5173` 🎉
 
+### Configure Krishna Agent with Gemini API
+
+1. Copy env template and add your Gemini key:
+
+```bash
+cp .env.example .env
+```
+
+2. Edit `.env`:
+
+```bash
+VITE_GEMINI_API_KEY=your_real_gemini_api_key
+```
+
+3. Start app:
+
+```bash
+npm run dev
+```
+
+`KrishnaGPT` now calls Gemini for live responses and falls back to local Gita guidance if the key is missing/invalid.
+
 ### Simple Usage Example
 
 ```tsx
