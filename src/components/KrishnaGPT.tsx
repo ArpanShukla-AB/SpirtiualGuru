@@ -10,6 +10,7 @@ import {
 } from '../utils/krishnaMode';
 import type { Shloka } from '../utils/shlokasHelper';
 import { Plus, Moon, Sun, Mic, Send, Copy, Share2, Heart } from 'lucide-react';
+import { generateKrishnaWithGemini } from '../services/geminiKrishna';
 
 interface Message {
   id: string;
@@ -61,7 +62,7 @@ export const KrishnaGPT: React.FC = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
-  // Enhanced Krishna response with multilingual support
+  // Gemini-backed response with local fallback
   const generateKrishnaResponse = async (userMessage: string): Promise<string> => {
     const emotion = detectEmotion(userMessage);
     setCurrentEmotion(emotion);
@@ -69,42 +70,59 @@ export const KrishnaGPT: React.FC = () => {
     const primary = shlokas[0] ?? getShlokaForEmotion(emotion);
 
     if (!primary) {
-      return language === 'hindi' 
-        ? 'मैं आपकी चिंता समझता हूँ। भगवद गीता की ज्ञान से इस पर विचार करता हूँ...'
-        : 'I understand your concern. Let me reflect on this with wisdom from Bhagavad Gita...';
+      return language === 'hindi'
+        ? 'मैं आपकी चिंता समझता हूँ। कृपया थोड़ा और विस्तार से लिखें ताकि मैं गीता के आधार पर मार्गदर्शन दे सकूँ।'
+        : 'I understand your concern. Please share a little more detail so I can guide you with Bhagavad Gita wisdom.';
     }
 
-    // Simulate API delay
-    await new Promise(resolve => setTimeout(resolve, 1500));
+    try {
+      return await generateKrishnaWithGemini(userMessage, emotion, language, shlokas);
+    } catch (error) {
+      console.error('Gemini response failed, using local fallback:', error);
 
-    const toChapterVerse = (verseNumber: string) => {
-      const [chapter, verse] = verseNumber.split('.');
-      return { chapter: chapter || verseNumber, verse: verse || '' };
-    };
+      const [chapter, verse] = primary.verse_number.split('.');
+      const concept = emotionToGitaConcept[emotion];
 
-    const concept = emotionToGitaConcept[emotion];
-    const { chapter, verse } = toChapterVerse(primary.verse_number);
+      if (language === 'hindi') {
+        return [
+          '📜 श्लोक (अध्याय ' + chapter + ', श्लोक ' + verse + ')',
+          `"${primary.hindi || primary.english}"`,
+          '',
+          '💡 अर्थ:',
+          primary.explanation,
+          '',
+          '🧠 व्याख्या:',
+          `आपकी स्थिति में गीता का "${concept}" सिद्धांत विशेष रूप से उपयोगी है।`,
+          '',
+          '🔱 मार्गदर्शन:',
+          '1. अभी एक सही कर्म चुनें और तुरंत शुरू करें।',
+          '2. सिर्फ उसी पर ध्यान दें जो आपके नियंत्रण में है।',
+          '3. रात को दिन का चिंतन करें और एक सुधार नोट करें।',
+          '',
+          '💭 चिंतन: आज कौन-सा एक कर्म आपके धर्म से मेल खाता है?'
+        ].join('\n');
+      }
 
-    // Multilingual response structure
-    if (language === 'hindi') {
-      return [
-        '📜 श्लोक (अध्याय ' + chapter + ', श्लोक ' + verse + ')',
-        `"${primary.hindi || primary.english}"`,
-        '',
-        '💡 अर्थ:',
-        primary.explanation,
-        '',
-        '🧠 व्याख्या:',
-        `आपकी स्थिति में, गीता का "${concept}" सिद्धांत मार्गदर्शन देता है। इसे अपने भय से अनुशासित प्रयास की ओर बढ़ने के लिए याद रखें।`,
-        '',
-        '🔱 मार्गदर्शन:',
-        '1. आज: एक जिम्मेदारी चुनें और इसे पूरी तरह से पूरा करें - तुरंत शुरू करें, परिणाम के बारे में चिंता छोड़ें।',
-        '2. इस सप्ताह: जब भी अति-विचार/क्रोध/भ्रम उठे, तो 60 सेकंड के लिए रुकें और पूछें: "मैं अभी अपने कर्मों में क्या नियंत्रित कर सकता हूँ?"',
-        '3. आगे: प्रत्येक दिन एक छोटा सुधार ट्रैक करें; नुकसान को प्रतिक्रिया के रूप में देखें, अपनी पहचान के रूप में नहीं।',
-        '',
-        '💭 चिंतन: यदि आप अपने अगले निर्णय में अध्याय ' + chapter + ', श्लोक ' + verse + ' पर भरोसा करते, तो आज आप क्या ठोस कार्रवाई करेंगे?'
-      ].join('\n');
-    } else if (language === 'hinglish') {
+      if (language === 'hinglish') {
+        return [
+          '📜 Shloka (Chapter ' + chapter + ', Verse ' + verse + ')',
+          `"${primary.english}"`,
+          '',
+          '💡 Meaning:',
+          primary.explanation,
+          '',
+          '🧠 Explanation:',
+          `Aapki situation mein Gita ka "${concept}" principle bahut useful hai.`,
+          '',
+          '🔱 Guidance:',
+          '1. Abhi ek right action choose karke turant start karo.',
+          '2. Jo aapke control mein hai, usi par focus rakho.',
+          '3. Raat ko ek spiritual improvement note karo.',
+          '',
+          '💭 Reflection: Aaj kaunsa action aapke dharma ke closest hai?'
+        ].join('\n');
+      }
+
       return [
         '📜 Shloka (Chapter ' + chapter + ', Verse ' + verse + ')',
         `"${primary.english}"`,
@@ -113,32 +131,14 @@ export const KrishnaGPT: React.FC = () => {
         primary.explanation,
         '',
         '🧠 Explanation:',
-        `Aapki situation mein, Gita ka "${concept}" concept guidance deta hai. Use Chapter ${chapter}, Verse ${verse} as your reminder to move from fear to disciplined effort.`,
+        `The Gita theme of "${concept}" is especially relevant for your situation.`,
         '',
         '🔱 Guidance:',
-        '1. Aaj: ek responsibility choose karo aur use completely finish karo - immediately start, result ke bare mein chinta chhodo.',
-        '2. Is week: jab bhi overthinking/anger/confusion aaye, to 60 seconds ke liye roko aur poocho: "Main abhi apne actions mein kya control kar sakta hun?"',
-        '3. Aage: har din ek small improvement track karo; setbacks ko feedback maan, apni pehchaan nahi.',
+        '1. Pick one right action and start now.',
+        '2. Focus only on what is in your control today.',
+        '3. End your day by noting one spiritual improvement.',
         '',
-        '💭 Reflection: Agar aap apne next decision mein Chapter ' + chapter + ', Verse ' + verse + ' pe vishwas karte, to aaj aap kya concrete action lenge?'
-      ].join('\n');
-    } else {
-      return [
-        '📜 Shloka (Chapter ' + chapter + ', Verse ' + verse + ')',
-        `"${primary.english}"`,
-        '',
-        '💡 Meaning:',
-        primary.explanation,
-        '',
-        '🧠 Explanation:',
-        `In your situation, the Gita theme of "${concept}" is the guiding point. Use Chapter ${chapter}, Verse ${verse} as your reminder to move from fear to disciplined effort.`,
-        '',
-        '🔱 Guidance:',
-        '1. Today: pick ONE responsibility and complete it fully—start immediately, release worry about outcome (Chapter ' + chapter + ', Verse ' + verse + ').',
-        '2. This week: whenever overthinking/anger/confusion rises, pause for 60 seconds and ask: "What can I control right now in my actions?"',
-        '3. Going forward: track one small improvement each day; treat setbacks as feedback, not as your identity.',
-        '',
-        '💭 Reflection: If you trusted Chapter ' + chapter + ', Verse ' + verse + ' in your next decision, what exact action would you take today?'
+        '💭 Reflection: Which one action today is most aligned with your dharma?'
       ].join('\n');
     }
   };
@@ -224,10 +224,6 @@ export const KrishnaGPT: React.FC = () => {
     }]);
     setShowSuggestions(true);
   };
-
-  const themeClasses = theme === 'dark' 
-    ? 'bg-gray-900 text-white border-gray-700'
-    : 'bg-white text-gray-900 border-gray-200';
 
   const messageThemeClasses = theme === 'dark'
     ? 'bg-gray-800 text-white border-gray-600'
